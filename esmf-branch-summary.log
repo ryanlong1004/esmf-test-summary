@@ -1,636 +1,630 @@
-2022-02-23 03:00:01,287 root         INFO     starting...
-2022-02-23 03:00:01,287 root         DEBUG    args are : Namespace(branches=['develop', 'jedwards/pio_update'], log='info', number=2, repo_path=PosixPath('/home/rlong/Sandbox/esmf-test-artifacts'))
-2022-02-23 03:00:08,904 root         INFO     itterating over 2 branches in 12 machines over 2 most recent branches
-2022-02-23 03:00:17,113 root         INFO     generating summaries for develop [acorn]
-2022-02-23 03:00:17,113 root         DEBUG    checking out acorn
-2022-02-23 03:00:32,232 root         DEBUG    pulling from acorn
-2022-02-23 03:00:33,476 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-14-g9f69d90
-2022-02-23 03:00:33,477 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:00:33,758 root         DEBUG    matching logs: 4
-2022-02-23 03:00:33,759 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:00:33,951 root         DEBUG    matching summaries: 4
-2022-02-23 03:00:33,974 root         DEBUG    finished reading logs
-2022-02-23 03:00:33,975 root         DEBUG    checking out summary
-2022-02-23 03:00:33,976 root         DEBUG    writing archive ESMF_8_3_0_beta_snapshot_06-14-g9f69d90 length 4
-2022-02-23 03:00:33,993 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/develop/ESMF_8_3_0_beta_snapshot_06-14-g9f69d90
-2022-02-23 03:00:33,994 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/ESMF_8_3_0_beta_snapshot_06-14-g9f69d90
-2022-02-23 03:00:33,996 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/ESMF_8_3_0_beta_snapshot_06-14-g9f69d90
-2022-02-23 03:00:33,999 root         DEBUG    writing file csv[4]: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/ESMF_8_3_0_beta_snapshot_06-14-g9f69d90
-2022-02-23 03:00:33,999 root         DEBUG    adding all modified files in summary
-2022-02-23 03:00:34,008 root         DEBUG    committing to summary
-2022-02-23 03:00:34,017 root         INFO     finished summary for B:develop M: acorn [ESMF_8_3_0_beta_snapshot_06-14-g9f69d90]
-2022-02-23 03:00:34,017 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-13-g9b96f18
-2022-02-23 03:00:34,018 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:00:34,300 root         DEBUG    matching logs: 0
-2022-02-23 03:00:34,300 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:00:34,493 root         DEBUG    matching summaries: 0
-2022-02-23 03:00:35,712 root         ERROR    could not verify matches, grep returned 1 ...
+2022-02-23 03:10:01,751 root         INFO     starting...
+2022-02-23 03:10:01,751 root         DEBUG    args are : Namespace(branches=['develop', 'jedwards/pio_update'], log='info', number=2, repo_path=PosixPath('/home/rlong/Sandbox/esmf-test-artifacts'))
+2022-02-23 03:10:09,404 root         INFO     itterating over 2 branches in 12 machines over 2 most recent branches
+2022-02-23 03:10:17,009 root         INFO     generating summaries for develop [acorn]
+2022-02-23 03:10:17,009 root         DEBUG    checking out acorn
+2022-02-23 03:10:32,050 root         DEBUG    pulling from acorn
+2022-02-23 03:10:34,463 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-14-g9f69d90
+2022-02-23 03:10:34,463 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:10:34,761 root         DEBUG    matching logs: 4
+2022-02-23 03:10:34,761 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:10:34,946 root         DEBUG    matching summaries: 4
+2022-02-23 03:10:34,969 root         DEBUG    finished reading logs
+2022-02-23 03:10:34,971 root         DEBUG    checking out summary
+2022-02-23 03:10:34,971 root         DEBUG    writing archive ESMF_8_3_0_beta_snapshot_06-14-g9f69d90 length 4
+2022-02-23 03:10:34,987 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/develop/ESMF_8_3_0_beta_snapshot_06-14-g9f69d90
+2022-02-23 03:10:34,987 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/ESMF_8_3_0_beta_snapshot_06-14-g9f69d90
+2022-02-23 03:10:34,990 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/ESMF_8_3_0_beta_snapshot_06-14-g9f69d90
+2022-02-23 03:10:34,993 root         DEBUG    writing file csv[4]: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/ESMF_8_3_0_beta_snapshot_06-14-g9f69d90
+2022-02-23 03:10:34,993 root         DEBUG    adding all modified files in summary
+2022-02-23 03:10:35,001 root         DEBUG    committing to summary
+2022-02-23 03:10:35,010 root         INFO     finished summary for B:develop M: acorn [ESMF_8_3_0_beta_snapshot_06-14-g9f69d90]
+2022-02-23 03:10:35,010 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-13-g9b96f18
+2022-02-23 03:10:35,011 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:10:35,272 root         DEBUG    matching logs: 0
+2022-02-23 03:10:35,272 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:10:35,468 root         DEBUG    matching summaries: 0
+2022-02-23 03:10:36,586 root         ERROR    could not verify matches, grep returned 1 ...
 [['./develop/cheyenne/intel/18.0.5/O/mpiuni/none/summary.dat:5:git hash = ESMF_8_3_0_beta_snapshot_06-13-g9b96f18']]
-2022-02-23 03:00:35,713 root         DEBUG    finished reading logs
-2022-02-23 03:00:35,713 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-13-g9b96f18, develop [acorn]
-2022-02-23 03:00:35,713 root         INFO     finished summaries for branch develop on machine acorn
-2022-02-23 03:00:35,713 root         INFO     generating summaries for jedwards/pio_update [acorn]
-2022-02-23 03:00:35,713 root         DEBUG    checking out acorn
-2022-02-23 03:00:35,908 root         DEBUG    pulling from acorn
-2022-02-23 03:00:36,568 root         INFO     finished summaries for branch jedwards/pio_update on machine acorn
-2022-02-23 03:00:36,568 root         INFO     generating summaries for develop [cheyenne]
-2022-02-23 03:00:36,568 root         DEBUG    checking out cheyenne
-2022-02-23 03:01:12,567 root         DEBUG    pulling from cheyenne
-2022-02-23 03:01:13,291 root         DEBUG    last branch hash is v8.3.0b07-12-g8913088
-2022-02-23 03:01:13,291 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:01:14,163 root         DEBUG    matching logs: 8
-2022-02-23 03:01:14,164 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:01:14,637 root         DEBUG    matching summaries: 8
-2022-02-23 03:01:14,670 root         DEBUG    finished reading logs
-2022-02-23 03:01:14,672 root         DEBUG    checking out summary
-2022-02-23 03:01:14,672 root         DEBUG    writing archive v8.3.0b07-12-g8913088 length 8
-2022-02-23 03:01:14,831 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:01:14,833 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:01:14,853 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:01:14,879 root         DEBUG    writing file csv[52]: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:01:14,880 root         DEBUG    adding all modified files in summary
-2022-02-23 03:01:14,888 root         DEBUG    committing to summary
-2022-02-23 03:01:14,897 root         INFO     finished summary for B:develop M: cheyenne [v8.3.0b07-12-g8913088]
-2022-02-23 03:01:14,898 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-17-gf79410c
-2022-02-23 03:01:14,898 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:01:15,774 root         DEBUG    matching logs: 0
-2022-02-23 03:01:15,774 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:01:16,215 root         DEBUG    matching summaries: 0
-2022-02-23 03:01:18,746 root         DEBUG    finished reading logs
-2022-02-23 03:01:18,747 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-17-gf79410c, develop [cheyenne]
-2022-02-23 03:01:18,747 root         INFO     finished summaries for branch develop on machine cheyenne
-2022-02-23 03:01:18,747 root         INFO     generating summaries for jedwards/pio_update [cheyenne]
-2022-02-23 03:01:18,748 root         DEBUG    checking out cheyenne
-2022-02-23 03:01:19,145 root         DEBUG    pulling from cheyenne
-2022-02-23 03:01:19,875 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:01:19,876 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:01:20,412 root         DEBUG    matching logs: 8
-2022-02-23 03:01:20,412 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:01:20,805 root         DEBUG    matching summaries: 8
-2022-02-23 03:01:20,815 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/O/mpiuni/none/out/build.log]
-2022-02-23 03:01:20,831 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/g/mpiuni/none/out/build.log]
-2022-02-23 03:01:20,835 root         DEBUG    finished reading logs
-2022-02-23 03:01:20,836 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/O/mpiuni/none/summary.dat]
-2022-02-23 03:01:20,836 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:01:20,836 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:01:20,836 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/O/mpiuni/none/summary.dat]
-2022-02-23 03:01:20,836 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:01:20,836 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:01:20,837 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/O/mpiuni/none/summary.dat]
-2022-02-23 03:01:20,837 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:01:20,837 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:01:20,837 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/O/mpiuni/none/summary.dat]
-2022-02-23 03:01:20,837 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:01:20,837 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:01:20,837 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/O/mpiuni/none/summary.dat]
-2022-02-23 03:01:20,838 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:01:20,838 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:01:20,838 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/O/mpiuni/none/summary.dat]
-2022-02-23 03:01:20,838 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:01:20,838 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:01:20,840 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/g/mpiuni/none/summary.dat]
-2022-02-23 03:01:20,840 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:01:20,840 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:01:20,840 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/g/mpiuni/none/summary.dat]
-2022-02-23 03:01:20,840 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:01:20,840 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:01:20,840 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/g/mpiuni/none/summary.dat]
-2022-02-23 03:01:20,840 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:01:20,840 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:01:20,841 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/g/mpiuni/none/summary.dat]
-2022-02-23 03:01:20,841 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:01:20,841 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:01:20,841 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/g/mpiuni/none/summary.dat]
-2022-02-23 03:01:20,841 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:01:20,841 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:01:20,841 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/g/mpiuni/none/summary.dat]
-2022-02-23 03:01:20,841 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:01:20,841 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:01:20,842 root         DEBUG    checking out summary
-2022-02-23 03:01:20,842 root         DEBUG    writing archive ESMF_8_3_0_beta_snapshot_06-85-gae1d61d length 8
-2022-02-23 03:01:20,858 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:01:20,859 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:01:20,871 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:01:20,880 root         DEBUG    writing file csv[34]: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:01:20,880 root         DEBUG    adding all modified files in summary
-2022-02-23 03:01:20,886 root         DEBUG    committing to summary
-2022-02-23 03:01:20,896 root         INFO     finished summary for B:jedwards/pio_update M: cheyenne [ESMF_8_3_0_beta_snapshot_06-85-gae1d61d]
-2022-02-23 03:01:20,896 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-83-g4a71250
-2022-02-23 03:01:20,897 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:01:21,409 root         DEBUG    matching logs: 0
-2022-02-23 03:01:21,409 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:01:21,808 root         DEBUG    matching summaries: 0
-2022-02-23 03:01:24,372 root         DEBUG    finished reading logs
-2022-02-23 03:01:24,372 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-83-g4a71250, jedwards/pio_update [cheyenne]
-2022-02-23 03:01:24,372 root         INFO     finished summaries for branch jedwards/pio_update on machine cheyenne
-2022-02-23 03:01:24,372 root         INFO     generating summaries for develop [chianti]
-2022-02-23 03:01:24,373 root         DEBUG    checking out chianti
-2022-02-23 03:01:35,581 root         DEBUG    pulling from chianti
-2022-02-23 03:01:36,917 root         DEBUG    last branch hash is v8.3.0b07-12-g8913088
-2022-02-23 03:01:36,917 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:01:37,171 root         DEBUG    matching logs: 4
-2022-02-23 03:01:37,171 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:01:37,346 root         DEBUG    matching summaries: 4
-2022-02-23 03:01:37,363 root         DEBUG    finished reading logs
-2022-02-23 03:01:37,364 root         DEBUG    checking out summary
-2022-02-23 03:01:37,364 root         DEBUG    writing archive v8.3.0b07-12-g8913088 length 4
-2022-02-23 03:01:37,385 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:01:37,387 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:01:37,402 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:01:37,414 root         DEBUG    writing file csv[52]: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:01:37,415 root         DEBUG    adding all modified files in summary
-2022-02-23 03:01:37,421 root         DEBUG    committing to summary
-2022-02-23 03:01:37,430 root         INFO     finished summary for B:develop M: chianti [v8.3.0b07-12-g8913088]
-2022-02-23 03:01:37,430 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-17-gf79410c
-2022-02-23 03:01:37,431 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:01:37,681 root         DEBUG    matching logs: 0
-2022-02-23 03:01:37,681 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:01:37,864 root         DEBUG    matching summaries: 0
-2022-02-23 03:01:38,941 root         DEBUG    finished reading logs
-2022-02-23 03:01:38,942 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-17-gf79410c, develop [chianti]
-2022-02-23 03:01:38,942 root         INFO     finished summaries for branch develop on machine chianti
-2022-02-23 03:01:38,942 root         INFO     generating summaries for jedwards/pio_update [chianti]
-2022-02-23 03:01:38,942 root         DEBUG    checking out chianti
-2022-02-23 03:01:39,108 root         DEBUG    pulling from chianti
-2022-02-23 03:01:39,732 root         INFO     finished summaries for branch jedwards/pio_update on machine chianti
-2022-02-23 03:01:39,733 root         INFO     generating summaries for develop [discover]
-2022-02-23 03:01:39,733 root         DEBUG    checking out discover
-2022-02-23 03:02:01,781 root         DEBUG    pulling from discover
-2022-02-23 03:02:03,032 root         DEBUG    last branch hash is v8.3.0b07-12-g8913088
-2022-02-23 03:02:03,032 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:02:03,677 root         DEBUG    matching logs: 14
-2022-02-23 03:02:03,677 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:02:03,945 root         DEBUG    matching summaries: 14
-2022-02-23 03:02:04,022 root         DEBUG    finished reading logs
-2022-02-23 03:02:04,025 root         DEBUG    checking out summary
-2022-02-23 03:02:04,026 root         DEBUG    writing archive v8.3.0b07-12-g8913088 length 14
-2022-02-23 03:02:04,049 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:02:04,050 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:02:04,063 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:02:04,075 root         DEBUG    writing file csv[52]: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:02:04,075 root         DEBUG    adding all modified files in summary
-2022-02-23 03:02:04,082 root         DEBUG    committing to summary
-2022-02-23 03:02:04,093 root         INFO     finished summary for B:develop M: discover [v8.3.0b07-12-g8913088]
-2022-02-23 03:02:04,093 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-17-gf79410c
-2022-02-23 03:02:04,093 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:02:04,642 root         DEBUG    matching logs: 0
-2022-02-23 03:02:04,642 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:02:04,921 root         DEBUG    matching summaries: 0
-2022-02-23 03:02:06,637 root         DEBUG    finished reading logs
-2022-02-23 03:02:06,638 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-17-gf79410c, develop [discover]
-2022-02-23 03:02:06,638 root         INFO     finished summaries for branch develop on machine discover
-2022-02-23 03:02:06,638 root         INFO     generating summaries for jedwards/pio_update [discover]
-2022-02-23 03:02:06,639 root         DEBUG    checking out discover
-2022-02-23 03:02:06,903 root         DEBUG    pulling from discover
-2022-02-23 03:02:07,986 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:02:07,986 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:02:08,630 root         DEBUG    matching logs: 14
-2022-02-23 03:02:08,630 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:02:08,906 root         DEBUG    matching summaries: 14
-2022-02-23 03:02:08,908 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/O/mpiuni/none/out/build.log]
-2022-02-23 03:02:08,917 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/g/mpiuni/none/out/build.log]
-2022-02-23 03:02:08,921 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/O/mpiuni/none/out/build.log]
-2022-02-23 03:02:08,986 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/g/mpiuni/none/out/build.log]
-2022-02-23 03:02:08,987 root         DEBUG    finished reading logs
-2022-02-23 03:02:08,988 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,988 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:02:08,988 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:02:08,988 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,988 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:02:08,988 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:02:08,989 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,989 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:02:08,989 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:02:08,989 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,989 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:02:08,989 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:02:08,990 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,990 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:02:08,990 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:02:08,990 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,990 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:02:08,990 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:02:08,991 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,991 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:02:08,991 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:02:08,991 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,992 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:02:08,992 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:02:08,992 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,992 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:02:08,992 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:02:08,992 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,993 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:02:08,993 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:02:08,993 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,993 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:02:08,993 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:02:08,993 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,993 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:02:08,993 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:02:08,994 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,994 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:02:08,994 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:02:08,994 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,994 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:02:08,994 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:02:08,994 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,995 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:02:08,995 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:02:08,995 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,995 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:02:08,995 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:02:08,995 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,995 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:02:08,995 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:02:08,996 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,996 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:02:08,996 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:02:08,997 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,997 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:02:08,997 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:02:08,998 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,998 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:02:08,998 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:02:08,998 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,998 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:02:08,998 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:02:08,998 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,998 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:02:08,999 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:02:08,999 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,999 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:02:08,999 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:02:08,999 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:08,999 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:02:08,999 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:02:09,000 root         DEBUG    checking out summary
-2022-02-23 03:02:09,000 root         DEBUG    writing archive ESMF_8_3_0_beta_snapshot_06-85-gae1d61d length 14
-2022-02-23 03:02:09,436 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:02:09,437 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:02:09,451 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:02:09,461 root         DEBUG    writing file csv[34]: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:02:09,462 root         DEBUG    adding all modified files in summary
-2022-02-23 03:02:09,481 root         DEBUG    committing to summary
-2022-02-23 03:02:09,496 root         INFO     finished summary for B:jedwards/pio_update M: discover [ESMF_8_3_0_beta_snapshot_06-85-gae1d61d]
-2022-02-23 03:02:09,496 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-84-gab49283
-2022-02-23 03:02:09,496 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:02:10,159 root         DEBUG    matching logs: 0
-2022-02-23 03:02:10,160 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:02:10,649 root         DEBUG    matching summaries: 0
-2022-02-23 03:02:12,531 root         DEBUG    finished reading logs
-2022-02-23 03:02:12,532 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-84-gab49283, jedwards/pio_update [discover]
-2022-02-23 03:02:12,532 root         INFO     finished summaries for branch jedwards/pio_update on machine discover
-2022-02-23 03:02:12,532 root         INFO     generating summaries for develop [gaea]
-2022-02-23 03:02:12,532 root         DEBUG    checking out gaea
-2022-02-23 03:02:19,457 root         DEBUG    pulling from gaea
-2022-02-23 03:02:20,125 root         DEBUG    last branch hash is v8.3.0b07-12-g8913088
-2022-02-23 03:02:20,125 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:02:20,508 root         DEBUG    matching logs: 8
-2022-02-23 03:02:20,508 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:02:20,739 root         DEBUG    matching summaries: 8
-2022-02-23 03:02:20,770 root         DEBUG    finished reading logs
-2022-02-23 03:02:20,772 root         DEBUG    checking out summary
-2022-02-23 03:02:20,772 root         DEBUG    writing archive v8.3.0b07-12-g8913088 length 8
-2022-02-23 03:02:20,789 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:02:20,791 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:02:20,808 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:02:20,819 root         DEBUG    writing file csv[52]: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:02:20,820 root         DEBUG    adding all modified files in summary
-2022-02-23 03:02:20,827 root         DEBUG    committing to summary
-2022-02-23 03:02:20,838 root         INFO     finished summary for B:develop M: gaea [v8.3.0b07-12-g8913088]
-2022-02-23 03:02:20,838 root         DEBUG    last branch hash is v8.3.0b07-8-gc9bbe0a
-2022-02-23 03:02:20,838 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:02:21,213 root         DEBUG    matching logs: 0
-2022-02-23 03:02:21,213 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:02:21,437 root         DEBUG    matching summaries: 0
-2022-02-23 03:02:23,054 root         DEBUG    finished reading logs
-2022-02-23 03:02:23,054 root         INFO     missing summary data for v8.3.0b07-8-gc9bbe0a, develop [gaea]
-2022-02-23 03:02:23,054 root         INFO     finished summaries for branch develop on machine gaea
-2022-02-23 03:02:23,055 root         INFO     generating summaries for jedwards/pio_update [gaea]
-2022-02-23 03:02:23,055 root         DEBUG    checking out gaea
-2022-02-23 03:02:23,381 root         DEBUG    pulling from gaea
-2022-02-23 03:02:24,067 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:02:24,067 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:02:24,426 root         DEBUG    matching logs: 8
-2022-02-23 03:02:24,426 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:02:24,646 root         DEBUG    matching summaries: 8
-2022-02-23 03:02:24,653 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/O/mpiuni/none/out/build.log]
-2022-02-23 03:02:24,657 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/g/mpiuni/none/out/build.log]
-2022-02-23 03:02:24,660 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/O/mpiuni/none/out/build.log]
-2022-02-23 03:02:24,669 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/g/mpiuni/none/out/build.log]
-2022-02-23 03:02:24,678 root         DEBUG    finished reading logs
-2022-02-23 03:02:24,679 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,679 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:02:24,679 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:02:24,679 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,679 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:02:24,680 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:02:24,680 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,680 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:02:24,680 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:02:24,680 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,680 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:02:24,680 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:02:24,680 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,681 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:02:24,681 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:02:24,681 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,681 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:02:24,681 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:02:24,682 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,682 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:02:24,682 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:02:24,682 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,683 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:02:24,683 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:02:24,683 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,683 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:02:24,683 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:02:24,683 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,683 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:02:24,683 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:02:24,684 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,684 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:02:24,684 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:02:24,684 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,684 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:02:24,684 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:02:24,685 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,685 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:02:24,685 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:02:24,685 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,685 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:02:24,685 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:02:24,685 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,685 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:02:24,686 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:02:24,686 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,686 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:02:24,686 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:02:24,686 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,686 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:02:24,686 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:02:24,686 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/O/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,686 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:02:24,687 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:02:24,687 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,687 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:02:24,687 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:02:24,687 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,687 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:02:24,687 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:02:24,687 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,688 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:02:24,688 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:02:24,688 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,688 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:02:24,688 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:02:24,688 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,688 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:02:24,688 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:02:24,688 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/g/mpiuni/none/summary.dat]
-2022-02-23 03:02:24,689 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:02:24,689 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:02:24,689 root         DEBUG    checking out summary
-2022-02-23 03:02:24,689 root         DEBUG    writing archive ESMF_8_3_0_beta_snapshot_06-85-gae1d61d length 8
-2022-02-23 03:02:24,721 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:02:24,722 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:02:24,732 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:02:24,741 root         DEBUG    writing file csv[34]: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:02:24,741 root         DEBUG    adding all modified files in summary
-2022-02-23 03:02:24,747 root         DEBUG    committing to summary
-2022-02-23 03:02:24,756 root         INFO     finished summary for B:jedwards/pio_update M: gaea [ESMF_8_3_0_beta_snapshot_06-85-gae1d61d]
-2022-02-23 03:02:24,757 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-84-gab49283
-2022-02-23 03:02:24,757 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:02:25,115 root         DEBUG    matching logs: 0
-2022-02-23 03:02:25,115 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:02:25,340 root         DEBUG    matching summaries: 0
-2022-02-23 03:02:26,608 root         DEBUG    finished reading logs
-2022-02-23 03:02:26,608 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-84-gab49283, jedwards/pio_update [gaea]
-2022-02-23 03:02:26,609 root         INFO     finished summaries for branch jedwards/pio_update on machine gaea
-2022-02-23 03:02:26,609 root         INFO     generating summaries for develop [gaffney]
-2022-02-23 03:02:26,609 root         DEBUG    checking out gaffney
-2022-02-23 03:02:28,164 root         DEBUG    pulling from gaffney
-2022-02-23 03:02:28,710 root         INFO     finished summaries for branch develop on machine gaffney
-2022-02-23 03:02:28,711 root         INFO     generating summaries for jedwards/pio_update [gaffney]
-2022-02-23 03:02:28,711 root         DEBUG    checking out gaffney
-2022-02-23 03:02:28,841 root         DEBUG    pulling from gaffney
-2022-02-23 03:02:29,360 root         INFO     finished summaries for branch jedwards/pio_update on machine gaffney
-2022-02-23 03:02:29,360 root         INFO     generating summaries for develop [hera]
-2022-02-23 03:02:29,360 root         DEBUG    checking out hera
-2022-02-23 03:02:45,847 root         DEBUG    pulling from hera
-2022-02-23 03:02:47,303 root         DEBUG    last branch hash is v8.3.0b07-12-g8913088
-2022-02-23 03:02:47,303 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:02:47,810 root         DEBUG    matching logs: 12
-2022-02-23 03:02:47,810 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:02:48,047 root         DEBUG    matching summaries: 12
-2022-02-23 03:02:48,059 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/out/build.log]
-2022-02-23 03:02:48,101 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/out/build.log]
-2022-02-23 03:02:48,102 root         DEBUG    finished reading logs
-2022-02-23 03:02:48,104 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
-2022-02-23 03:02:48,104 root         ERROR    message: invalid literal for int() with base 10: 'Build'
-2022-02-23 03:02:48,104 root         ERROR    line being parsed: Build did not complete successfully
-2022-02-23 03:02:48,104 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
-2022-02-23 03:02:48,104 root         ERROR    message: invalid literal for int() with base 10: 'Build'
-2022-02-23 03:02:48,104 root         ERROR    line being parsed: Build did not complete successfully
-2022-02-23 03:02:48,105 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
-2022-02-23 03:02:48,105 root         ERROR    message: invalid literal for int() with base 10: 'Build'
-2022-02-23 03:02:48,105 root         ERROR    line being parsed: Build did not complete successfully
-2022-02-23 03:02:48,105 root         ERROR    found no numeric nuopc test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
-2022-02-23 03:02:48,105 root         ERROR    message: invalid literal for int() with base 10: 'Build'
-2022-02-23 03:02:48,105 root         ERROR    line being parsed: Build did not complete successfully 	 Build did not complete successfully
-2022-02-23 03:02:48,105 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
-2022-02-23 03:02:48,105 root         ERROR    message: invalid literal for int() with base 10: 'Build'
-2022-02-23 03:02:48,105 root         ERROR    line being parsed: Build did not complete successfully
-2022-02-23 03:02:48,106 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
-2022-02-23 03:02:48,106 root         ERROR    message: invalid literal for int() with base 10: 'Build'
-2022-02-23 03:02:48,106 root         ERROR    line being parsed: Build did not complete successfully
-2022-02-23 03:02:48,106 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
-2022-02-23 03:02:48,106 root         ERROR    message: invalid literal for int() with base 10: 'Build'
-2022-02-23 03:02:48,106 root         ERROR    line being parsed: Build did not complete successfully
-2022-02-23 03:02:48,106 root         ERROR    found no numeric nuopc test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
-2022-02-23 03:02:48,106 root         ERROR    message: invalid literal for int() with base 10: 'Build'
-2022-02-23 03:02:48,106 root         ERROR    line being parsed: Build did not complete successfully 	 Build did not complete successfully
-2022-02-23 03:02:48,107 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
-2022-02-23 03:02:48,107 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:02:48,107 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:02:48,107 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
-2022-02-23 03:02:48,107 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:02:48,107 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:02:48,107 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
-2022-02-23 03:02:48,108 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:02:48,108 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:02:48,108 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
-2022-02-23 03:02:48,108 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:02:48,108 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:02:48,108 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
-2022-02-23 03:02:48,108 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:02:48,109 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:02:48,109 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
-2022-02-23 03:02:48,109 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:02:48,109 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:02:48,109 root         DEBUG    checking out summary
-2022-02-23 03:02:48,110 root         DEBUG    writing archive v8.3.0b07-12-g8913088 length 12
-2022-02-23 03:02:48,139 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:02:48,140 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:02:48,153 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:02:48,165 root         DEBUG    writing file csv[52]: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:02:48,166 root         DEBUG    adding all modified files in summary
-2022-02-23 03:02:48,172 root         DEBUG    committing to summary
-2022-02-23 03:02:48,181 root         INFO     finished summary for B:develop M: hera [v8.3.0b07-12-g8913088]
-2022-02-23 03:02:48,182 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-17-gf79410c
-2022-02-23 03:02:48,182 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:02:48,635 root         DEBUG    matching logs: 0
-2022-02-23 03:02:48,635 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:02:48,852 root         DEBUG    matching summaries: 0
-2022-02-23 03:02:50,191 root         DEBUG    finished reading logs
-2022-02-23 03:02:50,191 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-17-gf79410c, develop [hera]
-2022-02-23 03:02:50,192 root         INFO     finished summaries for branch develop on machine hera
-2022-02-23 03:02:50,192 root         INFO     generating summaries for jedwards/pio_update [hera]
-2022-02-23 03:02:50,192 root         DEBUG    checking out hera
-2022-02-23 03:02:50,363 root         DEBUG    pulling from hera
-2022-02-23 03:02:50,984 root         INFO     finished summaries for branch jedwards/pio_update on machine hera
-2022-02-23 03:02:50,985 root         INFO     generating summaries for develop [izumi]
-2022-02-23 03:02:50,985 root         DEBUG    checking out izumi
-2022-02-23 03:02:52,575 root         DEBUG    pulling from izumi
-2022-02-23 03:02:53,141 root         INFO     finished summaries for branch develop on machine izumi
-2022-02-23 03:02:53,141 root         INFO     generating summaries for jedwards/pio_update [izumi]
-2022-02-23 03:02:53,141 root         DEBUG    checking out izumi
-2022-02-23 03:02:53,311 root         DEBUG    pulling from izumi
-2022-02-23 03:02:53,927 root         INFO     finished summaries for branch jedwards/pio_update on machine izumi
-2022-02-23 03:02:53,928 root         INFO     generating summaries for develop [jet]
-2022-02-23 03:02:53,928 root         DEBUG    checking out jet
-2022-02-23 03:03:09,018 root         DEBUG    pulling from jet
-2022-02-23 03:03:09,672 root         DEBUG    last branch hash is v8.3.0b07-12-g8913088
-2022-02-23 03:03:09,672 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:03:10,035 root         DEBUG    matching logs: 6
-2022-02-23 03:03:10,035 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:03:10,233 root         DEBUG    matching summaries: 6
-2022-02-23 03:03:10,261 root         DEBUG    finished reading logs
-2022-02-23 03:03:10,262 root         DEBUG    checking out summary
-2022-02-23 03:03:10,263 root         DEBUG    writing archive v8.3.0b07-12-g8913088 length 6
-2022-02-23 03:03:10,406 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:03:10,407 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:03:10,420 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:03:10,432 root         DEBUG    writing file csv[52]: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
-2022-02-23 03:03:10,433 root         DEBUG    adding all modified files in summary
-2022-02-23 03:03:10,440 root         DEBUG    committing to summary
-2022-02-23 03:03:10,459 root         INFO     finished summary for B:develop M: jet [v8.3.0b07-12-g8913088]
-2022-02-23 03:03:10,459 root         DEBUG    last branch hash is v8.3.0b07-8-gc9bbe0a
-2022-02-23 03:03:10,460 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:03:10,788 root         DEBUG    matching logs: 0
-2022-02-23 03:03:10,788 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:03:11,068 root         DEBUG    matching summaries: 0
-2022-02-23 03:03:12,650 root         DEBUG    finished reading logs
-2022-02-23 03:03:12,650 root         INFO     missing summary data for v8.3.0b07-8-gc9bbe0a, develop [jet]
-2022-02-23 03:03:12,650 root         INFO     finished summaries for branch develop on machine jet
-2022-02-23 03:03:12,650 root         INFO     generating summaries for jedwards/pio_update [jet]
-2022-02-23 03:03:12,651 root         DEBUG    checking out jet
-2022-02-23 03:03:13,236 root         DEBUG    pulling from jet
-2022-02-23 03:03:13,924 root         INFO     finished summaries for branch jedwards/pio_update on machine jet
-2022-02-23 03:03:13,924 root         INFO     generating summaries for develop [koehr]
-2022-02-23 03:03:13,924 root         DEBUG    checking out koehr
-2022-02-23 03:03:15,376 root         DEBUG    pulling from koehr
-2022-02-23 03:03:15,944 root         INFO     finished summaries for branch develop on machine koehr
-2022-02-23 03:03:15,945 root         INFO     generating summaries for jedwards/pio_update [koehr]
-2022-02-23 03:03:15,945 root         DEBUG    checking out koehr
-2022-02-23 03:03:16,113 root         DEBUG    pulling from koehr
-2022-02-23 03:03:16,617 root         INFO     finished summaries for branch jedwards/pio_update on machine koehr
-2022-02-23 03:03:16,617 root         INFO     generating summaries for develop [onyx]
-2022-02-23 03:03:16,617 root         DEBUG    checking out onyx
-2022-02-23 03:03:16,626 root         DEBUG    pulling from onyx
-2022-02-23 03:03:17,197 root         INFO     finished summaries for branch develop on machine onyx
-2022-02-23 03:03:17,197 root         INFO     generating summaries for jedwards/pio_update [onyx]
-2022-02-23 03:03:17,197 root         DEBUG    checking out onyx
-2022-02-23 03:03:17,209 root         DEBUG    pulling from onyx
-2022-02-23 03:03:17,983 root         INFO     finished summaries for branch jedwards/pio_update on machine onyx
-2022-02-23 03:03:17,983 root         INFO     generating summaries for develop [orion]
-2022-02-23 03:03:17,984 root         DEBUG    checking out orion
-2022-02-23 03:03:33,016 root         DEBUG    pulling from orion
-2022-02-23 03:03:33,653 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-10-gce27d44
-2022-02-23 03:03:33,653 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:03:33,954 root         DEBUG    matching logs: 6
-2022-02-23 03:03:33,954 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:03:34,141 root         DEBUG    matching summaries: 6
-2022-02-23 03:03:34,171 root         DEBUG    finished reading logs
-2022-02-23 03:03:34,171 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
-2022-02-23 03:03:34,172 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:03:34,172 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:03:34,172 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
-2022-02-23 03:03:34,172 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:03:34,172 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:03:34,172 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
-2022-02-23 03:03:34,172 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:03:34,172 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:03:34,173 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
-2022-02-23 03:03:34,173 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:03:34,173 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:03:34,173 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
-2022-02-23 03:03:34,173 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:03:34,173 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:03:34,173 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
-2022-02-23 03:03:34,173 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:03:34,174 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:03:34,175 root         DEBUG    checking out summary
-2022-02-23 03:03:34,175 root         DEBUG    writing archive ESMF_8_3_0_beta_snapshot_06-10-gce27d44 length 6
-2022-02-23 03:03:34,197 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/develop/ESMF_8_3_0_beta_snapshot_06-10-gce27d44
-2022-02-23 03:03:34,197 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/ESMF_8_3_0_beta_snapshot_06-10-gce27d44
-2022-02-23 03:03:34,201 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/ESMF_8_3_0_beta_snapshot_06-10-gce27d44
-2022-02-23 03:03:34,204 root         DEBUG    writing file csv[6]: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/ESMF_8_3_0_beta_snapshot_06-10-gce27d44
-2022-02-23 03:03:34,204 root         DEBUG    adding all modified files in summary
-2022-02-23 03:03:34,209 root         DEBUG    committing to summary
-2022-02-23 03:03:34,218 root         INFO     finished summary for B:develop M: orion [ESMF_8_3_0_beta_snapshot_06-10-gce27d44]
-2022-02-23 03:03:34,219 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-9-gd3f8b21
-2022-02-23 03:03:34,219 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:03:34,513 root         DEBUG    matching logs: 0
-2022-02-23 03:03:34,513 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:03:34,701 root         DEBUG    matching summaries: 0
-2022-02-23 03:03:35,902 root         DEBUG    finished reading logs
-2022-02-23 03:03:35,902 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-9-gd3f8b21, develop [orion]
-2022-02-23 03:03:35,902 root         INFO     finished summaries for branch develop on machine orion
-2022-02-23 03:03:35,902 root         INFO     generating summaries for jedwards/pio_update [orion]
-2022-02-23 03:03:35,902 root         DEBUG    checking out orion
-2022-02-23 03:03:36,331 root         DEBUG    pulling from orion
-2022-02-23 03:03:36,974 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:03:36,974 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:03:37,254 root         DEBUG    matching logs: 4
-2022-02-23 03:03:37,254 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:03:37,448 root         DEBUG    matching summaries: 4
-2022-02-23 03:03:37,467 root         DEBUG    finished reading logs
-2022-02-23 03:03:37,467 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
-2022-02-23 03:03:37,468 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:03:37,468 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:03:37,468 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
-2022-02-23 03:03:37,468 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:03:37,468 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:03:37,468 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
-2022-02-23 03:03:37,468 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:03:37,468 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:03:37,469 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
-2022-02-23 03:03:37,469 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-02-23 03:03:37,469 root         ERROR    line being parsed: unit tests did not complete
-2022-02-23 03:03:37,469 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
-2022-02-23 03:03:37,469 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-02-23 03:03:37,469 root         ERROR    line being parsed: system tests did not complete
-2022-02-23 03:03:37,469 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
-2022-02-23 03:03:37,469 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-02-23 03:03:37,470 root         ERROR    line being parsed: No examples ran
-2022-02-23 03:03:37,470 root         DEBUG    checking out summary
-2022-02-23 03:03:37,470 root         DEBUG    writing archive ESMF_8_3_0_beta_snapshot_06-85-gae1d61d length 4
-2022-02-23 03:03:37,512 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:03:37,513 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:03:37,522 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:03:37,530 root         DEBUG    writing file csv[34]: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
-2022-02-23 03:03:37,531 root         DEBUG    adding all modified files in summary
-2022-02-23 03:03:37,537 root         DEBUG    committing to summary
-2022-02-23 03:03:37,546 root         INFO     finished summary for B:jedwards/pio_update M: orion [ESMF_8_3_0_beta_snapshot_06-85-gae1d61d]
-2022-02-23 03:03:37,547 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-84-gab49283
-2022-02-23 03:03:37,547 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-02-23 03:03:37,814 root         DEBUG    matching logs: 0
-2022-02-23 03:03:37,814 root         DEBUG    fetching matching summaries to extract test results
-2022-02-23 03:03:38,001 root         DEBUG    matching summaries: 0
-2022-02-23 03:03:39,211 root         DEBUG    finished reading logs
-2022-02-23 03:03:39,211 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-84-gab49283, jedwards/pio_update [orion]
-2022-02-23 03:03:39,211 root         INFO     finished summaries for branch jedwards/pio_update on machine orion
-2022-02-23 03:03:39,211 root         DEBUG    pushing to summary
+2022-02-23 03:10:36,587 root         DEBUG    finished reading logs
+2022-02-23 03:10:36,587 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-13-g9b96f18, develop [acorn]
+2022-02-23 03:10:36,587 root         INFO     finished summaries for branch develop on machine acorn
+2022-02-23 03:10:36,587 root         INFO     generating summaries for jedwards/pio_update [acorn]
+2022-02-23 03:10:36,587 root         DEBUG    checking out acorn
+2022-02-23 03:10:36,727 root         DEBUG    pulling from acorn
+2022-02-23 03:10:37,335 root         INFO     finished summaries for branch jedwards/pio_update on machine acorn
+2022-02-23 03:10:37,335 root         INFO     generating summaries for develop [cheyenne]
+2022-02-23 03:10:37,335 root         DEBUG    checking out cheyenne
+2022-02-23 03:11:12,254 root         DEBUG    pulling from cheyenne
+2022-02-23 03:11:12,946 root         DEBUG    last branch hash is v8.3.0b07-12-g8913088
+2022-02-23 03:11:12,946 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:11:13,695 root         DEBUG    matching logs: 8
+2022-02-23 03:11:13,695 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:11:14,116 root         DEBUG    matching summaries: 8
+2022-02-23 03:11:14,150 root         DEBUG    finished reading logs
+2022-02-23 03:11:14,152 root         DEBUG    checking out summary
+2022-02-23 03:11:14,152 root         DEBUG    writing archive v8.3.0b07-12-g8913088 length 8
+2022-02-23 03:11:14,252 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:11:14,254 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:11:14,284 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:11:14,303 root         DEBUG    writing file csv[52]: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:11:14,305 root         DEBUG    adding all modified files in summary
+2022-02-23 03:11:14,318 root         DEBUG    committing to summary
+2022-02-23 03:11:14,329 root         INFO     finished summary for B:develop M: cheyenne [v8.3.0b07-12-g8913088]
+2022-02-23 03:11:14,329 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-17-gf79410c
+2022-02-23 03:11:14,329 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:11:15,302 root         DEBUG    matching logs: 0
+2022-02-23 03:11:15,302 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:11:15,980 root         DEBUG    matching summaries: 0
+2022-02-23 03:11:18,493 root         DEBUG    finished reading logs
+2022-02-23 03:11:18,494 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-17-gf79410c, develop [cheyenne]
+2022-02-23 03:11:18,494 root         INFO     finished summaries for branch develop on machine cheyenne
+2022-02-23 03:11:18,494 root         INFO     generating summaries for jedwards/pio_update [cheyenne]
+2022-02-23 03:11:18,495 root         DEBUG    checking out cheyenne
+2022-02-23 03:11:18,764 root         DEBUG    pulling from cheyenne
+2022-02-23 03:11:19,365 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:11:19,366 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:11:19,875 root         DEBUG    matching logs: 8
+2022-02-23 03:11:19,875 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:11:20,262 root         DEBUG    matching summaries: 8
+2022-02-23 03:11:20,266 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/g/mpiuni/none/out/build.log]
+2022-02-23 03:11:20,281 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/O/mpiuni/none/out/build.log]
+2022-02-23 03:11:20,292 root         DEBUG    finished reading logs
+2022-02-23 03:11:20,293 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/O/mpiuni/none/summary.dat]
+2022-02-23 03:11:20,293 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:11:20,293 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:11:20,293 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/O/mpiuni/none/summary.dat]
+2022-02-23 03:11:20,293 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:11:20,294 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:11:20,294 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/O/mpiuni/none/summary.dat]
+2022-02-23 03:11:20,294 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:11:20,294 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:11:20,294 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/O/mpiuni/none/summary.dat]
+2022-02-23 03:11:20,294 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:11:20,295 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:11:20,295 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/O/mpiuni/none/summary.dat]
+2022-02-23 03:11:20,295 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:11:20,295 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:11:20,295 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/O/mpiuni/none/summary.dat]
+2022-02-23 03:11:20,295 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:11:20,295 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:11:20,296 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/g/mpiuni/none/summary.dat]
+2022-02-23 03:11:20,296 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:11:20,296 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:11:20,297 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/g/mpiuni/none/summary.dat]
+2022-02-23 03:11:20,297 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:11:20,297 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:11:20,297 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/g/mpiuni/none/summary.dat]
+2022-02-23 03:11:20,297 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:11:20,297 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:11:20,298 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/g/mpiuni/none/summary.dat]
+2022-02-23 03:11:20,298 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:11:20,298 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:11:20,298 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/g/mpiuni/none/summary.dat]
+2022-02-23 03:11:20,298 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:11:20,298 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:11:20,298 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/cheyenne/intel/18.0.5/g/mpiuni/none/summary.dat]
+2022-02-23 03:11:20,298 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:11:20,298 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:11:20,300 root         DEBUG    checking out summary
+2022-02-23 03:11:20,300 root         DEBUG    writing archive ESMF_8_3_0_beta_snapshot_06-85-gae1d61d length 8
+2022-02-23 03:11:20,315 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:11:20,316 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:11:20,325 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:11:20,337 root         DEBUG    writing file csv[34]: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:11:20,338 root         DEBUG    adding all modified files in summary
+2022-02-23 03:11:20,346 root         DEBUG    committing to summary
+2022-02-23 03:11:20,355 root         INFO     finished summary for B:jedwards/pio_update M: cheyenne [ESMF_8_3_0_beta_snapshot_06-85-gae1d61d]
+2022-02-23 03:11:20,355 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-83-g4a71250
+2022-02-23 03:11:20,355 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:11:20,841 root         DEBUG    matching logs: 0
+2022-02-23 03:11:20,841 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:11:21,230 root         DEBUG    matching summaries: 0
+2022-02-23 03:11:23,802 root         DEBUG    finished reading logs
+2022-02-23 03:11:23,802 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-83-g4a71250, jedwards/pio_update [cheyenne]
+2022-02-23 03:11:23,802 root         INFO     finished summaries for branch jedwards/pio_update on machine cheyenne
+2022-02-23 03:11:23,803 root         INFO     generating summaries for develop [chianti]
+2022-02-23 03:11:23,803 root         DEBUG    checking out chianti
+2022-02-23 03:11:34,949 root         DEBUG    pulling from chianti
+2022-02-23 03:11:35,585 root         DEBUG    last branch hash is v8.3.0b07-12-g8913088
+2022-02-23 03:11:35,585 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:11:35,841 root         DEBUG    matching logs: 4
+2022-02-23 03:11:35,841 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:11:36,030 root         DEBUG    matching summaries: 4
+2022-02-23 03:11:36,047 root         DEBUG    finished reading logs
+2022-02-23 03:11:36,048 root         DEBUG    checking out summary
+2022-02-23 03:11:36,049 root         DEBUG    writing archive v8.3.0b07-12-g8913088 length 4
+2022-02-23 03:11:36,065 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:11:36,067 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:11:36,080 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:11:36,091 root         DEBUG    writing file csv[52]: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:11:36,092 root         DEBUG    adding all modified files in summary
+2022-02-23 03:11:36,098 root         DEBUG    committing to summary
+2022-02-23 03:11:36,109 root         INFO     finished summary for B:develop M: chianti [v8.3.0b07-12-g8913088]
+2022-02-23 03:11:36,109 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-17-gf79410c
+2022-02-23 03:11:36,109 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:11:36,349 root         DEBUG    matching logs: 0
+2022-02-23 03:11:36,349 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:11:36,541 root         DEBUG    matching summaries: 0
+2022-02-23 03:11:37,683 root         DEBUG    finished reading logs
+2022-02-23 03:11:37,683 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-17-gf79410c, develop [chianti]
+2022-02-23 03:11:37,684 root         INFO     finished summaries for branch develop on machine chianti
+2022-02-23 03:11:37,684 root         INFO     generating summaries for jedwards/pio_update [chianti]
+2022-02-23 03:11:37,684 root         DEBUG    checking out chianti
+2022-02-23 03:11:38,131 root         DEBUG    pulling from chianti
+2022-02-23 03:11:38,782 root         INFO     finished summaries for branch jedwards/pio_update on machine chianti
+2022-02-23 03:11:38,782 root         INFO     generating summaries for develop [discover]
+2022-02-23 03:11:38,782 root         DEBUG    checking out discover
+2022-02-23 03:12:01,178 root         DEBUG    pulling from discover
+2022-02-23 03:12:01,822 root         DEBUG    last branch hash is v8.3.0b07-12-g8913088
+2022-02-23 03:12:01,822 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:12:02,494 root         DEBUG    matching logs: 14
+2022-02-23 03:12:02,494 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:12:02,765 root         DEBUG    matching summaries: 14
+2022-02-23 03:12:02,838 root         DEBUG    finished reading logs
+2022-02-23 03:12:02,841 root         DEBUG    checking out summary
+2022-02-23 03:12:02,841 root         DEBUG    writing archive v8.3.0b07-12-g8913088 length 14
+2022-02-23 03:12:02,860 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:12:02,861 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:12:02,875 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:12:02,886 root         DEBUG    writing file csv[52]: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:12:02,887 root         DEBUG    adding all modified files in summary
+2022-02-23 03:12:02,893 root         DEBUG    committing to summary
+2022-02-23 03:12:02,904 root         INFO     finished summary for B:develop M: discover [v8.3.0b07-12-g8913088]
+2022-02-23 03:12:02,904 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-17-gf79410c
+2022-02-23 03:12:02,904 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:12:03,436 root         DEBUG    matching logs: 0
+2022-02-23 03:12:03,436 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:12:03,740 root         DEBUG    matching summaries: 0
+2022-02-23 03:12:05,419 root         DEBUG    finished reading logs
+2022-02-23 03:12:05,419 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-17-gf79410c, develop [discover]
+2022-02-23 03:12:05,419 root         INFO     finished summaries for branch develop on machine discover
+2022-02-23 03:12:05,420 root         INFO     generating summaries for jedwards/pio_update [discover]
+2022-02-23 03:12:05,420 root         DEBUG    checking out discover
+2022-02-23 03:12:05,625 root         DEBUG    pulling from discover
+2022-02-23 03:12:06,340 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:12:06,341 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:12:06,892 root         DEBUG    matching logs: 14
+2022-02-23 03:12:06,892 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:12:07,175 root         DEBUG    matching summaries: 14
+2022-02-23 03:12:07,204 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/g/mpiuni/none/out/build.log]
+2022-02-23 03:12:07,215 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/g/mpiuni/none/out/build.log]
+2022-02-23 03:12:07,231 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/O/mpiuni/none/out/build.log]
+2022-02-23 03:12:07,254 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/O/mpiuni/none/out/build.log]
+2022-02-23 03:12:07,255 root         DEBUG    finished reading logs
+2022-02-23 03:12:07,256 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,256 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:07,257 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:07,257 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,257 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:07,257 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:07,257 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,257 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:07,257 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:07,258 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,258 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:07,258 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:07,258 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,258 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:07,258 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:07,258 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,259 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:07,259 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:07,259 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,260 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:07,260 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:07,260 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,260 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:07,260 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:07,260 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,260 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:07,260 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:07,261 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,261 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:07,261 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:07,261 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,261 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:07,261 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:07,261 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,261 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:07,261 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:07,262 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,263 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:07,263 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:07,263 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,263 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:07,263 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:07,263 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,263 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:07,263 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:07,264 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,264 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:07,264 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:07,264 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,264 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:07,264 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:07,265 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/gfortran/8.3.0/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,265 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:07,265 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:07,265 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,265 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:07,265 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:07,266 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,266 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:07,266 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:07,266 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,266 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:07,266 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:07,266 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,267 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:07,267 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:07,267 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,267 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:07,267 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:07,267 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/discover/pgi/2020/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:07,267 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:07,267 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:07,269 root         DEBUG    checking out summary
+2022-02-23 03:12:07,269 root         DEBUG    writing archive ESMF_8_3_0_beta_snapshot_06-85-gae1d61d length 14
+2022-02-23 03:12:07,376 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:12:07,378 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:12:07,393 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:12:07,410 root         DEBUG    writing file csv[34]: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:12:07,411 root         DEBUG    adding all modified files in summary
+2022-02-23 03:12:07,416 root         DEBUG    committing to summary
+2022-02-23 03:12:07,431 root         INFO     finished summary for B:jedwards/pio_update M: discover [ESMF_8_3_0_beta_snapshot_06-85-gae1d61d]
+2022-02-23 03:12:07,431 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-84-gab49283
+2022-02-23 03:12:07,431 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:12:08,091 root         DEBUG    matching logs: 0
+2022-02-23 03:12:08,091 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:12:08,396 root         DEBUG    matching summaries: 0
+2022-02-23 03:12:10,128 root         DEBUG    finished reading logs
+2022-02-23 03:12:10,129 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-84-gab49283, jedwards/pio_update [discover]
+2022-02-23 03:12:10,129 root         INFO     finished summaries for branch jedwards/pio_update on machine discover
+2022-02-23 03:12:10,129 root         INFO     generating summaries for develop [gaea]
+2022-02-23 03:12:10,129 root         DEBUG    checking out gaea
+2022-02-23 03:12:17,817 root         DEBUG    pulling from gaea
+2022-02-23 03:12:18,533 root         DEBUG    last branch hash is v8.3.0b07-12-g8913088
+2022-02-23 03:12:18,533 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:12:18,926 root         DEBUG    matching logs: 8
+2022-02-23 03:12:18,926 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:12:19,185 root         DEBUG    matching summaries: 8
+2022-02-23 03:12:19,223 root         DEBUG    finished reading logs
+2022-02-23 03:12:19,225 root         DEBUG    checking out summary
+2022-02-23 03:12:19,225 root         DEBUG    writing archive v8.3.0b07-12-g8913088 length 8
+2022-02-23 03:12:19,244 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:12:19,245 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:12:19,261 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:12:19,272 root         DEBUG    writing file csv[52]: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:12:19,273 root         DEBUG    adding all modified files in summary
+2022-02-23 03:12:19,279 root         DEBUG    committing to summary
+2022-02-23 03:12:19,290 root         INFO     finished summary for B:develop M: gaea [v8.3.0b07-12-g8913088]
+2022-02-23 03:12:19,291 root         DEBUG    last branch hash is v8.3.0b07-8-gc9bbe0a
+2022-02-23 03:12:19,291 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:12:19,657 root         DEBUG    matching logs: 0
+2022-02-23 03:12:19,657 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:12:19,884 root         DEBUG    matching summaries: 0
+2022-02-23 03:12:21,535 root         DEBUG    finished reading logs
+2022-02-23 03:12:21,535 root         INFO     missing summary data for v8.3.0b07-8-gc9bbe0a, develop [gaea]
+2022-02-23 03:12:21,536 root         INFO     finished summaries for branch develop on machine gaea
+2022-02-23 03:12:21,536 root         INFO     generating summaries for jedwards/pio_update [gaea]
+2022-02-23 03:12:21,536 root         DEBUG    checking out gaea
+2022-02-23 03:12:21,974 root         DEBUG    pulling from gaea
+2022-02-23 03:12:22,602 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:12:22,602 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:12:22,953 root         DEBUG    matching logs: 8
+2022-02-23 03:12:22,953 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:12:23,169 root         DEBUG    matching summaries: 8
+2022-02-23 03:12:23,185 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/g/mpiuni/none/out/build.log]
+2022-02-23 03:12:23,188 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/O/mpiuni/none/out/build.log]
+2022-02-23 03:12:23,190 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/O/mpiuni/none/out/build.log]
+2022-02-23 03:12:23,194 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/g/mpiuni/none/out/build.log]
+2022-02-23 03:12:23,198 root         DEBUG    finished reading logs
+2022-02-23 03:12:23,198 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,198 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:23,199 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:23,199 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,199 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:23,199 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:23,199 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,199 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:23,199 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:23,200 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,200 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:23,200 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:23,200 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,200 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:23,200 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:23,200 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,201 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:23,201 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:23,201 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,202 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:23,202 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:23,202 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,202 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:23,202 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:23,202 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,202 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:23,202 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:23,203 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,203 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:23,203 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:23,203 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,203 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:23,203 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:23,203 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,203 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:23,203 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:23,204 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,204 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:23,204 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:23,204 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,204 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:23,204 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:23,204 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,204 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:23,205 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:23,205 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,205 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:23,205 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:23,205 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,205 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:23,205 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:23,205 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/gfortran/8.3.0/O/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,205 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:23,206 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:23,206 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,207 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:23,207 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:23,207 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,207 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:23,207 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:23,207 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,207 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:23,207 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:23,208 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,208 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:23,208 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:23,208 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,208 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:23,208 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:23,208 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/gaea/intel/2019.5/g/mpiuni/none/summary.dat]
+2022-02-23 03:12:23,208 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:23,208 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:23,209 root         DEBUG    checking out summary
+2022-02-23 03:12:23,209 root         DEBUG    writing archive ESMF_8_3_0_beta_snapshot_06-85-gae1d61d length 8
+2022-02-23 03:12:23,240 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:12:23,242 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:12:23,254 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:12:23,263 root         DEBUG    writing file csv[34]: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:12:23,264 root         DEBUG    adding all modified files in summary
+2022-02-23 03:12:23,269 root         DEBUG    committing to summary
+2022-02-23 03:12:23,278 root         INFO     finished summary for B:jedwards/pio_update M: gaea [ESMF_8_3_0_beta_snapshot_06-85-gae1d61d]
+2022-02-23 03:12:23,278 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-84-gab49283
+2022-02-23 03:12:23,279 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:12:23,629 root         DEBUG    matching logs: 0
+2022-02-23 03:12:23,629 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:12:23,841 root         DEBUG    matching summaries: 0
+2022-02-23 03:12:25,092 root         DEBUG    finished reading logs
+2022-02-23 03:12:25,093 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-84-gab49283, jedwards/pio_update [gaea]
+2022-02-23 03:12:25,093 root         INFO     finished summaries for branch jedwards/pio_update on machine gaea
+2022-02-23 03:12:25,093 root         INFO     generating summaries for develop [gaffney]
+2022-02-23 03:12:25,093 root         DEBUG    checking out gaffney
+2022-02-23 03:12:26,716 root         DEBUG    pulling from gaffney
+2022-02-23 03:12:27,263 root         INFO     finished summaries for branch develop on machine gaffney
+2022-02-23 03:12:27,263 root         INFO     generating summaries for jedwards/pio_update [gaffney]
+2022-02-23 03:12:27,264 root         DEBUG    checking out gaffney
+2022-02-23 03:12:27,426 root         DEBUG    pulling from gaffney
+2022-02-23 03:12:27,982 root         INFO     finished summaries for branch jedwards/pio_update on machine gaffney
+2022-02-23 03:12:27,983 root         INFO     generating summaries for develop [hera]
+2022-02-23 03:12:27,983 root         DEBUG    checking out hera
+2022-02-23 03:12:44,611 root         DEBUG    pulling from hera
+2022-02-23 03:12:46,291 root         DEBUG    last branch hash is v8.3.0b07-12-g8913088
+2022-02-23 03:12:46,291 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:12:46,799 root         DEBUG    matching logs: 12
+2022-02-23 03:12:46,799 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:12:47,026 root         DEBUG    matching summaries: 12
+2022-02-23 03:12:47,032 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/out/build.log]
+2022-02-23 03:12:47,073 root         DEBUG    success message not found in file [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/out/build.log]
+2022-02-23 03:12:47,080 root         DEBUG    finished reading logs
+2022-02-23 03:12:47,081 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
+2022-02-23 03:12:47,081 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:47,081 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:47,081 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
+2022-02-23 03:12:47,081 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:47,081 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:47,082 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
+2022-02-23 03:12:47,082 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:47,082 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:47,082 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
+2022-02-23 03:12:47,082 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:47,082 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:47,082 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
+2022-02-23 03:12:47,082 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:47,083 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:47,083 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
+2022-02-23 03:12:47,083 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:47,083 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:47,085 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
+2022-02-23 03:12:47,085 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:47,085 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:47,086 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
+2022-02-23 03:12:47,086 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:47,086 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:47,086 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
+2022-02-23 03:12:47,086 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:47,086 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:47,086 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
+2022-02-23 03:12:47,086 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:12:47,087 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:12:47,087 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
+2022-02-23 03:12:47,087 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:12:47,087 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:12:47,087 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
+2022-02-23 03:12:47,087 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:12:47,087 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:12:47,088 root         DEBUG    checking out summary
+2022-02-23 03:12:47,088 root         DEBUG    writing archive v8.3.0b07-12-g8913088 length 12
+2022-02-23 03:12:47,121 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:12:47,123 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:12:47,138 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:12:47,150 root         DEBUG    writing file csv[52]: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:12:47,150 root         DEBUG    adding all modified files in summary
+2022-02-23 03:12:47,157 root         DEBUG    committing to summary
+2022-02-23 03:12:47,168 root         INFO     finished summary for B:develop M: hera [v8.3.0b07-12-g8913088]
+2022-02-23 03:12:47,169 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-17-gf79410c
+2022-02-23 03:12:47,169 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:12:47,609 root         DEBUG    matching logs: 0
+2022-02-23 03:12:47,609 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:12:47,825 root         DEBUG    matching summaries: 0
+2022-02-23 03:12:49,184 root         DEBUG    finished reading logs
+2022-02-23 03:12:49,185 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-17-gf79410c, develop [hera]
+2022-02-23 03:12:49,185 root         INFO     finished summaries for branch develop on machine hera
+2022-02-23 03:12:49,185 root         INFO     generating summaries for jedwards/pio_update [hera]
+2022-02-23 03:12:49,185 root         DEBUG    checking out hera
+2022-02-23 03:12:49,632 root         DEBUG    pulling from hera
+2022-02-23 03:12:50,270 root         INFO     finished summaries for branch jedwards/pio_update on machine hera
+2022-02-23 03:12:50,270 root         INFO     generating summaries for develop [izumi]
+2022-02-23 03:12:50,270 root         DEBUG    checking out izumi
+2022-02-23 03:12:51,880 root         DEBUG    pulling from izumi
+2022-02-23 03:12:52,479 root         INFO     finished summaries for branch develop on machine izumi
+2022-02-23 03:12:52,479 root         INFO     generating summaries for jedwards/pio_update [izumi]
+2022-02-23 03:12:52,480 root         DEBUG    checking out izumi
+2022-02-23 03:12:52,689 root         DEBUG    pulling from izumi
+2022-02-23 03:12:53,258 root         INFO     finished summaries for branch jedwards/pio_update on machine izumi
+2022-02-23 03:12:53,259 root         INFO     generating summaries for develop [jet]
+2022-02-23 03:12:53,259 root         DEBUG    checking out jet
+2022-02-23 03:13:08,233 root         DEBUG    pulling from jet
+2022-02-23 03:13:09,061 root         DEBUG    last branch hash is v8.3.0b07-12-g8913088
+2022-02-23 03:13:09,061 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:13:09,383 root         DEBUG    matching logs: 6
+2022-02-23 03:13:09,383 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:13:09,593 root         DEBUG    matching summaries: 6
+2022-02-23 03:13:09,623 root         DEBUG    finished reading logs
+2022-02-23 03:13:09,625 root         DEBUG    checking out summary
+2022-02-23 03:13:09,625 root         DEBUG    writing archive v8.3.0b07-12-g8913088 length 6
+2022-02-23 03:13:09,711 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:13:09,713 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:13:09,740 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:13:09,760 root         DEBUG    writing file csv[52]: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/v8.3.0b07-12-g8913088
+2022-02-23 03:13:09,760 root         DEBUG    adding all modified files in summary
+2022-02-23 03:13:09,767 root         DEBUG    committing to summary
+2022-02-23 03:13:09,777 root         INFO     finished summary for B:develop M: jet [v8.3.0b07-12-g8913088]
+2022-02-23 03:13:09,777 root         DEBUG    last branch hash is v8.3.0b07-8-gc9bbe0a
+2022-02-23 03:13:09,777 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:13:10,076 root         DEBUG    matching logs: 0
+2022-02-23 03:13:10,076 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:13:10,318 root         DEBUG    matching summaries: 0
+2022-02-23 03:13:12,122 root         DEBUG    finished reading logs
+2022-02-23 03:13:12,122 root         INFO     missing summary data for v8.3.0b07-8-gc9bbe0a, develop [jet]
+2022-02-23 03:13:12,122 root         INFO     finished summaries for branch develop on machine jet
+2022-02-23 03:13:12,123 root         INFO     generating summaries for jedwards/pio_update [jet]
+2022-02-23 03:13:12,123 root         DEBUG    checking out jet
+2022-02-23 03:13:12,306 root         DEBUG    pulling from jet
+2022-02-23 03:13:12,969 root         INFO     finished summaries for branch jedwards/pio_update on machine jet
+2022-02-23 03:13:12,969 root         INFO     generating summaries for develop [koehr]
+2022-02-23 03:13:12,969 root         DEBUG    checking out koehr
+2022-02-23 03:13:14,403 root         DEBUG    pulling from koehr
+2022-02-23 03:13:14,975 root         INFO     finished summaries for branch develop on machine koehr
+2022-02-23 03:13:14,976 root         INFO     generating summaries for jedwards/pio_update [koehr]
+2022-02-23 03:13:14,976 root         DEBUG    checking out koehr
+2022-02-23 03:13:15,139 root         DEBUG    pulling from koehr
+2022-02-23 03:13:15,720 root         INFO     finished summaries for branch jedwards/pio_update on machine koehr
+2022-02-23 03:13:15,721 root         INFO     generating summaries for develop [onyx]
+2022-02-23 03:13:15,721 root         DEBUG    checking out onyx
+2022-02-23 03:13:15,731 root         DEBUG    pulling from onyx
+2022-02-23 03:13:16,206 root         INFO     finished summaries for branch develop on machine onyx
+2022-02-23 03:13:16,206 root         INFO     generating summaries for jedwards/pio_update [onyx]
+2022-02-23 03:13:16,206 root         DEBUG    checking out onyx
+2022-02-23 03:13:16,216 root         DEBUG    pulling from onyx
+2022-02-23 03:13:16,787 root         INFO     finished summaries for branch jedwards/pio_update on machine onyx
+2022-02-23 03:13:16,787 root         INFO     generating summaries for develop [orion]
+2022-02-23 03:13:16,787 root         DEBUG    checking out orion
+2022-02-23 03:13:32,163 root         DEBUG    pulling from orion
+2022-02-23 03:13:32,786 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-10-gce27d44
+2022-02-23 03:13:32,786 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:13:33,075 root         DEBUG    matching logs: 6
+2022-02-23 03:13:33,075 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:13:33,269 root         DEBUG    matching summaries: 6
+2022-02-23 03:13:33,298 root         DEBUG    finished reading logs
+2022-02-23 03:13:33,299 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
+2022-02-23 03:13:33,299 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:13:33,299 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:13:33,299 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
+2022-02-23 03:13:33,300 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:13:33,300 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:13:33,300 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
+2022-02-23 03:13:33,300 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:13:33,300 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:13:33,300 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
+2022-02-23 03:13:33,300 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:13:33,300 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:13:33,301 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
+2022-02-23 03:13:33,301 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:13:33,301 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:13:33,301 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
+2022-02-23 03:13:33,301 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:13:33,301 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:13:33,302 root         DEBUG    checking out summary
+2022-02-23 03:13:33,302 root         DEBUG    writing archive ESMF_8_3_0_beta_snapshot_06-10-gce27d44 length 6
+2022-02-23 03:13:33,459 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/develop/ESMF_8_3_0_beta_snapshot_06-10-gce27d44
+2022-02-23 03:13:33,459 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/ESMF_8_3_0_beta_snapshot_06-10-gce27d44
+2022-02-23 03:13:33,473 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/ESMF_8_3_0_beta_snapshot_06-10-gce27d44
+2022-02-23 03:13:33,482 root         DEBUG    writing file csv[6]: /tmp/esmf_branch_summary_space/esmf-test-summary/develop/ESMF_8_3_0_beta_snapshot_06-10-gce27d44
+2022-02-23 03:13:33,482 root         DEBUG    adding all modified files in summary
+2022-02-23 03:13:33,489 root         DEBUG    committing to summary
+2022-02-23 03:13:33,502 root         INFO     finished summary for B:develop M: orion [ESMF_8_3_0_beta_snapshot_06-10-gce27d44]
+2022-02-23 03:13:33,503 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-9-gd3f8b21
+2022-02-23 03:13:33,503 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:13:33,817 root         DEBUG    matching logs: 0
+2022-02-23 03:13:33,817 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:13:34,059 root         DEBUG    matching summaries: 0
+2022-02-23 03:13:35,331 root         DEBUG    finished reading logs
+2022-02-23 03:13:35,332 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-9-gd3f8b21, develop [orion]
+2022-02-23 03:13:35,332 root         INFO     finished summaries for branch develop on machine orion
+2022-02-23 03:13:35,332 root         INFO     generating summaries for jedwards/pio_update [orion]
+2022-02-23 03:13:35,332 root         DEBUG    checking out orion
+2022-02-23 03:13:35,704 root         DEBUG    pulling from orion
+2022-02-23 03:13:36,340 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:13:36,340 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:13:36,613 root         DEBUG    matching logs: 4
+2022-02-23 03:13:36,613 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:13:36,795 root         DEBUG    matching summaries: 4
+2022-02-23 03:13:36,815 root         DEBUG    finished reading logs
+2022-02-23 03:13:36,816 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
+2022-02-23 03:13:36,816 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:13:36,816 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:13:36,816 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
+2022-02-23 03:13:36,816 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:13:36,817 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:13:36,817 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
+2022-02-23 03:13:36,817 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:13:36,817 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:13:36,817 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
+2022-02-23 03:13:36,817 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-02-23 03:13:36,818 root         ERROR    line being parsed: unit tests did not complete
+2022-02-23 03:13:36,818 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
+2022-02-23 03:13:36,818 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-02-23 03:13:36,818 root         ERROR    line being parsed: system tests did not complete
+2022-02-23 03:13:36,818 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/jedwards_pio_update/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
+2022-02-23 03:13:36,818 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-02-23 03:13:36,818 root         ERROR    line being parsed: No examples ran
+2022-02-23 03:13:36,819 root         DEBUG    checking out summary
+2022-02-23 03:13:36,819 root         DEBUG    writing archive ESMF_8_3_0_beta_snapshot_06-85-gae1d61d length 4
+2022-02-23 03:13:36,859 root         DEBUG    writing files /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:13:36,861 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:13:36,870 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:13:36,879 root         DEBUG    writing file csv[34]: /tmp/esmf_branch_summary_space/esmf-test-summary/jedwards_pio_update/ESMF_8_3_0_beta_snapshot_06-85-gae1d61d
+2022-02-23 03:13:36,879 root         DEBUG    adding all modified files in summary
+2022-02-23 03:13:36,885 root         DEBUG    committing to summary
+2022-02-23 03:13:36,895 root         INFO     finished summary for B:jedwards/pio_update M: orion [ESMF_8_3_0_beta_snapshot_06-85-gae1d61d]
+2022-02-23 03:13:36,895 root         DEBUG    last branch hash is ESMF_8_3_0_beta_snapshot_06-84-gab49283
+2022-02-23 03:13:36,896 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-02-23 03:13:37,190 root         DEBUG    matching logs: 0
+2022-02-23 03:13:37,190 root         DEBUG    fetching matching summaries to extract test results
+2022-02-23 03:13:37,371 root         DEBUG    matching summaries: 0
+2022-02-23 03:13:38,508 root         DEBUG    finished reading logs
+2022-02-23 03:13:38,508 root         INFO     missing summary data for ESMF_8_3_0_beta_snapshot_06-84-gab49283, jedwards/pio_update [orion]
+2022-02-23 03:13:38,509 root         INFO     finished summaries for branch jedwards/pio_update on machine orion
+2022-02-23 03:13:38,509 root         DEBUG    pushing to summary

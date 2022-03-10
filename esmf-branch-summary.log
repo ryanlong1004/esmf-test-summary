@@ -1,198 +1,221 @@
-2022-03-10 11:17:44,463 root         INFO     starting...
-2022-03-10 11:17:44,464 root         DEBUG    args are : Namespace(branches=['develop'], log='info', number=3, repo_path=PosixPath('/home/rlong/Sandbox/esmf-test-artifacts'))
-2022-03-10 11:17:44,464 root         DEBUG    pulling artifacts
-2022-03-10 11:20:28,775 root         DEBUG    cloning summaries
-2022-03-10 11:20:28,776 root         DEBUG    cloning git@github.com:ryanlong1004/esmf-test-summary.git into /tmp/esmf_branch_summary_space
-2022-03-10 11:20:30,140 root         DEBUG    pulling summaries
-2022-03-10 11:20:30,808 root         INFO     itterating over 1 branches in 11 machines over 3 most recent commits
-2022-03-10 11:20:30,809 root         INFO     generating summaries for develop [acorn]
-2022-03-10 11:20:30,809 root         DEBUG    checking out acorn
-2022-03-10 11:20:30,823 root         DEBUG    pulling from acorn
-2022-03-10 11:20:31,154 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-10 11:20:31,154 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-10 11:20:31,245 root         DEBUG    matching logs: 4
-2022-03-10 11:20:31,245 root         DEBUG    fetching matching summaries to extract test results
-2022-03-10 11:20:31,256 root         DEBUG    matching summaries: 4
-2022-03-10 11:20:31,313 root         DEBUG    finished reading logs
-2022-03-10 11:20:31,332 root         DEBUG    checking out summary
-2022-03-10 11:20:31,332 root         DEBUG    writing archive v8.3.0b09 length 4
-2022-03-10 11:20:31,336 root         INFO     processed [4] rows
-2022-03-10 11:20:31,337 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:20:31,342 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:20:31,355 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:20:31,363 root         DEBUG    writing file csv[58]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:20:31,363 root         DEBUG    adding all modified files in summary
-2022-03-10 11:20:31,369 root         DEBUG    committing to summary
-2022-03-10 11:20:31,375 root         INFO     finished summary for B:develop M: acorn [v8.3.0b09]
-2022-03-10 11:20:31,375 root         INFO     finished summaries for branch develop on machine acorn
-2022-03-10 11:20:31,375 root         INFO     generating summaries for develop [cheyenne]
-2022-03-10 11:20:31,375 root         DEBUG    checking out cheyenne
-2022-03-10 11:20:33,093 root         DEBUG    pulling from cheyenne
-2022-03-10 11:20:39,197 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-10 11:20:39,197 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-10 11:20:39,283 root         DEBUG    matching logs: 8
-2022-03-10 11:20:39,283 root         DEBUG    fetching matching summaries to extract test results
-2022-03-10 11:20:39,310 root         DEBUG    matching summaries: 8
-2022-03-10 11:20:39,379 root         DEBUG    finished reading logs
-2022-03-10 11:20:39,408 root         DEBUG    checking out summary
-2022-03-10 11:20:39,408 root         DEBUG    writing archive v8.3.0b09 length 8
-2022-03-10 11:20:39,416 root         INFO     processed [8] rows
-2022-03-10 11:20:39,416 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:20:39,418 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:20:39,425 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:20:39,432 root         DEBUG    writing file csv[66]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:20:39,433 root         DEBUG    adding all modified files in summary
-2022-03-10 11:20:39,436 root         DEBUG    committing to summary
-2022-03-10 11:20:39,441 root         INFO     finished summary for B:develop M: cheyenne [v8.3.0b09]
-2022-03-10 11:20:39,442 root         INFO     finished summaries for branch develop on machine cheyenne
-2022-03-10 11:20:39,442 root         INFO     generating summaries for develop [chianti]
-2022-03-10 11:20:39,442 root         DEBUG    checking out chianti
-2022-03-10 11:20:40,625 root         DEBUG    pulling from chianti
-2022-03-10 11:20:42,932 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-10 11:20:42,932 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-10 11:20:42,975 root         DEBUG    matching logs: 4
-2022-03-10 11:20:42,975 root         DEBUG    fetching matching summaries to extract test results
-2022-03-10 11:20:42,985 root         DEBUG    matching summaries: 4
-2022-03-10 11:20:43,024 root         DEBUG    finished reading logs
-2022-03-10 11:20:43,038 root         DEBUG    checking out summary
-2022-03-10 11:20:43,039 root         DEBUG    writing archive v8.3.0b09 length 4
-2022-03-10 11:20:43,049 root         INFO     processed [4] rows
-2022-03-10 11:20:43,049 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:20:43,051 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:20:43,059 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:20:43,066 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:20:43,067 root         DEBUG    adding all modified files in summary
-2022-03-10 11:20:43,070 root         DEBUG    committing to summary
-2022-03-10 11:20:43,076 root         INFO     finished summary for B:develop M: chianti [v8.3.0b09]
-2022-03-10 11:20:43,076 root         INFO     finished summaries for branch develop on machine chianti
-2022-03-10 11:20:43,076 root         INFO     generating summaries for develop [discover]
-2022-03-10 11:20:43,076 root         DEBUG    checking out discover
-2022-03-10 11:20:45,839 root         DEBUG    pulling from discover
-2022-03-10 11:20:54,380 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-10 11:20:54,381 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-10 11:20:54,541 root         DEBUG    matching logs: 14
-2022-03-10 11:20:54,541 root         DEBUG    fetching matching summaries to extract test results
-2022-03-10 11:20:54,580 root         DEBUG    matching summaries: 14
-2022-03-10 11:20:54,733 root         DEBUG    finished reading logs
-2022-03-10 11:20:54,818 root         DEBUG    checking out summary
-2022-03-10 11:20:54,819 root         DEBUG    writing archive v8.3.0b09 length 14
-2022-03-10 11:20:54,827 root         INFO     processed [14] rows
-2022-03-10 11:20:54,827 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:20:54,830 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:20:54,839 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:20:54,848 root         DEBUG    writing file csv[84]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:20:54,849 root         DEBUG    adding all modified files in summary
-2022-03-10 11:20:54,853 root         DEBUG    committing to summary
-2022-03-10 11:20:54,859 root         INFO     finished summary for B:develop M: discover [v8.3.0b09]
-2022-03-10 11:20:54,860 root         INFO     finished summaries for branch develop on machine discover
-2022-03-10 11:20:54,860 root         INFO     generating summaries for develop [gaea]
-2022-03-10 11:20:54,860 root         DEBUG    checking out gaea
-2022-03-10 11:20:57,296 root         DEBUG    pulling from gaea
-2022-03-10 11:21:02,581 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-10 11:21:02,582 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-10 11:21:02,665 root         DEBUG    matching logs: 8
-2022-03-10 11:21:02,665 root         DEBUG    fetching matching summaries to extract test results
-2022-03-10 11:21:02,690 root         DEBUG    matching summaries: 8
-2022-03-10 11:21:02,762 root         DEBUG    finished reading logs
-2022-03-10 11:21:02,804 root         DEBUG    checking out summary
-2022-03-10 11:21:02,804 root         DEBUG    writing archive v8.3.0b09 length 8
-2022-03-10 11:21:02,814 root         INFO     processed [8] rows
-2022-03-10 11:21:02,814 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:21:02,817 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:21:02,827 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:21:02,837 root         DEBUG    writing file csv[92]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:21:02,838 root         DEBUG    adding all modified files in summary
-2022-03-10 11:21:02,841 root         DEBUG    committing to summary
-2022-03-10 11:21:02,847 root         INFO     finished summary for B:develop M: gaea [v8.3.0b09]
-2022-03-10 11:21:02,847 root         INFO     finished summaries for branch develop on machine gaea
-2022-03-10 11:21:02,847 root         INFO     generating summaries for develop [gaffney]
-2022-03-10 11:21:02,848 root         DEBUG    checking out gaffney
-2022-03-10 11:21:03,387 root         DEBUG    pulling from gaffney
-2022-03-10 11:21:03,659 root         INFO     finished summaries for branch develop on machine gaffney
-2022-03-10 11:21:03,660 root         INFO     generating summaries for develop [hera]
-2022-03-10 11:21:03,660 root         DEBUG    checking out hera
-2022-03-10 11:21:04,775 root         DEBUG    pulling from hera
-2022-03-10 11:21:08,721 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-10 11:21:08,721 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-10 11:21:08,851 root         DEBUG    matching logs: 12
-2022-03-10 11:21:08,851 root         DEBUG    fetching matching summaries to extract test results
-2022-03-10 11:21:08,876 root         DEBUG    matching summaries: 12
-2022-03-10 11:21:09,007 root         DEBUG    finished reading logs
-2022-03-10 11:21:09,029 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
-2022-03-10 11:21:09,029 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-03-10 11:21:09,029 root         ERROR    line being parsed: unit tests did not complete
-2022-03-10 11:21:09,029 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
-2022-03-10 11:21:09,029 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-03-10 11:21:09,029 root         ERROR    line being parsed: system tests did not complete
-2022-03-10 11:21:09,029 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
-2022-03-10 11:21:09,029 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-03-10 11:21:09,029 root         ERROR    line being parsed: No examples ran
-2022-03-10 11:21:09,072 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
-2022-03-10 11:21:09,072 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-03-10 11:21:09,072 root         ERROR    line being parsed: unit tests did not complete
-2022-03-10 11:21:09,073 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
-2022-03-10 11:21:09,073 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-03-10 11:21:09,073 root         ERROR    line being parsed: system tests did not complete
-2022-03-10 11:21:09,073 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
-2022-03-10 11:21:09,073 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-03-10 11:21:09,073 root         ERROR    line being parsed: No examples ran
-2022-03-10 11:21:09,095 root         DEBUG    checking out summary
-2022-03-10 11:21:09,095 root         DEBUG    writing archive v8.3.0b09 length 12
-2022-03-10 11:21:09,103 root         INFO     processed [12] rows
-2022-03-10 11:21:09,103 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:21:09,107 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:21:09,119 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:21:09,130 root         DEBUG    writing file csv[103]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:21:09,131 root         DEBUG    adding all modified files in summary
-2022-03-10 11:21:09,135 root         DEBUG    committing to summary
-2022-03-10 11:21:09,141 root         INFO     finished summary for B:develop M: hera [v8.3.0b09]
-2022-03-10 11:21:09,141 root         INFO     finished summaries for branch develop on machine hera
-2022-03-10 11:21:09,141 root         INFO     generating summaries for develop [izumi]
-2022-03-10 11:21:09,141 root         DEBUG    checking out izumi
-2022-03-10 11:21:09,909 root         DEBUG    pulling from izumi
-2022-03-10 11:21:10,224 root         INFO     finished summaries for branch develop on machine izumi
-2022-03-10 11:21:10,224 root         INFO     generating summaries for develop [jet]
-2022-03-10 11:21:10,225 root         DEBUG    checking out jet
-2022-03-10 11:21:10,266 root         DEBUG    pulling from jet
-2022-03-10 11:21:10,995 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-10 11:21:10,995 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-10 11:21:11,018 root         DEBUG    matching logs: 2
-2022-03-10 11:21:11,018 root         DEBUG    fetching matching summaries to extract test results
-2022-03-10 11:21:11,024 root         DEBUG    matching summaries: 2
-2022-03-10 11:21:11,045 root         DEBUG    finished reading logs
-2022-03-10 11:21:11,051 root         DEBUG    checking out summary
-2022-03-10 11:21:11,051 root         DEBUG    writing archive v8.3.0b09 length 2
-2022-03-10 11:21:11,062 root         INFO     processed [2] rows
-2022-03-10 11:21:11,062 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:21:11,066 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:21:11,078 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:21:11,089 root         DEBUG    writing file csv[105]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:21:11,090 root         DEBUG    adding all modified files in summary
-2022-03-10 11:21:11,094 root         DEBUG    committing to summary
-2022-03-10 11:21:11,101 root         INFO     finished summary for B:develop M: jet [v8.3.0b09]
-2022-03-10 11:21:11,101 root         INFO     finished summaries for branch develop on machine jet
-2022-03-10 11:21:11,101 root         INFO     generating summaries for develop [onyx]
-2022-03-10 11:21:11,101 root         DEBUG    checking out onyx
-2022-03-10 11:21:11,235 root         DEBUG    pulling from onyx
-2022-03-10 11:21:11,524 root         INFO     finished summaries for branch develop on machine onyx
-2022-03-10 11:21:11,524 root         INFO     generating summaries for develop [orion]
-2022-03-10 11:21:11,525 root         DEBUG    checking out orion
-2022-03-10 11:21:12,481 root         DEBUG    pulling from orion
-2022-03-10 11:21:15,798 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-10 11:21:15,798 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-10 11:21:15,866 root         DEBUG    matching logs: 6
-2022-03-10 11:21:15,866 root         DEBUG    fetching matching summaries to extract test results
-2022-03-10 11:21:15,881 root         DEBUG    matching summaries: 6
-2022-03-10 11:21:15,947 root         DEBUG    finished reading logs
-2022-03-10 11:21:15,971 root         DEBUG    checking out summary
-2022-03-10 11:21:15,971 root         DEBUG    writing archive v8.3.0b09 length 6
-2022-03-10 11:21:15,980 root         INFO     processed [6] rows
-2022-03-10 11:21:15,981 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:21:15,991 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:21:16,013 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:21:16,026 root         DEBUG    writing file csv[111]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-10 11:21:16,026 root         DEBUG    adding all modified files in summary
-2022-03-10 11:21:16,030 root         DEBUG    committing to summary
-2022-03-10 11:21:16,037 root         INFO     finished summary for B:develop M: orion [v8.3.0b09]
-2022-03-10 11:21:16,037 root         INFO     finished summaries for branch develop on machine orion
-2022-03-10 11:21:16,037 root         DEBUG    pushing to summary
+2022-03-10 11:48:57,150 root         INFO     starting...
+2022-03-10 11:48:57,150 root         DEBUG    args are : Namespace(branches=['develop'], log='info', number=3, repo_path=PosixPath('/home/rlong/Sandbox/esmf-test-artifacts'), reset=False)
+2022-03-10 11:48:57,155 root         DEBUG    pulling artifacts
+2022-03-10 11:48:57,468 root         DEBUG    cloning summaries
+2022-03-10 11:48:57,468 root         DEBUG    cloning git@github.com:ryanlong1004/esmf-test-summary.git into /tmp/esmf_branch_summary_space
+2022-03-10 11:48:58,956 root         DEBUG    pulling summaries
+2022-03-10 11:48:59,565 root         INFO     itterating over 1 branches in 12 machines over 3 most recent commits
+2022-03-10 11:48:59,566 root         INFO     generating summaries for develop [acorn]
+2022-03-10 11:48:59,566 root         DEBUG    checking out acorn
+2022-03-10 11:49:00,168 root         DEBUG    pulling from acorn
+2022-03-10 11:49:00,461 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-10 11:49:00,461 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-10 11:49:00,524 root         DEBUG    matching logs: 4
+2022-03-10 11:49:00,524 root         DEBUG    fetching matching summaries to extract test results
+2022-03-10 11:49:00,536 root         DEBUG    matching summaries: 4
+2022-03-10 11:49:00,597 root         DEBUG    finished reading logs
+2022-03-10 11:49:00,615 root         DEBUG    checking out summary
+2022-03-10 11:49:00,615 root         DEBUG    writing archive v8.3.0b09 length 4
+2022-03-10 11:49:00,624 root         INFO     processed [4] rows
+2022-03-10 11:49:00,624 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:00,627 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:00,641 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:00,652 root         DEBUG    writing file csv[111]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:00,653 root         DEBUG    adding all modified files in summary
+2022-03-10 11:49:00,658 root         DEBUG    committing to summary
+2022-03-10 11:49:00,665 root         INFO     finished summary for B:develop M: acorn [v8.3.0b09]
+2022-03-10 11:49:00,665 root         INFO     finished summaries for branch develop on machine acorn
+2022-03-10 11:49:00,665 root         INFO     generating summaries for develop [cheyenne]
+2022-03-10 11:49:00,665 root         DEBUG    checking out cheyenne
+2022-03-10 11:49:02,569 root         DEBUG    pulling from cheyenne
+2022-03-10 11:49:02,881 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-10 11:49:02,881 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-10 11:49:02,973 root         DEBUG    matching logs: 8
+2022-03-10 11:49:02,973 root         DEBUG    fetching matching summaries to extract test results
+2022-03-10 11:49:03,000 root         DEBUG    matching summaries: 8
+2022-03-10 11:49:03,074 root         DEBUG    finished reading logs
+2022-03-10 11:49:03,104 root         DEBUG    checking out summary
+2022-03-10 11:49:03,104 root         DEBUG    writing archive v8.3.0b09 length 8
+2022-03-10 11:49:03,118 root         INFO     processed [8] rows
+2022-03-10 11:49:03,118 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:03,121 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:03,135 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:03,147 root         DEBUG    writing file csv[111]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:03,148 root         DEBUG    adding all modified files in summary
+2022-03-10 11:49:03,152 root         DEBUG    committing to summary
+2022-03-10 11:49:03,159 root         INFO     finished summary for B:develop M: cheyenne [v8.3.0b09]
+2022-03-10 11:49:03,159 root         INFO     finished summaries for branch develop on machine cheyenne
+2022-03-10 11:49:03,159 root         INFO     generating summaries for develop [chianti]
+2022-03-10 11:49:03,159 root         DEBUG    checking out chianti
+2022-03-10 11:49:04,384 root         DEBUG    pulling from chianti
+2022-03-10 11:49:04,693 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-10 11:49:04,693 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-10 11:49:04,742 root         DEBUG    matching logs: 4
+2022-03-10 11:49:04,743 root         DEBUG    fetching matching summaries to extract test results
+2022-03-10 11:49:04,753 root         DEBUG    matching summaries: 4
+2022-03-10 11:49:04,793 root         DEBUG    finished reading logs
+2022-03-10 11:49:04,808 root         DEBUG    checking out summary
+2022-03-10 11:49:04,808 root         DEBUG    writing archive v8.3.0b09 length 4
+2022-03-10 11:49:04,821 root         INFO     processed [4] rows
+2022-03-10 11:49:04,821 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:04,824 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:04,837 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:04,849 root         DEBUG    writing file csv[111]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:04,849 root         DEBUG    adding all modified files in summary
+2022-03-10 11:49:04,853 root         DEBUG    committing to summary
+2022-03-10 11:49:04,859 root         INFO     finished summary for B:develop M: chianti [v8.3.0b09]
+2022-03-10 11:49:04,860 root         INFO     finished summaries for branch develop on machine chianti
+2022-03-10 11:49:04,860 root         INFO     generating summaries for develop [cori]
+2022-03-10 11:49:04,860 root         DEBUG    checking out cori
+2022-03-10 11:49:05,616 root         DEBUG    pulling from cori
+2022-03-10 11:49:06,269 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-10 11:49:06,269 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-10 11:49:06,307 root         DEBUG    matching logs: 4
+2022-03-10 11:49:06,307 root         DEBUG    fetching matching summaries to extract test results
+2022-03-10 11:49:06,317 root         DEBUG    matching summaries: 4
+2022-03-10 11:49:06,355 root         DEBUG    finished reading logs
+2022-03-10 11:49:06,358 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/cori/intel/19.0.3/O/mpi/7.7.10/summary.dat]
+2022-03-10 11:49:06,358 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-10 11:49:06,358 root         ERROR    line being parsed: No examples ran
+2022-03-10 11:49:06,367 root         DEBUG    checking out summary
+2022-03-10 11:49:06,367 root         DEBUG    writing archive v8.3.0b09 length 4
+2022-03-10 11:49:06,375 root         INFO     processed [4] rows
+2022-03-10 11:49:06,375 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:06,378 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:06,392 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:06,404 root         DEBUG    writing file csv[113]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:06,405 root         DEBUG    adding all modified files in summary
+2022-03-10 11:49:06,409 root         DEBUG    committing to summary
+2022-03-10 11:49:06,415 root         INFO     finished summary for B:develop M: cori [v8.3.0b09]
+2022-03-10 11:49:06,416 root         INFO     finished summaries for branch develop on machine cori
+2022-03-10 11:49:06,416 root         INFO     generating summaries for develop [discover]
+2022-03-10 11:49:06,416 root         DEBUG    checking out discover
+2022-03-10 11:49:08,728 root         DEBUG    pulling from discover
+2022-03-10 11:49:09,031 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-10 11:49:09,031 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-10 11:49:09,228 root         DEBUG    matching logs: 14
+2022-03-10 11:49:09,228 root         DEBUG    fetching matching summaries to extract test results
+2022-03-10 11:49:09,269 root         DEBUG    matching summaries: 14
+2022-03-10 11:49:09,430 root         DEBUG    finished reading logs
+2022-03-10 11:49:09,518 root         DEBUG    checking out summary
+2022-03-10 11:49:09,518 root         DEBUG    writing archive v8.3.0b09 length 14
+2022-03-10 11:49:09,540 root         INFO     processed [14] rows
+2022-03-10 11:49:09,540 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:09,545 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:09,564 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:09,578 root         DEBUG    writing file csv[113]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:09,579 root         DEBUG    adding all modified files in summary
+2022-03-10 11:49:09,583 root         DEBUG    committing to summary
+2022-03-10 11:49:09,590 root         INFO     finished summary for B:develop M: discover [v8.3.0b09]
+2022-03-10 11:49:09,590 root         INFO     finished summaries for branch develop on machine discover
+2022-03-10 11:49:09,590 root         INFO     generating summaries for develop [gaea]
+2022-03-10 11:49:09,590 root         DEBUG    checking out gaea
+2022-03-10 11:49:12,318 root         DEBUG    pulling from gaea
+2022-03-10 11:49:12,607 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-10 11:49:12,607 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-10 11:49:12,706 root         DEBUG    matching logs: 8
+2022-03-10 11:49:12,706 root         DEBUG    fetching matching summaries to extract test results
+2022-03-10 11:49:12,731 root         DEBUG    matching summaries: 8
+2022-03-10 11:49:12,811 root         DEBUG    finished reading logs
+2022-03-10 11:49:12,853 root         DEBUG    checking out summary
+2022-03-10 11:49:12,853 root         DEBUG    writing archive v8.3.0b09 length 8
+2022-03-10 11:49:12,872 root         INFO     processed [8] rows
+2022-03-10 11:49:12,872 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:12,884 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:12,911 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:12,924 root         DEBUG    writing file csv[113]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:12,925 root         DEBUG    adding all modified files in summary
+2022-03-10 11:49:12,929 root         DEBUG    committing to summary
+2022-03-10 11:49:12,935 root         INFO     finished summary for B:develop M: gaea [v8.3.0b09]
+2022-03-10 11:49:12,935 root         INFO     finished summaries for branch develop on machine gaea
+2022-03-10 11:49:12,935 root         INFO     generating summaries for develop [gaffney]
+2022-03-10 11:49:12,935 root         DEBUG    checking out gaffney
+2022-03-10 11:49:13,315 root         DEBUG    pulling from gaffney
+2022-03-10 11:49:13,616 root         INFO     finished summaries for branch develop on machine gaffney
+2022-03-10 11:49:13,616 root         INFO     generating summaries for develop [hera]
+2022-03-10 11:49:13,616 root         DEBUG    checking out hera
+2022-03-10 11:49:14,655 root         DEBUG    pulling from hera
+2022-03-10 11:49:14,980 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-10 11:49:14,980 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-10 11:49:15,126 root         DEBUG    matching logs: 12
+2022-03-10 11:49:15,126 root         DEBUG    fetching matching summaries to extract test results
+2022-03-10 11:49:15,152 root         DEBUG    matching summaries: 12
+2022-03-10 11:49:15,288 root         DEBUG    finished reading logs
+2022-03-10 11:49:15,310 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
+2022-03-10 11:49:15,310 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-03-10 11:49:15,310 root         ERROR    line being parsed: unit tests did not complete
+2022-03-10 11:49:15,310 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
+2022-03-10 11:49:15,310 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-03-10 11:49:15,310 root         ERROR    line being parsed: system tests did not complete
+2022-03-10 11:49:15,310 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
+2022-03-10 11:49:15,310 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-10 11:49:15,310 root         ERROR    line being parsed: No examples ran
+2022-03-10 11:49:15,333 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
+2022-03-10 11:49:15,333 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-03-10 11:49:15,333 root         ERROR    line being parsed: unit tests did not complete
+2022-03-10 11:49:15,334 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
+2022-03-10 11:49:15,334 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-03-10 11:49:15,334 root         ERROR    line being parsed: system tests did not complete
+2022-03-10 11:49:15,334 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
+2022-03-10 11:49:15,334 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-10 11:49:15,334 root         ERROR    line being parsed: No examples ran
+2022-03-10 11:49:15,380 root         DEBUG    checking out summary
+2022-03-10 11:49:15,381 root         DEBUG    writing archive v8.3.0b09 length 12
+2022-03-10 11:49:15,397 root         INFO     processed [12] rows
+2022-03-10 11:49:15,397 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:15,409 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:15,439 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:15,453 root         DEBUG    writing file csv[113]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:15,454 root         DEBUG    adding all modified files in summary
+2022-03-10 11:49:15,458 root         DEBUG    committing to summary
+2022-03-10 11:49:15,464 root         INFO     finished summary for B:develop M: hera [v8.3.0b09]
+2022-03-10 11:49:15,464 root         INFO     finished summaries for branch develop on machine hera
+2022-03-10 11:49:15,464 root         INFO     generating summaries for develop [izumi]
+2022-03-10 11:49:15,465 root         DEBUG    checking out izumi
+2022-03-10 11:49:16,144 root         DEBUG    pulling from izumi
+2022-03-10 11:49:16,434 root         INFO     finished summaries for branch develop on machine izumi
+2022-03-10 11:49:16,434 root         INFO     generating summaries for develop [jet]
+2022-03-10 11:49:16,434 root         DEBUG    checking out jet
+2022-03-10 11:49:16,661 root         DEBUG    pulling from jet
+2022-03-10 11:49:16,983 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-10 11:49:16,984 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-10 11:49:17,032 root         DEBUG    matching logs: 2
+2022-03-10 11:49:17,032 root         DEBUG    fetching matching summaries to extract test results
+2022-03-10 11:49:17,038 root         DEBUG    matching summaries: 2
+2022-03-10 11:49:17,059 root         DEBUG    finished reading logs
+2022-03-10 11:49:17,065 root         DEBUG    checking out summary
+2022-03-10 11:49:17,065 root         DEBUG    writing archive v8.3.0b09 length 2
+2022-03-10 11:49:17,076 root         INFO     processed [2] rows
+2022-03-10 11:49:17,076 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:17,080 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:17,094 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:17,108 root         DEBUG    writing file csv[113]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:17,109 root         DEBUG    adding all modified files in summary
+2022-03-10 11:49:17,112 root         DEBUG    committing to summary
+2022-03-10 11:49:17,119 root         INFO     finished summary for B:develop M: jet [v8.3.0b09]
+2022-03-10 11:49:17,120 root         INFO     finished summaries for branch develop on machine jet
+2022-03-10 11:49:17,120 root         INFO     generating summaries for develop [onyx]
+2022-03-10 11:49:17,120 root         DEBUG    checking out onyx
+2022-03-10 11:49:17,252 root         DEBUG    pulling from onyx
+2022-03-10 11:49:17,568 root         INFO     finished summaries for branch develop on machine onyx
+2022-03-10 11:49:17,568 root         INFO     generating summaries for develop [orion]
+2022-03-10 11:49:17,569 root         DEBUG    checking out orion
+2022-03-10 11:49:18,478 root         DEBUG    pulling from orion
+2022-03-10 11:49:18,790 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-10 11:49:18,790 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-10 11:49:18,864 root         DEBUG    matching logs: 6
+2022-03-10 11:49:18,864 root         DEBUG    fetching matching summaries to extract test results
+2022-03-10 11:49:18,879 root         DEBUG    matching summaries: 6
+2022-03-10 11:49:18,945 root         DEBUG    finished reading logs
+2022-03-10 11:49:18,971 root         DEBUG    checking out summary
+2022-03-10 11:49:18,971 root         DEBUG    writing archive v8.3.0b09 length 6
+2022-03-10 11:49:18,979 root         INFO     processed [6] rows
+2022-03-10 11:49:18,979 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:18,982 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:18,995 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:19,006 root         DEBUG    writing file csv[113]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-10 11:49:19,007 root         DEBUG    adding all modified files in summary
+2022-03-10 11:49:19,011 root         DEBUG    committing to summary
+2022-03-10 11:49:19,017 root         INFO     finished summary for B:develop M: orion [v8.3.0b09]
+2022-03-10 11:49:19,017 root         INFO     finished summaries for branch develop on machine orion
+2022-03-10 11:49:19,017 root         DEBUG    pushing to summary

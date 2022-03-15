@@ -1,486 +1,540 @@
-2022-03-15 12:58:04,239 root         INFO     starting...
-2022-03-15 12:58:04,239 root         DEBUG    args are : Namespace(branches=['develop'], log='info', number=30, repo_path=PosixPath('/home/rlong/Sandbox/esmf-test-artifacts'))
-2022-03-15 12:58:04,243 root         DEBUG    pulling artifacts
-2022-03-15 12:58:04,510 root         DEBUG    cloning summaries
-2022-03-15 12:58:04,510 root         DEBUG    cloning git@github.com:ryanlong1004/esmf-test-summary.git into /tmp/esmf_branch_summary_space
-2022-03-15 12:58:05,864 root         DEBUG    pulling summaries
-2022-03-15 12:58:06,471 root         INFO     itterating over 1 branches in 12 machines over 30 most recent commits
-2022-03-15 12:58:06,472 root         INFO     generating summaries for develop [acorn]
-2022-03-15 12:58:06,472 root         DEBUG    checking out acorn
-2022-03-15 12:58:06,481 root         DEBUG    pulling from acorn
-2022-03-15 12:58:06,807 root         DEBUG    generating summary for [v8.3.0b09-1-g1bcf580]
-2022-03-15 12:58:06,808 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:06,845 root         DEBUG    matching logs: 2
-2022-03-15 12:58:06,845 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:06,854 root         DEBUG    matching summaries: 2
-2022-03-15 12:58:06,886 root         DEBUG    finished reading logs
-2022-03-15 12:58:06,886 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/g/mpi/8.1.7/summary.dat]
-2022-03-15 12:58:06,886 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-03-15 12:58:06,886 root         ERROR    line being parsed: unit tests did not complete
-2022-03-15 12:58:06,886 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/g/mpi/8.1.7/summary.dat]
-2022-03-15 12:58:06,886 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-03-15 12:58:06,886 root         ERROR    line being parsed: system tests did not complete
-2022-03-15 12:58:06,887 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/g/mpi/8.1.7/summary.dat]
-2022-03-15 12:58:06,887 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-03-15 12:58:06,887 root         ERROR    line being parsed: No examples ran
-2022-03-15 12:58:06,898 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/O/mpi/8.1.7/summary.dat]
-2022-03-15 12:58:06,898 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-03-15 12:58:06,898 root         ERROR    line being parsed: unit tests did not complete
-2022-03-15 12:58:06,898 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/O/mpi/8.1.7/summary.dat]
-2022-03-15 12:58:06,898 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-03-15 12:58:06,898 root         ERROR    line being parsed: system tests did not complete
-2022-03-15 12:58:06,898 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/O/mpi/8.1.7/summary.dat]
-2022-03-15 12:58:06,898 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-03-15 12:58:06,898 root         ERROR    line being parsed: No examples ran
-2022-03-15 12:58:06,910 root         DEBUG    checking out summary
-2022-03-15 12:58:06,910 root         DEBUG    writing archive v8.3.0b09-1-g1bcf580 length 2
-2022-03-15 12:58:06,915 root         INFO     processed [2] rows
-2022-03-15 12:58:06,915 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-1-g1bcf580
-2022-03-15 12:58:06,915 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-1-g1bcf580
-2022-03-15 12:58:06,916 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-1-g1bcf580
-2022-03-15 12:58:06,917 root         DEBUG    writing file csv[2]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-1-g1bcf580
-2022-03-15 12:58:06,917 root         DEBUG    adding all modified files in summary
-2022-03-15 12:58:06,922 root         DEBUG    committing to summary
-2022-03-15 12:58:06,928 root         INFO     finished summary for B:develop M: acorn [v8.3.0b09-1-g1bcf580]
-2022-03-15 12:58:06,928 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-15 12:58:06,928 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:06,956 root         DEBUG    matching logs: 2
-2022-03-15 12:58:06,956 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:06,964 root         DEBUG    matching summaries: 2
-2022-03-15 12:58:06,996 root         DEBUG    finished reading logs
-2022-03-15 12:58:06,996 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/g/mpi/8.1.7/summary.dat]
-2022-03-15 12:58:06,996 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-03-15 12:58:06,996 root         ERROR    line being parsed: unit tests did not complete
-2022-03-15 12:58:06,996 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/g/mpi/8.1.7/summary.dat]
-2022-03-15 12:58:06,996 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-03-15 12:58:06,996 root         ERROR    line being parsed: system tests did not complete
-2022-03-15 12:58:06,996 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/g/mpi/8.1.7/summary.dat]
-2022-03-15 12:58:06,996 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-03-15 12:58:06,996 root         ERROR    line being parsed: No examples ran
-2022-03-15 12:58:07,008 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/O/mpi/8.1.7/summary.dat]
-2022-03-15 12:58:07,008 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-03-15 12:58:07,008 root         ERROR    line being parsed: unit tests did not complete
-2022-03-15 12:58:07,008 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/O/mpi/8.1.7/summary.dat]
-2022-03-15 12:58:07,008 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-03-15 12:58:07,008 root         ERROR    line being parsed: system tests did not complete
-2022-03-15 12:58:07,008 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/O/mpi/8.1.7/summary.dat]
-2022-03-15 12:58:07,008 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-03-15 12:58:07,008 root         ERROR    line being parsed: No examples ran
-2022-03-15 12:58:07,020 root         DEBUG    checking out summary
-2022-03-15 12:58:07,020 root         DEBUG    writing archive v8.3.0b09 length 2
-2022-03-15 12:58:07,025 root         INFO     processed [2] rows
-2022-03-15 12:58:07,025 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:07,027 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:07,039 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:07,040 root         DEBUG    adding all modified files in summary
-2022-03-15 12:58:07,043 root         DEBUG    committing to summary
-2022-03-15 12:58:07,049 root         INFO     finished summary for B:develop M: acorn [v8.3.0b09]
-2022-03-15 12:58:07,049 root         INFO     finished summaries for branch develop on machine acorn
-2022-03-15 12:58:07,049 root         INFO     generating summaries for develop [cheyenne]
-2022-03-15 12:58:07,050 root         DEBUG    checking out cheyenne
-2022-03-15 12:58:09,465 root         DEBUG    pulling from cheyenne
-2022-03-15 12:58:09,792 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
-2022-03-15 12:58:09,792 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:09,928 root         DEBUG    matching logs: 5
-2022-03-15 12:58:09,928 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:09,970 root         DEBUG    matching summaries: 5
-2022-03-15 12:58:10,005 root         DEBUG    finished reading logs
-2022-03-15 12:58:10,058 root         DEBUG    checking out summary
-2022-03-15 12:58:10,058 root         DEBUG    writing archive v8.3.0b09-2-g2a2241b length 5
-2022-03-15 12:58:10,076 root         INFO     processed [5] rows
-2022-03-15 12:58:10,076 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:10,077 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:10,078 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:10,079 root         DEBUG    writing file csv[5]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:10,079 root         DEBUG    adding all modified files in summary
-2022-03-15 12:58:10,082 root         DEBUG    committing to summary
-2022-03-15 12:58:10,088 root         INFO     finished summary for B:develop M: cheyenne [v8.3.0b09-2-g2a2241b]
-2022-03-15 12:58:10,088 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-15 12:58:10,088 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:10,214 root         DEBUG    matching logs: 13
-2022-03-15 12:58:10,214 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:10,257 root         DEBUG    matching summaries: 13
-2022-03-15 12:58:10,362 root         DEBUG    finished reading logs
-2022-03-15 12:58:10,503 root         DEBUG    checking out summary
-2022-03-15 12:58:10,503 root         DEBUG    writing archive v8.3.0b09 length 13
-2022-03-15 12:58:10,509 root         INFO     processed [13] rows
-2022-03-15 12:58:10,509 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:10,516 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:10,542 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:10,544 root         DEBUG    adding all modified files in summary
-2022-03-15 12:58:10,549 root         DEBUG    committing to summary
-2022-03-15 12:58:10,556 root         INFO     finished summary for B:develop M: cheyenne [v8.3.0b09]
-2022-03-15 12:58:10,557 root         INFO     finished summaries for branch develop on machine cheyenne
-2022-03-15 12:58:10,557 root         INFO     generating summaries for develop [chianti]
-2022-03-15 12:58:10,557 root         DEBUG    checking out chianti
-2022-03-15 12:58:11,787 root         DEBUG    pulling from chianti
-2022-03-15 12:58:12,091 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
-2022-03-15 12:58:12,091 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:12,154 root         DEBUG    matching logs: 4
-2022-03-15 12:58:12,154 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:12,165 root         DEBUG    matching summaries: 4
-2022-03-15 12:58:12,205 root         DEBUG    finished reading logs
-2022-03-15 12:58:12,244 root         DEBUG    checking out summary
-2022-03-15 12:58:12,244 root         DEBUG    writing archive v8.3.0b09-2-g2a2241b length 4
-2022-03-15 12:58:12,261 root         INFO     processed [4] rows
-2022-03-15 12:58:12,261 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:12,262 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:12,263 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:12,264 root         DEBUG    writing file csv[4]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:12,264 root         DEBUG    adding all modified files in summary
-2022-03-15 12:58:12,268 root         DEBUG    committing to summary
-2022-03-15 12:58:12,274 root         INFO     finished summary for B:develop M: chianti [v8.3.0b09-2-g2a2241b]
-2022-03-15 12:58:12,274 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-15 12:58:12,274 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:12,319 root         DEBUG    matching logs: 4
-2022-03-15 12:58:12,319 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:12,329 root         DEBUG    matching summaries: 4
-2022-03-15 12:58:12,369 root         DEBUG    finished reading logs
-2022-03-15 12:58:12,407 root         DEBUG    checking out summary
-2022-03-15 12:58:12,407 root         DEBUG    writing archive v8.3.0b09 length 4
-2022-03-15 12:58:12,413 root         INFO     processed [4] rows
-2022-03-15 12:58:12,413 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:12,415 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:12,423 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:12,424 root         DEBUG    adding all modified files in summary
-2022-03-15 12:58:12,428 root         DEBUG    committing to summary
-2022-03-15 12:58:12,433 root         INFO     finished summary for B:develop M: chianti [v8.3.0b09]
-2022-03-15 12:58:12,434 root         INFO     finished summaries for branch develop on machine chianti
-2022-03-15 12:58:12,434 root         INFO     generating summaries for develop [cori]
-2022-03-15 12:58:12,434 root         DEBUG    checking out cori
-2022-03-15 12:58:13,023 root         DEBUG    pulling from cori
-2022-03-15 12:58:13,312 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
-2022-03-15 12:58:13,312 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:13,358 root         DEBUG    matching logs: 4
-2022-03-15 12:58:13,358 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:13,367 root         DEBUG    matching summaries: 4
-2022-03-15 12:58:13,411 root         DEBUG    finished reading logs
-2022-03-15 12:58:13,438 root         DEBUG    checking out summary
-2022-03-15 12:58:13,439 root         DEBUG    writing archive v8.3.0b09-2-g2a2241b length 4
-2022-03-15 12:58:13,446 root         INFO     processed [4] rows
-2022-03-15 12:58:13,446 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:13,446 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:13,447 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:13,448 root         DEBUG    writing file csv[4]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:13,448 root         DEBUG    adding all modified files in summary
-2022-03-15 12:58:13,452 root         DEBUG    committing to summary
-2022-03-15 12:58:13,458 root         INFO     finished summary for B:develop M: cori [v8.3.0b09-2-g2a2241b]
-2022-03-15 12:58:13,458 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-15 12:58:13,458 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:13,494 root         DEBUG    matching logs: 4
-2022-03-15 12:58:13,494 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:13,500 root         DEBUG    matching summaries: 4
-2022-03-15 12:58:13,538 root         DEBUG    finished reading logs
-2022-03-15 12:58:13,563 root         DEBUG    checking out summary
-2022-03-15 12:58:13,563 root         DEBUG    writing archive v8.3.0b09 length 4
-2022-03-15 12:58:13,567 root         INFO     processed [4] rows
-2022-03-15 12:58:13,567 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:13,569 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:13,577 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:13,578 root         DEBUG    adding all modified files in summary
-2022-03-15 12:58:13,581 root         DEBUG    committing to summary
-2022-03-15 12:58:13,587 root         INFO     finished summary for B:develop M: cori [v8.3.0b09]
-2022-03-15 12:58:13,587 root         INFO     finished summaries for branch develop on machine cori
-2022-03-15 12:58:13,587 root         INFO     generating summaries for develop [discover]
-2022-03-15 12:58:13,587 root         DEBUG    checking out discover
-2022-03-15 12:58:15,577 root         DEBUG    pulling from discover
-2022-03-15 12:58:15,914 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
-2022-03-15 12:58:15,914 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:16,089 root         DEBUG    matching logs: 14
-2022-03-15 12:58:16,090 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:16,132 root         DEBUG    matching summaries: 14
-2022-03-15 12:58:16,290 root         DEBUG    finished reading logs
-2022-03-15 12:58:16,603 root         DEBUG    checking out summary
-2022-03-15 12:58:16,604 root         DEBUG    writing archive v8.3.0b09-2-g2a2241b length 14
-2022-03-15 12:58:16,621 root         INFO     processed [14] rows
-2022-03-15 12:58:16,622 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:16,622 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:16,625 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:16,627 root         DEBUG    writing file csv[14]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:16,627 root         DEBUG    adding all modified files in summary
-2022-03-15 12:58:16,631 root         DEBUG    committing to summary
-2022-03-15 12:58:16,637 root         INFO     finished summary for B:develop M: discover [v8.3.0b09-2-g2a2241b]
-2022-03-15 12:58:16,637 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-15 12:58:16,638 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:16,802 root         DEBUG    matching logs: 14
-2022-03-15 12:58:16,802 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:16,842 root         DEBUG    matching summaries: 14
-2022-03-15 12:58:16,999 root         DEBUG    finished reading logs
-2022-03-15 12:58:17,303 root         DEBUG    checking out summary
-2022-03-15 12:58:17,303 root         DEBUG    writing archive v8.3.0b09 length 14
-2022-03-15 12:58:17,309 root         INFO     processed [14] rows
-2022-03-15 12:58:17,309 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:17,311 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:17,320 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:17,320 root         DEBUG    adding all modified files in summary
-2022-03-15 12:58:17,324 root         DEBUG    committing to summary
-2022-03-15 12:58:17,330 root         INFO     finished summary for B:develop M: discover [v8.3.0b09]
-2022-03-15 12:58:17,330 root         INFO     finished summaries for branch develop on machine discover
-2022-03-15 12:58:17,330 root         INFO     generating summaries for develop [gaea]
-2022-03-15 12:58:17,331 root         DEBUG    checking out gaea
-2022-03-15 12:58:19,310 root         DEBUG    pulling from gaea
-2022-03-15 12:58:19,635 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
-2022-03-15 12:58:19,635 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:19,725 root         DEBUG    matching logs: 8
-2022-03-15 12:58:19,725 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:19,751 root         DEBUG    matching summaries: 8
-2022-03-15 12:58:19,823 root         DEBUG    finished reading logs
-2022-03-15 12:58:19,959 root         DEBUG    checking out summary
-2022-03-15 12:58:19,959 root         DEBUG    writing archive v8.3.0b09-2-g2a2241b length 8
-2022-03-15 12:58:19,976 root         INFO     processed [8] rows
-2022-03-15 12:58:19,976 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:19,976 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:19,978 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:19,979 root         DEBUG    writing file csv[8]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:19,980 root         DEBUG    adding all modified files in summary
-2022-03-15 12:58:19,983 root         DEBUG    committing to summary
-2022-03-15 12:58:19,989 root         INFO     finished summary for B:develop M: gaea [v8.3.0b09-2-g2a2241b]
-2022-03-15 12:58:19,989 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-15 12:58:19,989 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:20,077 root         DEBUG    matching logs: 8
-2022-03-15 12:58:20,077 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:20,103 root         DEBUG    matching summaries: 8
-2022-03-15 12:58:20,177 root         DEBUG    finished reading logs
-2022-03-15 12:58:20,317 root         DEBUG    checking out summary
-2022-03-15 12:58:20,317 root         DEBUG    writing archive v8.3.0b09 length 8
-2022-03-15 12:58:20,321 root         INFO     processed [8] rows
-2022-03-15 12:58:20,321 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:20,324 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:20,333 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:20,334 root         DEBUG    adding all modified files in summary
-2022-03-15 12:58:20,338 root         DEBUG    committing to summary
-2022-03-15 12:58:20,344 root         INFO     finished summary for B:develop M: gaea [v8.3.0b09]
-2022-03-15 12:58:20,344 root         INFO     finished summaries for branch develop on machine gaea
-2022-03-15 12:58:20,344 root         INFO     generating summaries for develop [gaffney]
-2022-03-15 12:58:20,345 root         DEBUG    checking out gaffney
-2022-03-15 12:58:20,769 root         DEBUG    pulling from gaffney
-2022-03-15 12:58:21,082 root         INFO     finished summaries for branch develop on machine gaffney
-2022-03-15 12:58:21,082 root         INFO     generating summaries for develop [hera]
-2022-03-15 12:58:21,083 root         DEBUG    checking out hera
-2022-03-15 12:58:21,767 root         DEBUG    pulling from hera
-2022-03-15 12:58:22,063 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
-2022-03-15 12:58:22,063 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:22,192 root         DEBUG    matching logs: 12
-2022-03-15 12:58:22,192 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:22,215 root         DEBUG    matching summaries: 12
-2022-03-15 12:58:22,333 root         DEBUG    finished reading logs
-2022-03-15 12:58:22,333 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/O/mpiuni/none/summary.dat]
-2022-03-15 12:58:22,333 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-03-15 12:58:22,334 root         ERROR    line being parsed: unit tests did not complete
-2022-03-15 12:58:22,334 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/O/mpiuni/none/summary.dat]
-2022-03-15 12:58:22,334 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-03-15 12:58:22,334 root         ERROR    line being parsed: system tests did not complete
-2022-03-15 12:58:22,334 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/O/mpiuni/none/summary.dat]
-2022-03-15 12:58:22,334 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-03-15 12:58:22,334 root         ERROR    line being parsed: No examples ran
-2022-03-15 12:58:22,512 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
-2022-03-15 12:58:22,512 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-03-15 12:58:22,512 root         ERROR    line being parsed: unit tests did not complete
-2022-03-15 12:58:22,512 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
-2022-03-15 12:58:22,512 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-03-15 12:58:22,512 root         ERROR    line being parsed: system tests did not complete
-2022-03-15 12:58:22,512 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
-2022-03-15 12:58:22,512 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-03-15 12:58:22,512 root         ERROR    line being parsed: No examples ran
-2022-03-15 12:58:22,566 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/g/mpiuni/none/summary.dat]
-2022-03-15 12:58:22,566 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-03-15 12:58:22,566 root         ERROR    line being parsed: unit tests did not complete
-2022-03-15 12:58:22,566 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/g/mpiuni/none/summary.dat]
-2022-03-15 12:58:22,566 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-03-15 12:58:22,566 root         ERROR    line being parsed: system tests did not complete
-2022-03-15 12:58:22,566 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/g/mpiuni/none/summary.dat]
-2022-03-15 12:58:22,566 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-03-15 12:58:22,566 root         ERROR    line being parsed: No examples ran
-2022-03-15 12:58:22,620 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
-2022-03-15 12:58:22,620 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-03-15 12:58:22,620 root         ERROR    line being parsed: unit tests did not complete
-2022-03-15 12:58:22,620 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
-2022-03-15 12:58:22,620 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-03-15 12:58:22,620 root         ERROR    line being parsed: system tests did not complete
-2022-03-15 12:58:22,620 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
-2022-03-15 12:58:22,620 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-03-15 12:58:22,621 root         ERROR    line being parsed: No examples ran
-2022-03-15 12:58:22,647 root         DEBUG    checking out summary
-2022-03-15 12:58:22,647 root         DEBUG    writing archive v8.3.0b09-2-g2a2241b length 12
-2022-03-15 12:58:22,662 root         INFO     processed [12] rows
-2022-03-15 12:58:22,662 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:22,664 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:22,673 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:22,681 root         DEBUG    writing file csv[12]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:22,682 root         DEBUG    adding all modified files in summary
-2022-03-15 12:58:22,694 root         DEBUG    committing to summary
-2022-03-15 12:58:22,715 root         INFO     finished summary for B:develop M: hera [v8.3.0b09-2-g2a2241b]
-2022-03-15 12:58:22,715 root         DEBUG    generating summary for [v8.3.0b09-1-g1bcf580]
-2022-03-15 12:58:22,716 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:22,842 root         DEBUG    matching logs: 0
-2022-03-15 12:58:22,842 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:22,864 root         DEBUG    matching summaries: 0
-2022-03-15 12:58:23,040 root         DEBUG    finished reading logs
-2022-03-15 12:58:23,041 root         INFO     missing summary data for v8.3.0b09-1-g1bcf580, develop [hera]
-2022-03-15 12:58:23,041 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-15 12:58:23,041 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:23,153 root         DEBUG    matching logs: 12
-2022-03-15 12:58:23,153 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:23,176 root         DEBUG    matching summaries: 12
-2022-03-15 12:58:23,294 root         DEBUG    finished reading logs
-2022-03-15 12:58:23,294 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/O/mpiuni/none/summary.dat]
-2022-03-15 12:58:23,295 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-03-15 12:58:23,295 root         ERROR    line being parsed: unit tests did not complete
-2022-03-15 12:58:23,295 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/O/mpiuni/none/summary.dat]
-2022-03-15 12:58:23,295 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-03-15 12:58:23,295 root         ERROR    line being parsed: system tests did not complete
-2022-03-15 12:58:23,295 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/O/mpiuni/none/summary.dat]
-2022-03-15 12:58:23,295 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-03-15 12:58:23,295 root         ERROR    line being parsed: No examples ran
-2022-03-15 12:58:23,471 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
-2022-03-15 12:58:23,471 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-03-15 12:58:23,472 root         ERROR    line being parsed: unit tests did not complete
-2022-03-15 12:58:23,472 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
-2022-03-15 12:58:23,472 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-03-15 12:58:23,472 root         ERROR    line being parsed: system tests did not complete
-2022-03-15 12:58:23,472 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
-2022-03-15 12:58:23,472 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-03-15 12:58:23,472 root         ERROR    line being parsed: No examples ran
-2022-03-15 12:58:23,523 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/g/mpiuni/none/summary.dat]
-2022-03-15 12:58:23,524 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-03-15 12:58:23,524 root         ERROR    line being parsed: unit tests did not complete
-2022-03-15 12:58:23,524 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/g/mpiuni/none/summary.dat]
-2022-03-15 12:58:23,524 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-03-15 12:58:23,524 root         ERROR    line being parsed: system tests did not complete
-2022-03-15 12:58:23,524 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/g/mpiuni/none/summary.dat]
-2022-03-15 12:58:23,524 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-03-15 12:58:23,524 root         ERROR    line being parsed: No examples ran
-2022-03-15 12:58:23,577 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
-2022-03-15 12:58:23,578 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-03-15 12:58:23,578 root         ERROR    line being parsed: unit tests did not complete
-2022-03-15 12:58:23,578 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
-2022-03-15 12:58:23,578 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-03-15 12:58:23,578 root         ERROR    line being parsed: system tests did not complete
-2022-03-15 12:58:23,578 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
-2022-03-15 12:58:23,578 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-03-15 12:58:23,578 root         ERROR    line being parsed: No examples ran
-2022-03-15 12:58:23,605 root         DEBUG    checking out summary
-2022-03-15 12:58:23,605 root         DEBUG    writing archive v8.3.0b09 length 12
-2022-03-15 12:58:23,652 root         INFO     processed [12] rows
-2022-03-15 12:58:23,652 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:23,659 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:23,689 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:23,690 root         DEBUG    adding all modified files in summary
-2022-03-15 12:58:23,696 root         DEBUG    committing to summary
-2022-03-15 12:58:23,704 root         INFO     finished summary for B:develop M: hera [v8.3.0b09]
-2022-03-15 12:58:23,704 root         INFO     finished summaries for branch develop on machine hera
-2022-03-15 12:58:23,705 root         INFO     generating summaries for develop [izumi]
-2022-03-15 12:58:23,705 root         DEBUG    checking out izumi
-2022-03-15 12:58:24,501 root         DEBUG    pulling from izumi
-2022-03-15 12:58:24,783 root         INFO     finished summaries for branch develop on machine izumi
-2022-03-15 12:58:24,783 root         INFO     generating summaries for develop [jet]
-2022-03-15 12:58:24,784 root         DEBUG    checking out jet
-2022-03-15 12:58:24,836 root         DEBUG    pulling from jet
-2022-03-15 12:58:25,126 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
-2022-03-15 12:58:25,127 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:25,147 root         DEBUG    matching logs: 2
-2022-03-15 12:58:25,147 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:25,153 root         DEBUG    matching summaries: 2
-2022-03-15 12:58:25,169 root         DEBUG    finished reading logs
-2022-03-15 12:58:25,184 root         DEBUG    checking out summary
-2022-03-15 12:58:25,185 root         DEBUG    writing archive v8.3.0b09-2-g2a2241b length 2
-2022-03-15 12:58:25,448 root         INFO     processed [2] rows
-2022-03-15 12:58:25,449 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:25,450 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:25,454 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:25,456 root         DEBUG    writing file csv[2]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:25,457 root         DEBUG    adding all modified files in summary
-2022-03-15 12:58:25,466 root         DEBUG    committing to summary
-2022-03-15 12:58:25,473 root         INFO     finished summary for B:develop M: jet [v8.3.0b09-2-g2a2241b]
-2022-03-15 12:58:25,473 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-15 12:58:25,473 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:25,497 root         DEBUG    matching logs: 2
-2022-03-15 12:58:25,497 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:25,503 root         DEBUG    matching summaries: 2
-2022-03-15 12:58:25,521 root         DEBUG    finished reading logs
-2022-03-15 12:58:25,540 root         DEBUG    checking out summary
-2022-03-15 12:58:25,540 root         DEBUG    writing archive v8.3.0b09 length 2
-2022-03-15 12:58:25,620 root         INFO     processed [2] rows
-2022-03-15 12:58:25,620 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:25,623 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:25,633 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:25,633 root         DEBUG    adding all modified files in summary
-2022-03-15 12:58:25,638 root         DEBUG    committing to summary
-2022-03-15 12:58:25,645 root         INFO     finished summary for B:develop M: jet [v8.3.0b09]
-2022-03-15 12:58:25,645 root         INFO     finished summaries for branch develop on machine jet
-2022-03-15 12:58:25,645 root         INFO     generating summaries for develop [onyx]
-2022-03-15 12:58:25,645 root         DEBUG    checking out onyx
-2022-03-15 12:58:25,668 root         DEBUG    pulling from onyx
-2022-03-15 12:58:25,948 root         INFO     finished summaries for branch develop on machine onyx
-2022-03-15 12:58:25,948 root         INFO     generating summaries for develop [orion]
-2022-03-15 12:58:25,949 root         DEBUG    checking out orion
-2022-03-15 12:58:26,822 root         DEBUG    pulling from orion
-2022-03-15 12:58:27,138 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
-2022-03-15 12:58:27,138 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:27,210 root         DEBUG    matching logs: 6
-2022-03-15 12:58:27,210 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:27,228 root         DEBUG    matching summaries: 6
-2022-03-15 12:58:27,292 root         DEBUG    finished reading logs
-2022-03-15 12:58:27,293 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/O/intelmpi/2020.2/summary.dat]
-2022-03-15 12:58:27,293 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-03-15 12:58:27,293 root         ERROR    line being parsed: unit tests did not complete
-2022-03-15 12:58:27,293 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/O/intelmpi/2020.2/summary.dat]
-2022-03-15 12:58:27,293 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-03-15 12:58:27,293 root         ERROR    line being parsed: system tests did not complete
-2022-03-15 12:58:27,293 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/O/intelmpi/2020.2/summary.dat]
-2022-03-15 12:58:27,293 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-03-15 12:58:27,293 root         ERROR    line being parsed: No examples ran
-2022-03-15 12:58:27,305 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
-2022-03-15 12:58:27,306 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-03-15 12:58:27,306 root         ERROR    line being parsed: unit tests did not complete
-2022-03-15 12:58:27,306 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
-2022-03-15 12:58:27,306 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-03-15 12:58:27,306 root         ERROR    line being parsed: system tests did not complete
-2022-03-15 12:58:27,306 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
-2022-03-15 12:58:27,306 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-03-15 12:58:27,306 root         ERROR    line being parsed: No examples ran
-2022-03-15 12:58:27,373 root         DEBUG    checking out summary
-2022-03-15 12:58:27,373 root         DEBUG    writing archive v8.3.0b09-2-g2a2241b length 6
-2022-03-15 12:58:27,653 root         INFO     processed [6] rows
-2022-03-15 12:58:27,653 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:27,654 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:27,660 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:27,664 root         DEBUG    writing file csv[6]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
-2022-03-15 12:58:27,665 root         DEBUG    adding all modified files in summary
-2022-03-15 12:58:27,674 root         DEBUG    committing to summary
-2022-03-15 12:58:27,681 root         INFO     finished summary for B:develop M: orion [v8.3.0b09-2-g2a2241b]
-2022-03-15 12:58:27,681 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-15 12:58:27,681 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-15 12:58:27,788 root         DEBUG    matching logs: 6
-2022-03-15 12:58:27,788 root         DEBUG    fetching matching summaries to extract test results
-2022-03-15 12:58:27,820 root         DEBUG    matching summaries: 6
-2022-03-15 12:58:27,900 root         DEBUG    finished reading logs
-2022-03-15 12:58:27,900 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/O/intelmpi/2020.2/summary.dat]
-2022-03-15 12:58:27,901 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-03-15 12:58:27,901 root         ERROR    line being parsed: unit tests did not complete
-2022-03-15 12:58:27,901 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/O/intelmpi/2020.2/summary.dat]
-2022-03-15 12:58:27,901 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-03-15 12:58:27,901 root         ERROR    line being parsed: system tests did not complete
-2022-03-15 12:58:27,901 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/O/intelmpi/2020.2/summary.dat]
-2022-03-15 12:58:27,901 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-03-15 12:58:27,901 root         ERROR    line being parsed: No examples ran
-2022-03-15 12:58:27,917 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
-2022-03-15 12:58:27,917 root         ERROR    message: invalid literal for int() with base 10: 'unit'
-2022-03-15 12:58:27,917 root         ERROR    line being parsed: unit tests did not complete
-2022-03-15 12:58:27,917 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
-2022-03-15 12:58:27,917 root         ERROR    message: invalid literal for int() with base 10: 'system'
-2022-03-15 12:58:27,917 root         ERROR    line being parsed: system tests did not complete
-2022-03-15 12:58:27,918 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
-2022-03-15 12:58:27,918 root         ERROR    message: invalid literal for int() with base 10: 'No'
-2022-03-15 12:58:27,918 root         ERROR    line being parsed: No examples ran
-2022-03-15 12:58:27,995 root         DEBUG    checking out summary
-2022-03-15 12:58:27,995 root         DEBUG    writing archive v8.3.0b09 length 6
-2022-03-15 12:58:28,078 root         INFO     processed [6] rows
-2022-03-15 12:58:28,078 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:28,081 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:28,097 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-15 12:58:28,098 root         DEBUG    adding all modified files in summary
-2022-03-15 12:58:28,102 root         DEBUG    committing to summary
-2022-03-15 12:58:28,109 root         INFO     finished summary for B:develop M: orion [v8.3.0b09]
-2022-03-15 12:58:28,110 root         INFO     finished summaries for branch develop on machine orion
-2022-03-15 12:58:28,110 root         DEBUG    pushing to summary
+2022-03-15 13:04:26,776 root         INFO     starting...
+2022-03-15 13:04:26,776 root         DEBUG    args are : Namespace(branches=['develop'], log='info', number=30, repo_path=PosixPath('/home/rlong/Sandbox/esmf-test-artifacts'))
+2022-03-15 13:04:26,784 root         DEBUG    pulling artifacts
+2022-03-15 13:04:27,059 root         DEBUG    cloning summaries
+2022-03-15 13:04:27,059 root         DEBUG    cloning git@github.com:ryanlong1004/esmf-test-summary.git into /tmp/esmf_branch_summary_space
+2022-03-15 13:04:28,399 root         DEBUG    pulling summaries
+2022-03-15 13:04:28,997 root         INFO     itterating over 1 branches in 12 machines over 30 most recent commits
+2022-03-15 13:04:28,997 root         INFO     generating summaries for develop [acorn]
+2022-03-15 13:04:28,998 root         DEBUG    checking out acorn
+2022-03-15 13:04:30,066 root         DEBUG    pulling from acorn
+2022-03-15 13:04:30,380 root         DEBUG    generating summary for [v8.3.0b09-1-g1bcf580]
+2022-03-15 13:04:30,380 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:30,427 root         DEBUG    matching logs: 2
+2022-03-15 13:04:30,427 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:30,435 root         DEBUG    matching summaries: 2
+2022-03-15 13:04:30,469 root         DEBUG    finished reading logs
+2022-03-15 13:04:30,469 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/g/mpi/8.1.7/summary.dat]
+2022-03-15 13:04:30,470 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-03-15 13:04:30,470 root         ERROR    line being parsed: unit tests did not complete
+2022-03-15 13:04:30,470 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/g/mpi/8.1.7/summary.dat]
+2022-03-15 13:04:30,470 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-03-15 13:04:30,470 root         ERROR    line being parsed: system tests did not complete
+2022-03-15 13:04:30,470 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/g/mpi/8.1.7/summary.dat]
+2022-03-15 13:04:30,470 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-15 13:04:30,470 root         ERROR    line being parsed: No examples ran
+2022-03-15 13:04:30,482 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/O/mpi/8.1.7/summary.dat]
+2022-03-15 13:04:30,483 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-03-15 13:04:30,483 root         ERROR    line being parsed: unit tests did not complete
+2022-03-15 13:04:30,483 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/O/mpi/8.1.7/summary.dat]
+2022-03-15 13:04:30,483 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-03-15 13:04:30,483 root         ERROR    line being parsed: system tests did not complete
+2022-03-15 13:04:30,483 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/O/mpi/8.1.7/summary.dat]
+2022-03-15 13:04:30,483 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-15 13:04:30,483 root         ERROR    line being parsed: No examples ran
+2022-03-15 13:04:30,496 root         DEBUG    checking out summary
+2022-03-15 13:04:30,496 root         DEBUG    writing archive v8.3.0b09-1-g1bcf580 length 2
+2022-03-15 13:04:30,505 root         INFO     processed [2] rows
+2022-03-15 13:04:30,505 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-1-g1bcf580
+2022-03-15 13:04:30,505 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-1-g1bcf580
+2022-03-15 13:04:30,506 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-1-g1bcf580
+2022-03-15 13:04:30,507 root         DEBUG    writing file csv[2]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-1-g1bcf580
+2022-03-15 13:04:30,507 root         DEBUG    adding all modified files in summary
+2022-03-15 13:04:30,512 root         DEBUG    committing to summary
+2022-03-15 13:04:30,517 root         INFO     finished summary for B:develop M: acorn [v8.3.0b09-1-g1bcf580]
+2022-03-15 13:04:30,518 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-15 13:04:30,518 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:30,547 root         DEBUG    matching logs: 2
+2022-03-15 13:04:30,547 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:30,555 root         DEBUG    matching summaries: 2
+2022-03-15 13:04:30,587 root         DEBUG    finished reading logs
+2022-03-15 13:04:30,587 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/g/mpi/8.1.7/summary.dat]
+2022-03-15 13:04:30,587 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-03-15 13:04:30,587 root         ERROR    line being parsed: unit tests did not complete
+2022-03-15 13:04:30,587 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/g/mpi/8.1.7/summary.dat]
+2022-03-15 13:04:30,587 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-03-15 13:04:30,587 root         ERROR    line being parsed: system tests did not complete
+2022-03-15 13:04:30,587 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/g/mpi/8.1.7/summary.dat]
+2022-03-15 13:04:30,587 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-15 13:04:30,588 root         ERROR    line being parsed: No examples ran
+2022-03-15 13:04:30,599 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/O/mpi/8.1.7/summary.dat]
+2022-03-15 13:04:30,600 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-03-15 13:04:30,600 root         ERROR    line being parsed: unit tests did not complete
+2022-03-15 13:04:30,600 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/O/mpi/8.1.7/summary.dat]
+2022-03-15 13:04:30,600 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-03-15 13:04:30,600 root         ERROR    line being parsed: system tests did not complete
+2022-03-15 13:04:30,600 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/acorn/intel/2019.3/O/mpi/8.1.7/summary.dat]
+2022-03-15 13:04:30,600 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-15 13:04:30,600 root         ERROR    line being parsed: No examples ran
+2022-03-15 13:04:30,612 root         DEBUG    checking out summary
+2022-03-15 13:04:30,612 root         DEBUG    writing archive v8.3.0b09 length 2
+2022-03-15 13:04:30,618 root         INFO     processed [2] rows
+2022-03-15 13:04:30,618 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:30,620 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:30,630 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:30,631 root         DEBUG    adding all modified files in summary
+2022-03-15 13:04:30,634 root         DEBUG    committing to summary
+2022-03-15 13:04:30,637 root         INFO     On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+2022-03-15 13:04:30,637 root         INFO     finished summary for B:develop M: acorn [v8.3.0b09]
+2022-03-15 13:04:30,637 root         INFO     finished summaries for branch develop on machine acorn
+2022-03-15 13:04:30,638 root         INFO     generating summaries for develop [cheyenne]
+2022-03-15 13:04:30,638 root         DEBUG    checking out cheyenne
+2022-03-15 13:04:33,152 root         DEBUG    pulling from cheyenne
+2022-03-15 13:04:33,496 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
+2022-03-15 13:04:33,496 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:33,632 root         DEBUG    matching logs: 5
+2022-03-15 13:04:33,632 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:33,674 root         DEBUG    matching summaries: 5
+2022-03-15 13:04:33,709 root         DEBUG    finished reading logs
+2022-03-15 13:04:33,762 root         DEBUG    checking out summary
+2022-03-15 13:04:33,762 root         DEBUG    writing archive v8.3.0b09-2-g2a2241b length 5
+2022-03-15 13:04:33,779 root         INFO     processed [5] rows
+2022-03-15 13:04:33,779 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:33,780 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:33,781 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:33,783 root         DEBUG    writing file csv[5]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:33,783 root         DEBUG    adding all modified files in summary
+2022-03-15 13:04:33,786 root         DEBUG    committing to summary
+2022-03-15 13:04:33,793 root         INFO     finished summary for B:develop M: cheyenne [v8.3.0b09-2-g2a2241b]
+2022-03-15 13:04:33,793 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-15 13:04:33,793 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:33,922 root         DEBUG    matching logs: 13
+2022-03-15 13:04:33,922 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:33,964 root         DEBUG    matching summaries: 13
+2022-03-15 13:04:34,070 root         DEBUG    finished reading logs
+2022-03-15 13:04:34,220 root         DEBUG    checking out summary
+2022-03-15 13:04:34,220 root         DEBUG    writing archive v8.3.0b09 length 13
+2022-03-15 13:04:34,225 root         INFO     processed [13] rows
+2022-03-15 13:04:34,226 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:34,227 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:34,236 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:34,237 root         DEBUG    adding all modified files in summary
+2022-03-15 13:04:34,240 root         DEBUG    committing to summary
+2022-03-15 13:04:34,243 root         INFO     On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+2022-03-15 13:04:34,244 root         INFO     finished summary for B:develop M: cheyenne [v8.3.0b09]
+2022-03-15 13:04:34,244 root         INFO     finished summaries for branch develop on machine cheyenne
+2022-03-15 13:04:34,244 root         INFO     generating summaries for develop [chianti]
+2022-03-15 13:04:34,244 root         DEBUG    checking out chianti
+2022-03-15 13:04:35,179 root         DEBUG    pulling from chianti
+2022-03-15 13:04:35,467 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
+2022-03-15 13:04:35,468 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:35,518 root         DEBUG    matching logs: 4
+2022-03-15 13:04:35,518 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:35,529 root         DEBUG    matching summaries: 4
+2022-03-15 13:04:35,570 root         DEBUG    finished reading logs
+2022-03-15 13:04:35,609 root         DEBUG    checking out summary
+2022-03-15 13:04:35,610 root         DEBUG    writing archive v8.3.0b09-2-g2a2241b length 4
+2022-03-15 13:04:35,671 root         INFO     processed [4] rows
+2022-03-15 13:04:35,672 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:35,673 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:35,676 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:35,680 root         DEBUG    writing file csv[4]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:35,680 root         DEBUG    adding all modified files in summary
+2022-03-15 13:04:35,690 root         DEBUG    committing to summary
+2022-03-15 13:04:35,700 root         INFO     finished summary for B:develop M: chianti [v8.3.0b09-2-g2a2241b]
+2022-03-15 13:04:35,700 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-15 13:04:35,700 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:35,746 root         DEBUG    matching logs: 4
+2022-03-15 13:04:35,746 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:35,757 root         DEBUG    matching summaries: 4
+2022-03-15 13:04:35,796 root         DEBUG    finished reading logs
+2022-03-15 13:04:35,835 root         DEBUG    checking out summary
+2022-03-15 13:04:35,835 root         DEBUG    writing archive v8.3.0b09 length 4
+2022-03-15 13:04:35,840 root         INFO     processed [4] rows
+2022-03-15 13:04:35,840 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:35,842 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:35,851 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:35,852 root         DEBUG    adding all modified files in summary
+2022-03-15 13:04:35,855 root         DEBUG    committing to summary
+2022-03-15 13:04:35,858 root         INFO     On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+2022-03-15 13:04:35,858 root         INFO     finished summary for B:develop M: chianti [v8.3.0b09]
+2022-03-15 13:04:35,858 root         INFO     finished summaries for branch develop on machine chianti
+2022-03-15 13:04:35,859 root         INFO     generating summaries for develop [cori]
+2022-03-15 13:04:35,859 root         DEBUG    checking out cori
+2022-03-15 13:04:36,220 root         DEBUG    pulling from cori
+2022-03-15 13:04:36,504 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
+2022-03-15 13:04:36,504 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:36,545 root         DEBUG    matching logs: 4
+2022-03-15 13:04:36,545 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:36,552 root         DEBUG    matching summaries: 4
+2022-03-15 13:04:36,600 root         DEBUG    finished reading logs
+2022-03-15 13:04:36,634 root         DEBUG    checking out summary
+2022-03-15 13:04:36,634 root         DEBUG    writing archive v8.3.0b09-2-g2a2241b length 4
+2022-03-15 13:04:36,640 root         INFO     processed [4] rows
+2022-03-15 13:04:36,640 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:36,641 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:36,642 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:36,643 root         DEBUG    writing file csv[4]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:36,643 root         DEBUG    adding all modified files in summary
+2022-03-15 13:04:36,646 root         DEBUG    committing to summary
+2022-03-15 13:04:36,653 root         INFO     finished summary for B:develop M: cori [v8.3.0b09-2-g2a2241b]
+2022-03-15 13:04:36,653 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-15 13:04:36,653 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:36,690 root         DEBUG    matching logs: 4
+2022-03-15 13:04:36,690 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:36,697 root         DEBUG    matching summaries: 4
+2022-03-15 13:04:36,735 root         DEBUG    finished reading logs
+2022-03-15 13:04:36,760 root         DEBUG    checking out summary
+2022-03-15 13:04:36,760 root         DEBUG    writing archive v8.3.0b09 length 4
+2022-03-15 13:04:36,764 root         INFO     processed [4] rows
+2022-03-15 13:04:36,765 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:36,773 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:36,790 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:36,791 root         DEBUG    adding all modified files in summary
+2022-03-15 13:04:36,794 root         DEBUG    committing to summary
+2022-03-15 13:04:36,798 root         INFO     On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+2022-03-15 13:04:36,798 root         INFO     finished summary for B:develop M: cori [v8.3.0b09]
+2022-03-15 13:04:36,798 root         INFO     finished summaries for branch develop on machine cori
+2022-03-15 13:04:36,798 root         INFO     generating summaries for develop [discover]
+2022-03-15 13:04:36,798 root         DEBUG    checking out discover
+2022-03-15 13:04:38,872 root         DEBUG    pulling from discover
+2022-03-15 13:04:39,179 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
+2022-03-15 13:04:39,179 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:39,343 root         DEBUG    matching logs: 14
+2022-03-15 13:04:39,343 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:39,384 root         DEBUG    matching summaries: 14
+2022-03-15 13:04:39,544 root         DEBUG    finished reading logs
+2022-03-15 13:04:39,857 root         DEBUG    checking out summary
+2022-03-15 13:04:39,857 root         DEBUG    writing archive v8.3.0b09-2-g2a2241b length 14
+2022-03-15 13:04:39,875 root         INFO     processed [14] rows
+2022-03-15 13:04:39,875 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:39,878 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:39,886 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:39,893 root         DEBUG    writing file csv[14]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:39,894 root         DEBUG    adding all modified files in summary
+2022-03-15 13:04:39,903 root         DEBUG    committing to summary
+2022-03-15 13:04:39,923 root         INFO     finished summary for B:develop M: discover [v8.3.0b09-2-g2a2241b]
+2022-03-15 13:04:39,923 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-15 13:04:39,924 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:40,101 root         DEBUG    matching logs: 14
+2022-03-15 13:04:40,101 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:40,141 root         DEBUG    matching summaries: 14
+2022-03-15 13:04:40,296 root         DEBUG    finished reading logs
+2022-03-15 13:04:40,614 root         DEBUG    checking out summary
+2022-03-15 13:04:40,615 root         DEBUG    writing archive v8.3.0b09 length 14
+2022-03-15 13:04:40,619 root         INFO     processed [14] rows
+2022-03-15 13:04:40,620 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:40,626 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:40,654 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:40,655 root         DEBUG    adding all modified files in summary
+2022-03-15 13:04:40,660 root         DEBUG    committing to summary
+2022-03-15 13:04:40,664 root         INFO     On branch main
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+2022-03-15 13:04:40,664 root         INFO     finished summary for B:develop M: discover [v8.3.0b09]
+2022-03-15 13:04:40,665 root         INFO     finished summaries for branch develop on machine discover
+2022-03-15 13:04:40,665 root         INFO     generating summaries for develop [gaea]
+2022-03-15 13:04:40,665 root         DEBUG    checking out gaea
+2022-03-15 13:04:42,959 root         DEBUG    pulling from gaea
+2022-03-15 13:04:43,257 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
+2022-03-15 13:04:43,258 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:43,346 root         DEBUG    matching logs: 8
+2022-03-15 13:04:43,346 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:43,379 root         DEBUG    matching summaries: 8
+2022-03-15 13:04:43,458 root         DEBUG    finished reading logs
+2022-03-15 13:04:43,600 root         DEBUG    checking out summary
+2022-03-15 13:04:43,600 root         DEBUG    writing archive v8.3.0b09-2-g2a2241b length 8
+2022-03-15 13:04:43,616 root         INFO     processed [8] rows
+2022-03-15 13:04:43,616 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:43,616 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:43,618 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:43,620 root         DEBUG    writing file csv[8]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:43,620 root         DEBUG    adding all modified files in summary
+2022-03-15 13:04:43,624 root         DEBUG    committing to summary
+2022-03-15 13:04:43,633 root         INFO     finished summary for B:develop M: gaea [v8.3.0b09-2-g2a2241b]
+2022-03-15 13:04:43,633 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-15 13:04:43,633 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:43,728 root         DEBUG    matching logs: 8
+2022-03-15 13:04:43,728 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:43,753 root         DEBUG    matching summaries: 8
+2022-03-15 13:04:43,826 root         DEBUG    finished reading logs
+2022-03-15 13:04:43,964 root         DEBUG    checking out summary
+2022-03-15 13:04:43,964 root         DEBUG    writing archive v8.3.0b09 length 8
+2022-03-15 13:04:43,969 root         INFO     processed [8] rows
+2022-03-15 13:04:43,969 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:43,971 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:43,980 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:43,981 root         DEBUG    adding all modified files in summary
+2022-03-15 13:04:43,984 root         DEBUG    committing to summary
+2022-03-15 13:04:43,988 root         INFO     On branch main
+Your branch is ahead of 'origin/main' by 6 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+2022-03-15 13:04:43,988 root         INFO     finished summary for B:develop M: gaea [v8.3.0b09]
+2022-03-15 13:04:43,988 root         INFO     finished summaries for branch develop on machine gaea
+2022-03-15 13:04:43,988 root         INFO     generating summaries for develop [gaffney]
+2022-03-15 13:04:43,988 root         DEBUG    checking out gaffney
+2022-03-15 13:04:44,996 root         DEBUG    pulling from gaffney
+2022-03-15 13:04:45,325 root         INFO     finished summaries for branch develop on machine gaffney
+2022-03-15 13:04:45,325 root         INFO     generating summaries for develop [hera]
+2022-03-15 13:04:45,326 root         DEBUG    checking out hera
+2022-03-15 13:04:45,983 root         DEBUG    pulling from hera
+2022-03-15 13:04:46,569 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
+2022-03-15 13:04:46,569 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:46,685 root         DEBUG    matching logs: 12
+2022-03-15 13:04:46,686 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:46,708 root         DEBUG    matching summaries: 12
+2022-03-15 13:04:46,827 root         DEBUG    finished reading logs
+2022-03-15 13:04:46,874 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
+2022-03-15 13:04:46,874 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-03-15 13:04:46,875 root         ERROR    line being parsed: unit tests did not complete
+2022-03-15 13:04:46,875 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
+2022-03-15 13:04:46,875 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-03-15 13:04:46,875 root         ERROR    line being parsed: system tests did not complete
+2022-03-15 13:04:46,875 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
+2022-03-15 13:04:46,875 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-15 13:04:46,875 root         ERROR    line being parsed: No examples ran
+2022-03-15 13:04:46,900 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
+2022-03-15 13:04:46,901 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-03-15 13:04:46,901 root         ERROR    line being parsed: unit tests did not complete
+2022-03-15 13:04:46,901 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
+2022-03-15 13:04:46,901 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-03-15 13:04:46,901 root         ERROR    line being parsed: system tests did not complete
+2022-03-15 13:04:46,901 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
+2022-03-15 13:04:46,901 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-15 13:04:46,901 root         ERROR    line being parsed: No examples ran
+2022-03-15 13:04:46,927 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/g/mpiuni/none/summary.dat]
+2022-03-15 13:04:46,927 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-03-15 13:04:46,927 root         ERROR    line being parsed: unit tests did not complete
+2022-03-15 13:04:46,927 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/g/mpiuni/none/summary.dat]
+2022-03-15 13:04:46,927 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-03-15 13:04:46,928 root         ERROR    line being parsed: system tests did not complete
+2022-03-15 13:04:46,928 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/g/mpiuni/none/summary.dat]
+2022-03-15 13:04:46,928 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-15 13:04:46,928 root         ERROR    line being parsed: No examples ran
+2022-03-15 13:04:47,008 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/O/mpiuni/none/summary.dat]
+2022-03-15 13:04:47,008 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-03-15 13:04:47,008 root         ERROR    line being parsed: unit tests did not complete
+2022-03-15 13:04:47,009 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/O/mpiuni/none/summary.dat]
+2022-03-15 13:04:47,009 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-03-15 13:04:47,009 root         ERROR    line being parsed: system tests did not complete
+2022-03-15 13:04:47,009 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/O/mpiuni/none/summary.dat]
+2022-03-15 13:04:47,009 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-15 13:04:47,009 root         ERROR    line being parsed: No examples ran
+2022-03-15 13:04:47,146 root         DEBUG    checking out summary
+2022-03-15 13:04:47,146 root         DEBUG    writing archive v8.3.0b09-2-g2a2241b length 12
+2022-03-15 13:04:47,158 root         INFO     processed [12] rows
+2022-03-15 13:04:47,158 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:47,158 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:47,161 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:47,163 root         DEBUG    writing file csv[12]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:47,163 root         DEBUG    adding all modified files in summary
+2022-03-15 13:04:47,167 root         DEBUG    committing to summary
+2022-03-15 13:04:47,174 root         INFO     finished summary for B:develop M: hera [v8.3.0b09-2-g2a2241b]
+2022-03-15 13:04:47,174 root         DEBUG    generating summary for [v8.3.0b09-1-g1bcf580]
+2022-03-15 13:04:47,174 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:47,283 root         DEBUG    matching logs: 0
+2022-03-15 13:04:47,283 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:47,305 root         DEBUG    matching summaries: 0
+2022-03-15 13:04:47,475 root         DEBUG    finished reading logs
+2022-03-15 13:04:47,475 root         INFO     missing summary data for v8.3.0b09-1-g1bcf580, develop [hera]
+2022-03-15 13:04:47,475 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-15 13:04:47,475 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:47,593 root         DEBUG    matching logs: 12
+2022-03-15 13:04:47,593 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:47,616 root         DEBUG    matching summaries: 12
+2022-03-15 13:04:47,732 root         DEBUG    finished reading logs
+2022-03-15 13:04:47,780 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
+2022-03-15 13:04:47,781 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-03-15 13:04:47,781 root         ERROR    line being parsed: unit tests did not complete
+2022-03-15 13:04:47,781 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
+2022-03-15 13:04:47,781 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-03-15 13:04:47,781 root         ERROR    line being parsed: system tests did not complete
+2022-03-15 13:04:47,781 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat]
+2022-03-15 13:04:47,781 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-15 13:04:47,781 root         ERROR    line being parsed: No examples ran
+2022-03-15 13:04:47,806 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
+2022-03-15 13:04:47,806 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-03-15 13:04:47,806 root         ERROR    line being parsed: unit tests did not complete
+2022-03-15 13:04:47,806 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
+2022-03-15 13:04:47,806 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-03-15 13:04:47,806 root         ERROR    line being parsed: system tests did not complete
+2022-03-15 13:04:47,806 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat]
+2022-03-15 13:04:47,806 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-15 13:04:47,806 root         ERROR    line being parsed: No examples ran
+2022-03-15 13:04:47,832 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/g/mpiuni/none/summary.dat]
+2022-03-15 13:04:47,832 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-03-15 13:04:47,832 root         ERROR    line being parsed: unit tests did not complete
+2022-03-15 13:04:47,832 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/g/mpiuni/none/summary.dat]
+2022-03-15 13:04:47,832 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-03-15 13:04:47,832 root         ERROR    line being parsed: system tests did not complete
+2022-03-15 13:04:47,832 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/g/mpiuni/none/summary.dat]
+2022-03-15 13:04:47,832 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-15 13:04:47,832 root         ERROR    line being parsed: No examples ran
+2022-03-15 13:04:47,911 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/O/mpiuni/none/summary.dat]
+2022-03-15 13:04:47,911 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-03-15 13:04:47,911 root         ERROR    line being parsed: unit tests did not complete
+2022-03-15 13:04:47,911 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/O/mpiuni/none/summary.dat]
+2022-03-15 13:04:47,911 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-03-15 13:04:47,911 root         ERROR    line being parsed: system tests did not complete
+2022-03-15 13:04:47,912 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/hera/intel/18.0.4/O/mpiuni/none/summary.dat]
+2022-03-15 13:04:47,912 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-15 13:04:47,912 root         ERROR    line being parsed: No examples ran
+2022-03-15 13:04:48,041 root         DEBUG    checking out summary
+2022-03-15 13:04:48,041 root         DEBUG    writing archive v8.3.0b09 length 12
+2022-03-15 13:04:48,050 root         INFO     processed [12] rows
+2022-03-15 13:04:48,050 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:48,058 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:48,089 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:48,090 root         DEBUG    adding all modified files in summary
+2022-03-15 13:04:48,095 root         DEBUG    committing to summary
+2022-03-15 13:04:48,100 root         INFO     On branch main
+Your branch is ahead of 'origin/main' by 7 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+2022-03-15 13:04:48,100 root         INFO     finished summary for B:develop M: hera [v8.3.0b09]
+2022-03-15 13:04:48,100 root         INFO     finished summaries for branch develop on machine hera
+2022-03-15 13:04:48,100 root         INFO     generating summaries for develop [izumi]
+2022-03-15 13:04:48,101 root         DEBUG    checking out izumi
+2022-03-15 13:04:48,888 root         DEBUG    pulling from izumi
+2022-03-15 13:04:49,192 root         INFO     finished summaries for branch develop on machine izumi
+2022-03-15 13:04:49,192 root         INFO     generating summaries for develop [jet]
+2022-03-15 13:04:49,193 root         DEBUG    checking out jet
+2022-03-15 13:04:49,246 root         DEBUG    pulling from jet
+2022-03-15 13:04:49,529 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
+2022-03-15 13:04:49,529 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:49,560 root         DEBUG    matching logs: 2
+2022-03-15 13:04:49,560 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:49,566 root         DEBUG    matching summaries: 2
+2022-03-15 13:04:49,582 root         DEBUG    finished reading logs
+2022-03-15 13:04:49,597 root         DEBUG    checking out summary
+2022-03-15 13:04:49,597 root         DEBUG    writing archive v8.3.0b09-2-g2a2241b length 2
+2022-03-15 13:04:49,606 root         INFO     processed [2] rows
+2022-03-15 13:04:49,607 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:49,607 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:49,608 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:49,608 root         DEBUG    writing file csv[2]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:49,609 root         DEBUG    adding all modified files in summary
+2022-03-15 13:04:49,612 root         DEBUG    committing to summary
+2022-03-15 13:04:49,617 root         INFO     finished summary for B:develop M: jet [v8.3.0b09-2-g2a2241b]
+2022-03-15 13:04:49,618 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-15 13:04:49,618 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:49,634 root         DEBUG    matching logs: 2
+2022-03-15 13:04:49,634 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:49,639 root         DEBUG    matching summaries: 2
+2022-03-15 13:04:49,654 root         DEBUG    finished reading logs
+2022-03-15 13:04:49,669 root         DEBUG    checking out summary
+2022-03-15 13:04:49,669 root         DEBUG    writing archive v8.3.0b09 length 2
+2022-03-15 13:04:49,672 root         INFO     processed [2] rows
+2022-03-15 13:04:49,672 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:49,674 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:49,683 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:49,683 root         DEBUG    adding all modified files in summary
+2022-03-15 13:04:49,686 root         DEBUG    committing to summary
+2022-03-15 13:04:49,689 root         INFO     On branch main
+Your branch is ahead of 'origin/main' by 8 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+2022-03-15 13:04:49,690 root         INFO     finished summary for B:develop M: jet [v8.3.0b09]
+2022-03-15 13:04:49,690 root         INFO     finished summaries for branch develop on machine jet
+2022-03-15 13:04:49,690 root         INFO     generating summaries for develop [onyx]
+2022-03-15 13:04:49,690 root         DEBUG    checking out onyx
+2022-03-15 13:04:49,710 root         DEBUG    pulling from onyx
+2022-03-15 13:04:50,034 root         INFO     finished summaries for branch develop on machine onyx
+2022-03-15 13:04:50,035 root         INFO     generating summaries for develop [orion]
+2022-03-15 13:04:50,035 root         DEBUG    checking out orion
+2022-03-15 13:04:50,906 root         DEBUG    pulling from orion
+2022-03-15 13:04:51,231 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
+2022-03-15 13:04:51,232 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:51,322 root         DEBUG    matching logs: 6
+2022-03-15 13:04:51,322 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:51,339 root         DEBUG    matching summaries: 6
+2022-03-15 13:04:51,418 root         DEBUG    finished reading logs
+2022-03-15 13:04:51,455 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
+2022-03-15 13:04:51,455 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-03-15 13:04:51,455 root         ERROR    line being parsed: unit tests did not complete
+2022-03-15 13:04:51,455 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
+2022-03-15 13:04:51,455 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-03-15 13:04:51,455 root         ERROR    line being parsed: system tests did not complete
+2022-03-15 13:04:51,455 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
+2022-03-15 13:04:51,455 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-15 13:04:51,455 root         ERROR    line being parsed: No examples ran
+2022-03-15 13:04:51,494 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/O/intelmpi/2020.2/summary.dat]
+2022-03-15 13:04:51,494 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-03-15 13:04:51,494 root         ERROR    line being parsed: unit tests did not complete
+2022-03-15 13:04:51,495 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/O/intelmpi/2020.2/summary.dat]
+2022-03-15 13:04:51,495 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-03-15 13:04:51,495 root         ERROR    line being parsed: system tests did not complete
+2022-03-15 13:04:51,495 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/O/intelmpi/2020.2/summary.dat]
+2022-03-15 13:04:51,495 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-15 13:04:51,495 root         ERROR    line being parsed: No examples ran
+2022-03-15 13:04:51,515 root         DEBUG    checking out summary
+2022-03-15 13:04:51,515 root         DEBUG    writing archive v8.3.0b09-2-g2a2241b length 6
+2022-03-15 13:04:51,523 root         INFO     processed [6] rows
+2022-03-15 13:04:51,523 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:51,524 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:51,526 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:51,528 root         DEBUG    writing file csv[6]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-2-g2a2241b
+2022-03-15 13:04:51,529 root         DEBUG    adding all modified files in summary
+2022-03-15 13:04:51,532 root         DEBUG    committing to summary
+2022-03-15 13:04:51,539 root         INFO     finished summary for B:develop M: orion [v8.3.0b09-2-g2a2241b]
+2022-03-15 13:04:51,539 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-15 13:04:51,539 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-15 13:04:51,608 root         DEBUG    matching logs: 6
+2022-03-15 13:04:51,608 root         DEBUG    fetching matching summaries to extract test results
+2022-03-15 13:04:51,625 root         DEBUG    matching summaries: 6
+2022-03-15 13:04:51,689 root         DEBUG    finished reading logs
+2022-03-15 13:04:51,728 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
+2022-03-15 13:04:51,728 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-03-15 13:04:51,728 root         ERROR    line being parsed: unit tests did not complete
+2022-03-15 13:04:51,728 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
+2022-03-15 13:04:51,728 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-03-15 13:04:51,728 root         ERROR    line being parsed: system tests did not complete
+2022-03-15 13:04:51,728 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/g/intelmpi/2020.2/summary.dat]
+2022-03-15 13:04:51,729 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-15 13:04:51,729 root         ERROR    line being parsed: No examples ran
+2022-03-15 13:04:51,755 root         ERROR    found no numeric unit test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/O/intelmpi/2020.2/summary.dat]
+2022-03-15 13:04:51,755 root         ERROR    message: invalid literal for int() with base 10: 'unit'
+2022-03-15 13:04:51,756 root         ERROR    line being parsed: unit tests did not complete
+2022-03-15 13:04:51,756 root         ERROR    found no numeric system test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/O/intelmpi/2020.2/summary.dat]
+2022-03-15 13:04:51,756 root         ERROR    message: invalid literal for int() with base 10: 'system'
+2022-03-15 13:04:51,756 root         ERROR    line being parsed: system tests did not complete
+2022-03-15 13:04:51,756 root         ERROR    found no numeric example test results, setting to fail [/home/rlong/Sandbox/esmf-test-artifacts/develop/orion/intel/2020/O/intelmpi/2020.2/summary.dat]
+2022-03-15 13:04:51,756 root         ERROR    message: invalid literal for int() with base 10: 'No'
+2022-03-15 13:04:51,756 root         ERROR    line being parsed: No examples ran
+2022-03-15 13:04:51,770 root         DEBUG    checking out summary
+2022-03-15 13:04:51,770 root         DEBUG    writing archive v8.3.0b09 length 6
+2022-03-15 13:04:51,774 root         INFO     processed [6] rows
+2022-03-15 13:04:51,774 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:51,776 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:51,785 root         DEBUG    writing file csv[70]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-15 13:04:51,786 root         DEBUG    adding all modified files in summary
+2022-03-15 13:04:51,789 root         DEBUG    committing to summary
+2022-03-15 13:04:51,793 root         INFO     On branch main
+Your branch is ahead of 'origin/main' by 9 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+2022-03-15 13:04:51,793 root         INFO     finished summary for B:develop M: orion [v8.3.0b09]
+2022-03-15 13:04:51,793 root         INFO     finished summaries for branch develop on machine orion
+2022-03-15 13:04:51,793 root         DEBUG    pushing to summary

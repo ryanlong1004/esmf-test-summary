@@ -1,71 +1,62 @@
-2022-03-16 14:11:37,827 root         INFO     starting...
-2022-03-16 14:11:37,827 root         DEBUG    args are : Namespace(branches=['develop', 'jedwards/pio_update,', 'jedwards/pio_update2'], log='info', number=30, repo_path=PosixPath('/home/rlong/Sandbox/esmf-test-artifacts'))
-2022-03-16 14:11:37,830 root         DEBUG    pulling artifacts
-2022-03-16 14:11:38,145 root         DEBUG    cloning summaries
-2022-03-16 14:11:38,145 root         DEBUG    cloning git@github.com:ryanlong1004/esmf-test-summary.git into /tmp/esmf_branch_summary_space
-2022-03-16 14:11:39,445 root         DEBUG    pulling summaries
-2022-03-16 14:11:40,075 root         INFO     itterating over 3 branches in 1 machines over 30 most recent commits
-2022-03-16 14:11:40,075 root         INFO     generating summaries for develop [chianti]
-2022-03-16 14:11:40,076 root         DEBUG    checking out chianti
-2022-03-16 14:11:40,089 root         DEBUG    pulling from chianti
-2022-03-16 14:11:40,660 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
-2022-03-16 14:11:40,660 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
-2022-03-16 14:11:40,660 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-16 14:11:40,737 root         DEBUG    matching logs: 4
-2022-03-16 14:11:40,737 root         DEBUG    fetching matching summaries to extract test results
-2022-03-16 14:11:40,749 root         DEBUG    matching summaries: 4
-2022-03-16 14:11:40,790 root         DEBUG    finished reading logs
-2022-03-16 14:11:40,837 root         DEBUG    checking out summary
-2022-03-16 14:11:40,837 root         DEBUG    writing archive v8.3.0b09-3-ge20ebbf length 4
-2022-03-16 14:11:40,842 root         INFO     processed [4] rows
-2022-03-16 14:11:40,842 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-3-ge20ebbf
-2022-03-16 14:11:40,843 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-3-ge20ebbf
-2022-03-16 14:11:40,844 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-3-ge20ebbf
-2022-03-16 14:11:40,845 root         DEBUG    writing file csv[4]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-3-ge20ebbf
-2022-03-16 14:11:40,845 root         DEBUG    adding all modified files in summary
-2022-03-16 14:11:40,848 root         DEBUG    committing to summary
-2022-03-16 14:11:40,852 root         INFO     On branch main
-Your branch is up to date with 'origin/main'.
-
-nothing to commit, working tree clean
-
-2022-03-16 14:11:40,852 root         INFO     finished summary for B:develop M: chianti [v8.3.0b09-3-ge20ebbf]
-2022-03-16 14:11:40,852 root         INFO     processing hash [1: v8.3.0b09-2-g2a2241b]
-2022-03-16 14:11:40,852 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
-2022-03-16 14:11:40,852 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-16 14:11:40,909 root         DEBUG    matching logs: 0
-2022-03-16 14:11:40,909 root         DEBUG    fetching matching summaries to extract test results
-2022-03-16 14:11:40,920 root         DEBUG    matching summaries: 0
-2022-03-16 14:11:41,005 root         DEBUG    finished reading logs
-2022-03-16 14:11:41,005 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [chianti]
-2022-03-16 14:11:41,005 root         INFO     processing hash [2: v8.3.0b09]
-2022-03-16 14:11:41,005 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-16 14:11:41,005 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-16 14:11:41,066 root         DEBUG    matching logs: 4
-2022-03-16 14:11:41,066 root         DEBUG    fetching matching summaries to extract test results
-2022-03-16 14:11:41,077 root         DEBUG    matching summaries: 4
-2022-03-16 14:11:41,118 root         DEBUG    finished reading logs
-2022-03-16 14:11:41,163 root         DEBUG    checking out summary
-2022-03-16 14:11:41,163 root         DEBUG    writing archive v8.3.0b09 length 4
-2022-03-16 14:11:41,166 root         INFO     processed [4] rows
-2022-03-16 14:11:41,167 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-16 14:11:41,169 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-16 14:11:41,178 root         DEBUG    writing file csv[67]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
-2022-03-16 14:11:41,178 root         DEBUG    adding all modified files in summary
-2022-03-16 14:11:41,181 root         DEBUG    committing to summary
-2022-03-16 14:11:41,184 root         INFO     On branch main
-Your branch is up to date with 'origin/main'.
-
-nothing to commit, working tree clean
-
-2022-03-16 14:11:41,184 root         INFO     finished summary for B:develop M: chianti [v8.3.0b09]
-2022-03-16 14:11:41,185 root         INFO     finished summaries for branch develop on machine chianti
-2022-03-16 14:11:41,185 root         INFO     generating summaries for jedwards/pio_update, [chianti]
-2022-03-16 14:11:41,185 root         DEBUG    checking out chianti
-2022-03-16 14:11:41,193 root         DEBUG    pulling from chianti
-2022-03-16 14:11:41,514 root         INFO     finished summaries for branch jedwards/pio_update, on machine chianti
-2022-03-16 14:11:41,515 root         INFO     generating summaries for jedwards/pio_update2 [chianti]
-2022-03-16 14:11:41,516 root         DEBUG    checking out chianti
-2022-03-16 14:11:41,543 root         DEBUG    pulling from chianti
-2022-03-16 14:11:41,877 root         INFO     finished summaries for branch jedwards/pio_update2 on machine chianti
-2022-03-16 14:11:41,878 root         DEBUG    pushing to summary
+2022-03-16 14:12:18,438 root         INFO     starting...
+2022-03-16 14:12:18,438 root         DEBUG    args are : Namespace(branches=['develop', 'jedwards/pio_update,', 'jedwards/pio_update2'], log='info', number=30, repo_path=PosixPath('/home/rlong/Sandbox/esmf-test-artifacts'))
+2022-03-16 14:12:18,441 root         DEBUG    pulling artifacts
+2022-03-16 14:12:18,766 root         DEBUG    cloning summaries
+2022-03-16 14:12:18,766 root         DEBUG    cloning git@github.com:ryanlong1004/esmf-test-summary.git into /tmp/esmf_branch_summary_space
+2022-03-16 14:12:19,929 root         DEBUG    pulling summaries
+2022-03-16 14:12:20,627 root         INFO     itterating over 3 branches in 1 machines over 30 most recent commits
+2022-03-16 14:12:20,627 root         INFO     generating summaries for develop [chianti]
+2022-03-16 14:12:20,628 root         DEBUG    checking out chianti
+2022-03-16 14:12:20,661 root         DEBUG    pulling from chianti
+2022-03-16 14:12:21,058 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
+2022-03-16 14:12:21,058 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
+2022-03-16 14:12:21,058 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-16 14:12:21,125 root         DEBUG    matching logs: 4
+2022-03-16 14:12:21,125 root         DEBUG    fetching matching summaries to extract test results
+2022-03-16 14:12:21,137 root         DEBUG    matching summaries: 4
+2022-03-16 14:12:21,189 root         DEBUG    finished reading logs
+2022-03-16 14:12:21,236 root         DEBUG    checking out summary
+2022-03-16 14:12:21,236 root         DEBUG    creating directory /tmp/esmf_branch_summary_space/develop
+2022-03-16 14:12:21,236 root         DEBUG    writing archive v8.3.0b09-3-ge20ebbf length 4
+2022-03-16 14:12:21,240 root         INFO     processed [4] rows
+2022-03-16 14:12:21,240 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-3-ge20ebbf
+2022-03-16 14:12:21,241 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-3-ge20ebbf
+2022-03-16 14:12:21,242 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-3-ge20ebbf
+2022-03-16 14:12:21,243 root         DEBUG    writing file csv[4]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-3-ge20ebbf
+2022-03-16 14:12:21,243 root         DEBUG    adding all modified files in summary
+2022-03-16 14:12:21,246 root         DEBUG    committing to summary
+2022-03-16 14:12:21,251 root         INFO     finished summary for B:develop M: chianti [v8.3.0b09-3-ge20ebbf]
+2022-03-16 14:12:21,251 root         INFO     processing hash [1: v8.3.0b09-2-g2a2241b]
+2022-03-16 14:12:21,251 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
+2022-03-16 14:12:21,251 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-16 14:12:21,309 root         DEBUG    matching logs: 0
+2022-03-16 14:12:21,309 root         DEBUG    fetching matching summaries to extract test results
+2022-03-16 14:12:21,319 root         DEBUG    matching summaries: 0
+2022-03-16 14:12:21,405 root         DEBUG    finished reading logs
+2022-03-16 14:12:21,405 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [chianti]
+2022-03-16 14:12:21,405 root         INFO     processing hash [2: v8.3.0b09]
+2022-03-16 14:12:21,405 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-16 14:12:21,405 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-16 14:12:21,463 root         DEBUG    matching logs: 4
+2022-03-16 14:12:21,463 root         DEBUG    fetching matching summaries to extract test results
+2022-03-16 14:12:21,474 root         DEBUG    matching summaries: 4
+2022-03-16 14:12:21,515 root         DEBUG    finished reading logs
+2022-03-16 14:12:21,561 root         DEBUG    checking out summary
+2022-03-16 14:12:21,561 root         DEBUG    writing archive v8.3.0b09 length 4
+2022-03-16 14:12:21,565 root         INFO     processed [4] rows
+2022-03-16 14:12:21,565 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-16 14:12:21,567 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-16 14:12:21,576 root         DEBUG    writing file csv[67]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-16 14:12:21,576 root         DEBUG    adding all modified files in summary
+2022-03-16 14:12:21,579 root         DEBUG    committing to summary
+2022-03-16 14:12:21,584 root         INFO     finished summary for B:develop M: chianti [v8.3.0b09]
+2022-03-16 14:12:21,584 root         INFO     finished summaries for branch develop on machine chianti
+2022-03-16 14:12:21,584 root         INFO     generating summaries for jedwards/pio_update, [chianti]
+2022-03-16 14:12:21,585 root         DEBUG    checking out chianti
+2022-03-16 14:12:21,593 root         DEBUG    pulling from chianti
+2022-03-16 14:12:21,924 root         INFO     finished summaries for branch jedwards/pio_update, on machine chianti
+2022-03-16 14:12:21,925 root         INFO     generating summaries for jedwards/pio_update2 [chianti]
+2022-03-16 14:12:21,926 root         DEBUG    checking out chianti
+2022-03-16 14:12:21,955 root         DEBUG    pulling from chianti
+2022-03-16 14:12:22,313 root         INFO     finished summaries for branch jedwards/pio_update2 on machine chianti
+2022-03-16 14:12:22,313 root         DEBUG    pushing to summary

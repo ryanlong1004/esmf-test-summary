@@ -1,48 +1,71 @@
-2022-03-16 18:27:25,458 root         INFO     starting...
-2022-03-16 18:27:25,458 root         DEBUG    args are : Namespace(branches=['develop', 'jedwards/pio_update,', 'jedwards/pio_update2'], log='info', number=30, repo_path=PosixPath('/home/rlong/Sandbox/esmf-test-artifacts'))
-2022-03-16 18:27:25,461 root         DEBUG    pulling artifacts
-2022-03-16 18:27:25,754 root         DEBUG    cloning summaries
-2022-03-16 18:27:25,754 root         DEBUG    cloning git@github.com:ryanlong1004/esmf-test-summary.git into /tmp/esmf_branch_summary_space
-2022-03-16 18:27:26,841 root         DEBUG    pulling summaries
-2022-03-16 18:27:27,492 root         INFO     itterating over 3 branches in 1 machines over 30 most recent commits
-2022-03-16 18:27:27,493 root         INFO     generating summaries for develop [chianti]
-2022-03-16 18:27:27,493 root         DEBUG    checking out chianti
-2022-03-16 18:27:27,522 root         DEBUG    pulling from chianti
-2022-03-16 18:27:27,935 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
-2022-03-16 18:27:27,935 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
-2022-03-16 18:27:27,936 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-16 18:27:28,033 root         DEBUG    matching logs: 0
-2022-03-16 18:27:28,033 root         DEBUG    fetching matching summaries to extract test results
-2022-03-16 18:27:28,045 root         DEBUG    matching summaries: 0
-2022-03-16 18:27:28,159 root         ERROR    could not verify matches, grep returned 4 ...
-[['./develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/chianti/gfortran/9.3.0/g/openmpi/4.0.5-gcc-9.3.0/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/chianti/intel/2021.2/O/intelmpi/2021.2.0-gcc-9.3.0/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/chianti/intel/2021.2/g/intelmpi/2021.2.0-gcc-9.3.0/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf']]
-2022-03-16 18:27:28,159 root         DEBUG    finished reading logs
-2022-03-16 18:27:28,160 root         INFO     missing summary data for v8.3.0b09-3-ge20ebbf, develop [chianti]
-2022-03-16 18:27:28,160 root         INFO     processing hash [1: v8.3.0b09-2-g2a2241b]
-2022-03-16 18:27:28,160 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
-2022-03-16 18:27:28,160 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-16 18:27:28,223 root         DEBUG    matching logs: 0
-2022-03-16 18:27:28,223 root         DEBUG    fetching matching summaries to extract test results
-2022-03-16 18:27:28,236 root         DEBUG    matching summaries: 0
-2022-03-16 18:27:28,323 root         DEBUG    finished reading logs
-2022-03-16 18:27:28,323 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [chianti]
-2022-03-16 18:27:28,323 root         INFO     processing hash [2: v8.3.0b09]
-2022-03-16 18:27:28,323 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-16 18:27:28,323 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-16 18:27:28,387 root         DEBUG    matching logs: 0
-2022-03-16 18:27:28,387 root         DEBUG    fetching matching summaries to extract test results
-2022-03-16 18:27:28,398 root         DEBUG    matching summaries: 0
-2022-03-16 18:27:28,577 root         ERROR    could not verify matches, grep returned 12002 ...
-[['./develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/lib/esmf.mk:17:ESMF_VERSION_STRING_GIT=v8.3.0b09-3-ge20ebbf11d', "./develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/lib/esmf.mk:37:ESMF_F90COMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/home/mpotts/gfortran_9.3.0_openmpi_O_develop", "./develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/lib/esmf.mk:56:ESMF_CXXCOMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/home/mpotts/gfortran_9.3.0_openmpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11 -DESMF_NO_SIGUSR2", './develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/summary.dat:26:v8.3.0b09-3-ge20ebbf11d', "./develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/summary.dat:170:ESMF_F90COMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/home/mpotts/gfortran_9.3.0_openmpi_O_develop", "./develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/summary.dat:187:ESMF_CXXCOMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/home/mpotts/gfortran_9.3.0_openmpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11 -DESMF_NO_SIGUSR2", './develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/examples/ESMF_GridUsageEx.Log:8:20220316 015144.981 INFO             PET0 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d', './develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/examples/ESMF_GridUsageEx.Log:27:20220316 015144.981 INFO             PET1 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d', './develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/examples/ESMF_GridUsageEx.Log:46:20220316 015144.981 INFO             PET2 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d', './develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/examples/ESMF_GridUsageEx.Log:65:20220316 015144.981 INFO             PET3 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d']]
-2022-03-16 18:27:28,578 root         DEBUG    finished reading logs
-2022-03-16 18:27:28,578 root         INFO     missing summary data for v8.3.0b09, develop [chianti]
-2022-03-16 18:27:28,578 root         INFO     finished summaries for branch develop on machine chianti
-2022-03-16 18:27:28,578 root         INFO     generating summaries for jedwards/pio_update, [chianti]
-2022-03-16 18:27:28,578 root         DEBUG    checking out chianti
-2022-03-16 18:27:28,587 root         DEBUG    pulling from chianti
-2022-03-16 18:27:28,902 root         INFO     finished summaries for branch jedwards/pio_update, on machine chianti
-2022-03-16 18:27:28,902 root         INFO     generating summaries for jedwards/pio_update2 [chianti]
-2022-03-16 18:27:28,903 root         DEBUG    checking out chianti
-2022-03-16 18:27:28,917 root         DEBUG    pulling from chianti
-2022-03-16 18:27:29,242 root         INFO     finished summaries for branch jedwards/pio_update2 on machine chianti
-2022-03-16 18:27:29,242 root         DEBUG    pushing to summary
+2022-03-16 18:28:31,844 root         INFO     starting...
+2022-03-16 18:28:31,844 root         DEBUG    args are : Namespace(branches=['develop', 'jedwards/pio_update,', 'jedwards/pio_update2'], log='info', number=30, repo_path=PosixPath('/home/rlong/Sandbox/esmf-test-artifacts'))
+2022-03-16 18:28:31,846 root         DEBUG    pulling artifacts
+2022-03-16 18:28:32,132 root         DEBUG    cloning summaries
+2022-03-16 18:28:32,132 root         DEBUG    cloning git@github.com:ryanlong1004/esmf-test-summary.git into /tmp/esmf_branch_summary_space
+2022-03-16 18:28:33,392 root         DEBUG    pulling summaries
+2022-03-16 18:28:34,016 root         INFO     itterating over 3 branches in 1 machines over 30 most recent commits
+2022-03-16 18:28:34,017 root         INFO     generating summaries for develop [chianti]
+2022-03-16 18:28:34,018 root         DEBUG    checking out chianti
+2022-03-16 18:28:34,050 root         DEBUG    pulling from chianti
+2022-03-16 18:28:34,420 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
+2022-03-16 18:28:34,420 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
+2022-03-16 18:28:34,421 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-16 18:28:34,504 root         DEBUG    matching logs: 4
+2022-03-16 18:28:34,504 root         DEBUG    fetching matching summaries to extract test results
+2022-03-16 18:28:34,516 root         DEBUG    matching summaries: 4
+2022-03-16 18:28:34,557 root         DEBUG    finished reading logs
+2022-03-16 18:28:34,605 root         DEBUG    checking out summary
+2022-03-16 18:28:34,605 root         DEBUG    writing archive v8.3.0b09-3-ge20ebbf length 4
+2022-03-16 18:28:34,611 root         INFO     processed [4] rows
+2022-03-16 18:28:34,611 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09-3-ge20ebbf
+2022-03-16 18:28:34,613 root         DEBUG    writing file -latest: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-3-ge20ebbf
+2022-03-16 18:28:34,618 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-3-ge20ebbf
+2022-03-16 18:28:34,622 root         DEBUG    writing file csv[4]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09-3-ge20ebbf
+2022-03-16 18:28:34,622 root         DEBUG    adding all modified files in summary
+2022-03-16 18:28:34,634 root         DEBUG    committing to summary
+2022-03-16 18:28:34,645 root         INFO     On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+2022-03-16 18:28:34,645 root         INFO     finished summary for B:develop M: chianti [v8.3.0b09-3-ge20ebbf]
+2022-03-16 18:28:34,646 root         INFO     processing hash [1: v8.3.0b09-2-g2a2241b]
+2022-03-16 18:28:34,646 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
+2022-03-16 18:28:34,646 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-16 18:28:34,724 root         DEBUG    matching logs: 0
+2022-03-16 18:28:34,724 root         DEBUG    fetching matching summaries to extract test results
+2022-03-16 18:28:34,739 root         DEBUG    matching summaries: 0
+2022-03-16 18:28:34,825 root         DEBUG    finished reading logs
+2022-03-16 18:28:34,825 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [chianti]
+2022-03-16 18:28:34,825 root         INFO     processing hash [2: v8.3.0b09]
+2022-03-16 18:28:34,825 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-16 18:28:34,825 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-16 18:28:34,887 root         DEBUG    matching logs: 4
+2022-03-16 18:28:34,887 root         DEBUG    fetching matching summaries to extract test results
+2022-03-16 18:28:34,899 root         DEBUG    matching summaries: 4
+2022-03-16 18:28:34,940 root         DEBUG    finished reading logs
+2022-03-16 18:28:34,990 root         DEBUG    checking out summary
+2022-03-16 18:28:34,990 root         DEBUG    writing archive v8.3.0b09 length 4
+2022-03-16 18:28:34,993 root         INFO     processed [4] rows
+2022-03-16 18:28:34,993 root         DEBUG    writing files /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-16 18:28:34,993 root         DEBUG    writing file md: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-16 18:28:34,995 root         DEBUG    writing file csv[4]: /tmp/esmf_branch_summary_space/develop/v8.3.0b09
+2022-03-16 18:28:34,995 root         DEBUG    adding all modified files in summary
+2022-03-16 18:28:34,998 root         DEBUG    committing to summary
+2022-03-16 18:28:35,002 root         INFO     On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+2022-03-16 18:28:35,002 root         INFO     finished summary for B:develop M: chianti [v8.3.0b09]
+2022-03-16 18:28:35,002 root         INFO     finished summaries for branch develop on machine chianti
+2022-03-16 18:28:35,002 root         INFO     generating summaries for jedwards/pio_update, [chianti]
+2022-03-16 18:28:35,003 root         DEBUG    checking out chianti
+2022-03-16 18:28:35,013 root         DEBUG    pulling from chianti
+2022-03-16 18:28:35,324 root         INFO     finished summaries for branch jedwards/pio_update, on machine chianti
+2022-03-16 18:28:35,325 root         INFO     generating summaries for jedwards/pio_update2 [chianti]
+2022-03-16 18:28:35,326 root         DEBUG    checking out chianti
+2022-03-16 18:28:35,358 root         DEBUG    pulling from chianti
+2022-03-16 18:28:35,706 root         INFO     finished summaries for branch jedwards/pio_update2 on machine chianti
+2022-03-16 18:28:35,706 root         DEBUG    pushing to summary

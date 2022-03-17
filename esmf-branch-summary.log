@@ -1,740 +1,740 @@
-2022-03-17 14:55:56,853 root         INFO     starting...
-2022-03-17 14:55:56,853 root         DEBUG    args are : Namespace(branches=['develop', 'jedwards/pio_update,', 'jedwards/pio_update2'], log='info', number=30, repo_path=PosixPath('/home/rlong/Sandbox/esmf-test-artifacts'))
-2022-03-17 14:55:56,858 root         DEBUG    pulling artifacts
-2022-03-17 14:55:57,253 root         DEBUG    cloning summaries
-2022-03-17 14:55:57,254 root         DEBUG    cloning git@github.com:ryanlong1004/esmf-test-summary.git into /tmp/esmf_branch_summary_space
-2022-03-17 14:55:58,399 root         DEBUG    pulling summaries
-2022-03-17 14:55:59,096 root         INFO     itterating over 3 branches in 12 machines over 30 most recent commits
-2022-03-17 14:55:59,096 root         INFO     generating summaries for develop [acorn]
-2022-03-17 14:55:59,097 root         DEBUG    checking out acorn
-2022-03-17 14:56:00,010 root         DEBUG    pulling from acorn
-2022-03-17 14:56:00,361 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
-2022-03-17 14:56:00,362 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
-2022-03-17 14:56:00,362 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:00,477 root         DEBUG    matching logs: 0
-2022-03-17 14:56:00,477 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:00,492 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:00,673 root         ERROR    could not verify matches, grep returned 18 ...
+2022-03-17 14:57:36,043 root         INFO     starting...
+2022-03-17 14:57:36,044 root         DEBUG    args are : Namespace(branches=['develop', 'jedwards/pio_update,', 'jedwards/pio_update2'], log='info', number=30, repo_path=PosixPath('/home/rlong/Sandbox/esmf-test-artifacts'))
+2022-03-17 14:57:36,046 root         DEBUG    pulling artifacts
+2022-03-17 14:57:36,385 root         DEBUG    cloning summaries
+2022-03-17 14:57:36,386 root         DEBUG    cloning git@github.com:ryanlong1004/esmf-test-summary.git into /tmp/esmf_branch_summary_space
+2022-03-17 14:57:37,553 root         DEBUG    pulling summaries
+2022-03-17 14:57:38,226 root         INFO     itterating over 3 branches in 12 machines over 30 most recent commits
+2022-03-17 14:57:38,226 root         INFO     generating summaries for develop [acorn]
+2022-03-17 14:57:38,227 root         DEBUG    checking out acorn
+2022-03-17 14:57:39,389 root         DEBUG    pulling from acorn
+2022-03-17 14:57:39,678 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
+2022-03-17 14:57:39,678 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
+2022-03-17 14:57:39,678 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:39,797 root         DEBUG    matching logs: 0
+2022-03-17 14:57:39,798 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:39,820 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:40,011 root         ERROR    could not verify matches, grep returned 18 ...
 [['./develop/acorn/gfortran/10.3.0/O/mpi/8.1.7/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/acorn/gfortran/10.3.0/g/mpi/8.1.7/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/acorn/intel/2019.3/O/mpi/8.1.7/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/acorn/intel/2019.3/g/mpi/8.1.7/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/acorn/intel/19.1.3/O/mpi/8.1.7/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/acorn/intel/19.1.3/g/mpi/8.1.7/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './output.txt:1323:v8.3.0b09-3-ge20ebbf', './output.txt:1333:v8.3.0b09-3-ge20ebbf', './output.txt:1343:v8.3.0b09-3-ge20ebbf', './output.txt:1353:v8.3.0b09-3-ge20ebbf', './output.txt:1363:v8.3.0b09-3-ge20ebbf']]
-2022-03-17 14:56:00,673 root         DEBUG    finished reading logs
-2022-03-17 14:56:00,674 root         INFO     missing summary data for v8.3.0b09-3-ge20ebbf, develop [acorn]
-2022-03-17 14:56:00,674 root         INFO     processing hash [1: v8.3.0b09-1-g1bcf580]
-2022-03-17 14:56:00,674 root         DEBUG    generating summary for [v8.3.0b09-1-g1bcf580]
-2022-03-17 14:56:00,674 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:00,769 root         DEBUG    matching logs: 0
-2022-03-17 14:56:00,769 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:00,784 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:00,948 root         DEBUG    finished reading logs
-2022-03-17 14:56:00,948 root         INFO     missing summary data for v8.3.0b09-1-g1bcf580, develop [acorn]
-2022-03-17 14:56:00,948 root         INFO     processing hash [2: v8.3.0b09]
-2022-03-17 14:56:00,948 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-17 14:56:00,948 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:01,044 root         DEBUG    matching logs: 0
-2022-03-17 14:56:01,044 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:01,059 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:01,481 root         ERROR    could not verify matches, grep returned 23661 ...
+2022-03-17 14:57:40,012 root         DEBUG    finished reading logs
+2022-03-17 14:57:40,012 root         INFO     missing summary data for v8.3.0b09-3-ge20ebbf, develop [acorn]
+2022-03-17 14:57:40,012 root         INFO     processing hash [1: v8.3.0b09-1-g1bcf580]
+2022-03-17 14:57:40,012 root         DEBUG    generating summary for [v8.3.0b09-1-g1bcf580]
+2022-03-17 14:57:40,012 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:40,106 root         DEBUG    matching logs: 0
+2022-03-17 14:57:40,106 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:40,121 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:40,282 root         DEBUG    finished reading logs
+2022-03-17 14:57:40,282 root         INFO     missing summary data for v8.3.0b09-1-g1bcf580, develop [acorn]
+2022-03-17 14:57:40,282 root         INFO     processing hash [2: v8.3.0b09]
+2022-03-17 14:57:40,282 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-17 14:57:40,282 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:40,375 root         DEBUG    matching logs: 0
+2022-03-17 14:57:40,375 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:40,391 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:40,787 root         ERROR    could not verify matches, grep returned 23661 ...
 [['./develop/acorn/gfortran/10.3.0/O/mpi/8.1.7/lib/esmf.mk:17:ESMF_VERSION_STRING_GIT=v8.3.0b09-3-ge20ebbf11d', "./develop/acorn/gfortran/10.3.0/O/mpi/8.1.7/lib/esmf.mk:37:ESMF_F90COMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DS64=1 -DESMF_OS_Unicos=1 -DESMF_COMM=mpi -DESMF_DIR=/lfs/h1/emc/ptmp/Mark.Potts/gfortran_10.3.0_mpi_O_develop", "./develop/acorn/gfortran/10.3.0/O/mpi/8.1.7/lib/esmf.mk:56:ESMF_CXXCOMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DS64=1 -DESMF_OS_Unicos=1 -DESMF_COMM=mpi -DESMF_DIR=/lfs/h1/emc/ptmp/Mark.Potts/gfortran_10.3.0_mpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11 -DESMF_NO_POSIXIPC", './develop/acorn/gfortran/10.3.0/O/mpi/8.1.7/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/acorn/gfortran/10.3.0/O/mpi/8.1.7/summary.dat:30:v8.3.0b09-3-ge20ebbf11d', "./develop/acorn/gfortran/10.3.0/O/mpi/8.1.7/summary.dat:187:ESMF_F90COMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DS64=1 -DESMF_OS_Unicos=1 -DESMF_COMM=mpi -DESMF_DIR=/lfs/h1/emc/ptmp/Mark.Potts/gfortran_10.3.0_mpi_O_develop", "./develop/acorn/gfortran/10.3.0/O/mpi/8.1.7/summary.dat:204:ESMF_CXXCOMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DS64=1 -DESMF_OS_Unicos=1 -DESMF_COMM=mpi -DESMF_DIR=/lfs/h1/emc/ptmp/Mark.Potts/gfortran_10.3.0_mpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11 -DESMF_NO_POSIXIPC", './develop/acorn/gfortran/10.3.0/O/mpi/8.1.7/out/test.log:5:v8.3.0b09-3-ge20ebbf11d', "./develop/acorn/gfortran/10.3.0/O/mpi/8.1.7/out/test.log:162:ESMF_F90COMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DS64=1 -DESMF_OS_Unicos=1 -DESMF_COMM=mpi -DESMF_DIR=/lfs/h1/emc/ptmp/Mark.Potts/gfortran_10.3.0_mpi_O_develop", "./develop/acorn/gfortran/10.3.0/O/mpi/8.1.7/out/test.log:179:ESMF_CXXCOMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DS64=1 -DESMF_OS_Unicos=1 -DESMF_COMM=mpi -DESMF_DIR=/lfs/h1/emc/ptmp/Mark.Potts/gfortran_10.3.0_mpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11 -DESMF_NO_POSIXIPC", './develop/acorn/gfortran/10.3.0/O/mpi/8.1.7/out/test.log:222:CC -c -std=c++11 -O -DNDEBUG -fPIC -DESMF_LOWERCASE_SINGLEUNDERSCORE -pthread  -fopenmp -I/lfs/h1/emc/ptmp/Mark.Potts/gfortran_10.3.0_mpi_O_develop/src/prologue/tests -I/lfs/h1/emc/ptmp/Mark.Potts/gfortran_10.3.0_mpi_O_develop/src/prologue/tests/../include -I/lfs/h1/emc/ptmp/Mark.Potts/gfortran_10.3.0_mpi_O_develop/build_config/Unicos.gfortran.default -I/lfs/h1/emc/ptmp/Mark.Potts/gfortran_10.3.0_mpi_O_develop/src/Infrastructure -I/lfs/h1/emc/ptmp/Mark.Potts/gfortran_10.3.0_mpi_O_develop/src/Superstructure -I/lfs/h1/emc/ptmp/Mark.Potts/gfortran_10.3.0_mpi_O_develop/src/Infrastructure/stubs/pthread  -I/lfs/h1/emc/ptmp/Mark.Potts/gfortran_10.3.0_mpi_O_develop/src/include  -I/apps/prod/netcdf-hdf5parallel/4.7.4/gcc/10.2.0/cray-mpich/8.1.4/include -I/lfs/h1/emc/ptmp/Mark.Potts/gfortran_10.3.0_mpi_O_develop/src/prologue/yaml-cpp/include -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT=\'"v8.3.0b09-3-ge20ebbf11d"\' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DS64=1 -DESMF_OS_Unicos=1 -DESMF_COMM=mpi -DESMF_DIR=/lfs/h1/emc/ptmp/Mark.Potts/gfortran_10.3.0_mpi_O_develop -D__SDIR__=\'"src/prologue/tests"\' -DESMF_CXXSTD=11 -DESMF_NO_POSIXIPC ESMCI_StringSubr.C -o ESMCI_StringSubr.o']]
-2022-03-17 14:56:01,484 root         DEBUG    finished reading logs
-2022-03-17 14:56:01,484 root         INFO     missing summary data for v8.3.0b09, develop [acorn]
-2022-03-17 14:56:01,484 root         INFO     finished summaries for branch develop on machine acorn
-2022-03-17 14:56:01,484 root         INFO     generating summaries for jedwards/pio_update, [acorn]
-2022-03-17 14:56:01,484 root         DEBUG    checking out acorn
-2022-03-17 14:56:02,180 root         DEBUG    pulling from acorn
-2022-03-17 14:56:02,526 root         INFO     finished summaries for branch jedwards/pio_update, on machine acorn
-2022-03-17 14:56:02,526 root         INFO     generating summaries for jedwards/pio_update2 [acorn]
-2022-03-17 14:56:02,526 root         DEBUG    checking out acorn
-2022-03-17 14:56:02,539 root         DEBUG    pulling from acorn
-2022-03-17 14:56:02,895 root         INFO     processing hash [0: v8.3.0b09-100-g5ff85a9]
-2022-03-17 14:56:02,896 root         DEBUG    generating summary for [v8.3.0b09-100-g5ff85a9]
-2022-03-17 14:56:02,896 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:03,002 root         DEBUG    matching logs: 0
-2022-03-17 14:56:03,002 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:03,018 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:03,221 root         ERROR    could not verify matches, grep returned 18 ...
+2022-03-17 14:57:40,790 root         DEBUG    finished reading logs
+2022-03-17 14:57:40,790 root         INFO     missing summary data for v8.3.0b09, develop [acorn]
+2022-03-17 14:57:40,790 root         INFO     finished summaries for branch develop on machine acorn
+2022-03-17 14:57:40,790 root         INFO     generating summaries for jedwards/pio_update, [acorn]
+2022-03-17 14:57:40,790 root         DEBUG    checking out acorn
+2022-03-17 14:57:41,202 root         DEBUG    pulling from acorn
+2022-03-17 14:57:41,487 root         INFO     finished summaries for branch jedwards/pio_update, on machine acorn
+2022-03-17 14:57:41,487 root         INFO     generating summaries for jedwards/pio_update2 [acorn]
+2022-03-17 14:57:41,488 root         DEBUG    checking out acorn
+2022-03-17 14:57:41,517 root         DEBUG    pulling from acorn
+2022-03-17 14:57:41,875 root         INFO     processing hash [0: v8.3.0b09-100-g5ff85a9]
+2022-03-17 14:57:41,875 root         DEBUG    generating summary for [v8.3.0b09-100-g5ff85a9]
+2022-03-17 14:57:41,875 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:41,989 root         DEBUG    matching logs: 0
+2022-03-17 14:57:41,989 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:42,005 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:42,206 root         ERROR    could not verify matches, grep returned 18 ...
 [['./output.txt:1383:v8.3.0b09-100-g5ff85a9', './output.txt:1393:v8.3.0b09-100-g5ff85a9', './output.txt:1403:v8.3.0b09-100-g5ff85a9', './output.txt:1413:v8.3.0b09-100-g5ff85a9', './output.txt:1423:v8.3.0b09-100-g5ff85a9', './output.txt:1433:v8.3.0b09-100-g5ff85a9', './summary_output.txt:65:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:75:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:85:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:95:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:105:git hash = v8.3.0b09-100-g5ff85a9']]
-2022-03-17 14:56:03,221 root         DEBUG    finished reading logs
-2022-03-17 14:56:03,221 root         INFO     missing summary data for v8.3.0b09-100-g5ff85a9, jedwards/pio_update2 [acorn]
-2022-03-17 14:56:03,221 root         INFO     processing hash [1: v8.3.0b09-96-g559b459]
-2022-03-17 14:56:03,221 root         DEBUG    generating summary for [v8.3.0b09-96-g559b459]
-2022-03-17 14:56:03,221 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:03,312 root         DEBUG    matching logs: 0
-2022-03-17 14:56:03,312 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:03,328 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:03,480 root         DEBUG    finished reading logs
-2022-03-17 14:56:03,480 root         INFO     missing summary data for v8.3.0b09-96-g559b459, jedwards/pio_update2 [acorn]
-2022-03-17 14:56:03,480 root         INFO     processing hash [2: v8.3.0b08-93-g7b74714]
-2022-03-17 14:56:03,480 root         DEBUG    generating summary for [v8.3.0b08-93-g7b74714]
-2022-03-17 14:56:03,480 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:03,572 root         DEBUG    matching logs: 0
-2022-03-17 14:56:03,572 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:03,588 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:03,748 root         DEBUG    finished reading logs
-2022-03-17 14:56:03,748 root         INFO     missing summary data for v8.3.0b08-93-g7b74714, jedwards/pio_update2 [acorn]
-2022-03-17 14:56:03,748 root         INFO     processing hash [3: v8.3.0b08-90-g763a128]
-2022-03-17 14:56:03,748 root         DEBUG    generating summary for [v8.3.0b08-90-g763a128]
-2022-03-17 14:56:03,748 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:03,837 root         DEBUG    matching logs: 0
-2022-03-17 14:56:03,837 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:03,853 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:03,997 root         DEBUG    finished reading logs
-2022-03-17 14:56:03,997 root         INFO     missing summary data for v8.3.0b08-90-g763a128, jedwards/pio_update2 [acorn]
-2022-03-17 14:56:03,997 root         INFO     finished summaries for branch jedwards/pio_update2 on machine acorn
-2022-03-17 14:56:03,997 root         INFO     generating summaries for develop [cheyenne]
-2022-03-17 14:56:03,997 root         DEBUG    checking out cheyenne
-2022-03-17 14:56:06,934 root         DEBUG    pulling from cheyenne
-2022-03-17 14:56:07,280 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
-2022-03-17 14:56:07,280 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
-2022-03-17 14:56:07,281 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:07,469 root         DEBUG    matching logs: 0
-2022-03-17 14:56:07,469 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:07,512 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:08,078 root         ERROR    could not verify matches, grep returned 25 ...
+2022-03-17 14:57:42,206 root         DEBUG    finished reading logs
+2022-03-17 14:57:42,206 root         INFO     missing summary data for v8.3.0b09-100-g5ff85a9, jedwards/pio_update2 [acorn]
+2022-03-17 14:57:42,206 root         INFO     processing hash [1: v8.3.0b09-96-g559b459]
+2022-03-17 14:57:42,206 root         DEBUG    generating summary for [v8.3.0b09-96-g559b459]
+2022-03-17 14:57:42,206 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:42,293 root         DEBUG    matching logs: 0
+2022-03-17 14:57:42,293 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:42,309 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:42,461 root         DEBUG    finished reading logs
+2022-03-17 14:57:42,461 root         INFO     missing summary data for v8.3.0b09-96-g559b459, jedwards/pio_update2 [acorn]
+2022-03-17 14:57:42,461 root         INFO     processing hash [2: v8.3.0b08-93-g7b74714]
+2022-03-17 14:57:42,461 root         DEBUG    generating summary for [v8.3.0b08-93-g7b74714]
+2022-03-17 14:57:42,462 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:42,558 root         DEBUG    matching logs: 0
+2022-03-17 14:57:42,558 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:42,579 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:42,735 root         DEBUG    finished reading logs
+2022-03-17 14:57:42,736 root         INFO     missing summary data for v8.3.0b08-93-g7b74714, jedwards/pio_update2 [acorn]
+2022-03-17 14:57:42,736 root         INFO     processing hash [3: v8.3.0b08-90-g763a128]
+2022-03-17 14:57:42,736 root         DEBUG    generating summary for [v8.3.0b08-90-g763a128]
+2022-03-17 14:57:42,736 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:42,823 root         DEBUG    matching logs: 0
+2022-03-17 14:57:42,823 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:42,838 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:42,980 root         DEBUG    finished reading logs
+2022-03-17 14:57:42,981 root         INFO     missing summary data for v8.3.0b08-90-g763a128, jedwards/pio_update2 [acorn]
+2022-03-17 14:57:42,981 root         INFO     finished summaries for branch jedwards/pio_update2 on machine acorn
+2022-03-17 14:57:42,981 root         INFO     generating summaries for develop [cheyenne]
+2022-03-17 14:57:42,981 root         DEBUG    checking out cheyenne
+2022-03-17 14:57:45,879 root         DEBUG    pulling from cheyenne
+2022-03-17 14:57:46,197 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
+2022-03-17 14:57:46,198 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
+2022-03-17 14:57:46,198 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:46,353 root         DEBUG    matching logs: 0
+2022-03-17 14:57:46,353 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:46,396 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:46,948 root         ERROR    could not verify matches, grep returned 25 ...
 [['./develop/cheyenne/gfortran/10.1.0/O/openmpi/4.0.5/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/cheyenne/gfortran/10.1.0/O/mpt/2.23/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/cheyenne/gfortran/7.4.0/O/openmpi/4.0.3/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/cheyenne/gfortran/9.1.0/O/openmpi/4.0.5/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/cheyenne/gfortran/9.1.0/O/mpt/2.22/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/cheyenne/intel/18.0.5/O/openmpi/3.1.4/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/cheyenne/intel/18.0.5/O/mpt/2.19/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/cheyenne/intel/18.0.5/O/intelmpi/2018.4.274/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/cheyenne/intel/18.0.5/O/mpiuni/none/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/cheyenne/intel/18.0.5/g/openmpi/3.1.4/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/cheyenne/intel/18.0.5/g/mpt/2.19/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf']]
-2022-03-17 14:56:08,078 root         DEBUG    finished reading logs
-2022-03-17 14:56:08,079 root         INFO     missing summary data for v8.3.0b09-3-ge20ebbf, develop [cheyenne]
-2022-03-17 14:56:08,079 root         INFO     processing hash [1: v8.3.0b09-2-g2a2241b]
-2022-03-17 14:56:08,079 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
-2022-03-17 14:56:08,079 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:08,224 root         DEBUG    matching logs: 0
-2022-03-17 14:56:08,224 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:08,267 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:08,742 root         DEBUG    finished reading logs
-2022-03-17 14:56:08,742 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [cheyenne]
-2022-03-17 14:56:08,742 root         INFO     processing hash [2: v8.3.0b09]
-2022-03-17 14:56:08,742 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-17 14:56:08,743 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:08,882 root         DEBUG    matching logs: 0
-2022-03-17 14:56:08,882 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:08,924 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:09,860 root         ERROR    could not verify matches, grep returned 73868 ...
+2022-03-17 14:57:46,949 root         DEBUG    finished reading logs
+2022-03-17 14:57:46,949 root         INFO     missing summary data for v8.3.0b09-3-ge20ebbf, develop [cheyenne]
+2022-03-17 14:57:46,949 root         INFO     processing hash [1: v8.3.0b09-2-g2a2241b]
+2022-03-17 14:57:46,949 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
+2022-03-17 14:57:46,949 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:47,093 root         DEBUG    matching logs: 0
+2022-03-17 14:57:47,093 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:47,136 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:47,610 root         DEBUG    finished reading logs
+2022-03-17 14:57:47,610 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [cheyenne]
+2022-03-17 14:57:47,612 root         INFO     processing hash [2: v8.3.0b09]
+2022-03-17 14:57:47,612 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-17 14:57:47,612 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:47,750 root         DEBUG    matching logs: 0
+2022-03-17 14:57:47,750 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:47,793 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:48,764 root         ERROR    could not verify matches, grep returned 73868 ...
 [['./develop/cheyenne/gfortran/10.1.0/O/openmpi/4.0.5/lib/esmf.mk:17:ESMF_VERSION_STRING_GIT=v8.3.0b09-3-ge20ebbf11d', "./develop/cheyenne/gfortran/10.1.0/O/openmpi/4.0.5/lib/esmf.mk:37:ESMF_F90COMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/glade/scratch/rlong/esmf-testing/gfortran_10.1.0_openmpi_O_develop", "./develop/cheyenne/gfortran/10.1.0/O/openmpi/4.0.5/lib/esmf.mk:56:ESMF_CXXCOMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/glade/scratch/rlong/esmf-testing/gfortran_10.1.0_openmpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11 -DESMF_NO_SIGUSR2", './develop/cheyenne/gfortran/10.1.0/O/openmpi/4.0.5/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/cheyenne/gfortran/10.1.0/O/openmpi/4.0.5/summary.dat:25:v8.3.0b09-3-ge20ebbf11d', "./develop/cheyenne/gfortran/10.1.0/O/openmpi/4.0.5/summary.dat:175:ESMF_F90COMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/glade/scratch/rlong/esmf-testing/gfortran_10.1.0_openmpi_O_develop", "./develop/cheyenne/gfortran/10.1.0/O/openmpi/4.0.5/summary.dat:192:ESMF_CXXCOMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/glade/scratch/rlong/esmf-testing/gfortran_10.1.0_openmpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11 -DESMF_NO_SIGUSR2", './develop/cheyenne/gfortran/10.1.0/O/openmpi/4.0.5/examples/ESMF_GridUsageEx.Log:8:20220317 063412.501 INFO             PET0 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d', './develop/cheyenne/gfortran/10.1.0/O/openmpi/4.0.5/examples/ESMF_GridUsageEx.Log:27:20220317 063412.502 INFO             PET1 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d', './develop/cheyenne/gfortran/10.1.0/O/openmpi/4.0.5/examples/ESMF_GridUsageEx.Log:46:20220317 063412.501 INFO             PET2 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d', './develop/cheyenne/gfortran/10.1.0/O/openmpi/4.0.5/examples/ESMF_GridUsageEx.Log:65:20220317 063412.501 INFO             PET3 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d']]
-2022-03-17 14:56:09,863 root         DEBUG    finished reading logs
-2022-03-17 14:56:09,864 root         INFO     missing summary data for v8.3.0b09, develop [cheyenne]
-2022-03-17 14:56:09,864 root         INFO     finished summaries for branch develop on machine cheyenne
-2022-03-17 14:56:09,864 root         INFO     generating summaries for jedwards/pio_update, [cheyenne]
-2022-03-17 14:56:09,864 root         DEBUG    checking out cheyenne
-2022-03-17 14:56:10,714 root         DEBUG    pulling from cheyenne
-2022-03-17 14:56:11,048 root         INFO     finished summaries for branch jedwards/pio_update, on machine cheyenne
-2022-03-17 14:56:11,049 root         INFO     generating summaries for jedwards/pio_update2 [cheyenne]
-2022-03-17 14:56:11,049 root         DEBUG    checking out cheyenne
-2022-03-17 14:56:11,090 root         DEBUG    pulling from cheyenne
-2022-03-17 14:56:11,431 root         INFO     processing hash [0: v8.3.0b09-100-g5ff85a9]
-2022-03-17 14:56:11,431 root         DEBUG    generating summary for [v8.3.0b09-100-g5ff85a9]
-2022-03-17 14:56:11,432 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:11,597 root         DEBUG    matching logs: 0
-2022-03-17 14:56:11,597 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:11,642 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:12,194 root         ERROR    could not verify matches, grep returned 25 ...
+2022-03-17 14:57:48,768 root         DEBUG    finished reading logs
+2022-03-17 14:57:48,768 root         INFO     missing summary data for v8.3.0b09, develop [cheyenne]
+2022-03-17 14:57:48,768 root         INFO     finished summaries for branch develop on machine cheyenne
+2022-03-17 14:57:48,768 root         INFO     generating summaries for jedwards/pio_update, [cheyenne]
+2022-03-17 14:57:48,768 root         DEBUG    checking out cheyenne
+2022-03-17 14:57:49,567 root         DEBUG    pulling from cheyenne
+2022-03-17 14:57:49,901 root         INFO     finished summaries for branch jedwards/pio_update, on machine cheyenne
+2022-03-17 14:57:49,901 root         INFO     generating summaries for jedwards/pio_update2 [cheyenne]
+2022-03-17 14:57:49,901 root         DEBUG    checking out cheyenne
+2022-03-17 14:57:49,941 root         DEBUG    pulling from cheyenne
+2022-03-17 14:57:50,298 root         INFO     processing hash [0: v8.3.0b09-100-g5ff85a9]
+2022-03-17 14:57:50,298 root         DEBUG    generating summary for [v8.3.0b09-100-g5ff85a9]
+2022-03-17 14:57:50,298 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:50,457 root         DEBUG    matching logs: 0
+2022-03-17 14:57:50,457 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:50,502 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:51,073 root         ERROR    could not verify matches, grep returned 25 ...
 [['./output.txt:1383:v8.3.0b09-100-g5ff85a9', './output.txt:1393:v8.3.0b09-100-g5ff85a9', './output.txt:1403:v8.3.0b09-100-g5ff85a9', './output.txt:1413:v8.3.0b09-100-g5ff85a9', './output.txt:1423:v8.3.0b09-100-g5ff85a9', './output.txt:1433:v8.3.0b09-100-g5ff85a9', './summary_output.txt:65:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:75:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:85:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:95:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:105:git hash = v8.3.0b09-100-g5ff85a9']]
-2022-03-17 14:56:12,195 root         DEBUG    finished reading logs
-2022-03-17 14:56:12,195 root         INFO     missing summary data for v8.3.0b09-100-g5ff85a9, jedwards/pio_update2 [cheyenne]
-2022-03-17 14:56:12,195 root         INFO     processing hash [1: v8.3.0b09-96-g559b459]
-2022-03-17 14:56:12,195 root         DEBUG    generating summary for [v8.3.0b09-96-g559b459]
-2022-03-17 14:56:12,195 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:12,337 root         DEBUG    matching logs: 0
-2022-03-17 14:56:12,337 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:12,382 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:12,879 root         DEBUG    finished reading logs
-2022-03-17 14:56:12,879 root         INFO     missing summary data for v8.3.0b09-96-g559b459, jedwards/pio_update2 [cheyenne]
-2022-03-17 14:56:12,879 root         INFO     processing hash [2: v8.3.0b09-94-gba2d53f]
-2022-03-17 14:56:12,879 root         DEBUG    generating summary for [v8.3.0b09-94-gba2d53f]
-2022-03-17 14:56:12,879 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:13,022 root         DEBUG    matching logs: 0
-2022-03-17 14:56:13,022 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:13,067 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:13,515 root         DEBUG    finished reading logs
-2022-03-17 14:56:13,515 root         INFO     missing summary data for v8.3.0b09-94-gba2d53f, jedwards/pio_update2 [cheyenne]
-2022-03-17 14:56:13,515 root         INFO     processing hash [3: v8.3.0b09-93-ga567ee5]
-2022-03-17 14:56:13,515 root         DEBUG    generating summary for [v8.3.0b09-93-ga567ee5]
-2022-03-17 14:56:13,515 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:13,688 root         DEBUG    matching logs: 0
-2022-03-17 14:56:13,688 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:13,734 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:14,207 root         DEBUG    finished reading logs
-2022-03-17 14:56:14,207 root         INFO     missing summary data for v8.3.0b09-93-ga567ee5, jedwards/pio_update2 [cheyenne]
-2022-03-17 14:56:14,208 root         INFO     processing hash [4: v8.3.0b08-93-g7b74714]
-2022-03-17 14:56:14,208 root         DEBUG    generating summary for [v8.3.0b08-93-g7b74714]
-2022-03-17 14:56:14,208 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:14,346 root         DEBUG    matching logs: 0
-2022-03-17 14:56:14,346 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:14,390 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:14,875 root         DEBUG    finished reading logs
-2022-03-17 14:56:14,875 root         INFO     missing summary data for v8.3.0b08-93-g7b74714, jedwards/pio_update2 [cheyenne]
-2022-03-17 14:56:14,875 root         INFO     finished summaries for branch jedwards/pio_update2 on machine cheyenne
-2022-03-17 14:56:14,875 root         INFO     generating summaries for develop [chianti]
-2022-03-17 14:56:14,876 root         DEBUG    checking out chianti
-2022-03-17 14:56:15,867 root         DEBUG    pulling from chianti
-2022-03-17 14:56:16,195 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
-2022-03-17 14:56:16,195 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
-2022-03-17 14:56:16,196 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:16,256 root         DEBUG    matching logs: 0
-2022-03-17 14:56:16,256 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:16,267 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:16,398 root         ERROR    could not verify matches, grep returned 16 ...
+2022-03-17 14:57:51,073 root         DEBUG    finished reading logs
+2022-03-17 14:57:51,073 root         INFO     missing summary data for v8.3.0b09-100-g5ff85a9, jedwards/pio_update2 [cheyenne]
+2022-03-17 14:57:51,073 root         INFO     processing hash [1: v8.3.0b09-96-g559b459]
+2022-03-17 14:57:51,073 root         DEBUG    generating summary for [v8.3.0b09-96-g559b459]
+2022-03-17 14:57:51,073 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:51,215 root         DEBUG    matching logs: 0
+2022-03-17 14:57:51,215 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:51,259 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:51,738 root         DEBUG    finished reading logs
+2022-03-17 14:57:51,739 root         INFO     missing summary data for v8.3.0b09-96-g559b459, jedwards/pio_update2 [cheyenne]
+2022-03-17 14:57:51,739 root         INFO     processing hash [2: v8.3.0b09-94-gba2d53f]
+2022-03-17 14:57:51,739 root         DEBUG    generating summary for [v8.3.0b09-94-gba2d53f]
+2022-03-17 14:57:51,739 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:51,879 root         DEBUG    matching logs: 0
+2022-03-17 14:57:51,879 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:51,923 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:52,371 root         DEBUG    finished reading logs
+2022-03-17 14:57:52,371 root         INFO     missing summary data for v8.3.0b09-94-gba2d53f, jedwards/pio_update2 [cheyenne]
+2022-03-17 14:57:52,371 root         INFO     processing hash [3: v8.3.0b09-93-ga567ee5]
+2022-03-17 14:57:52,371 root         DEBUG    generating summary for [v8.3.0b09-93-ga567ee5]
+2022-03-17 14:57:52,371 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:52,511 root         DEBUG    matching logs: 0
+2022-03-17 14:57:52,511 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:52,554 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:53,023 root         DEBUG    finished reading logs
+2022-03-17 14:57:53,024 root         INFO     missing summary data for v8.3.0b09-93-ga567ee5, jedwards/pio_update2 [cheyenne]
+2022-03-17 14:57:53,024 root         INFO     processing hash [4: v8.3.0b08-93-g7b74714]
+2022-03-17 14:57:53,024 root         DEBUG    generating summary for [v8.3.0b08-93-g7b74714]
+2022-03-17 14:57:53,024 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:53,164 root         DEBUG    matching logs: 0
+2022-03-17 14:57:53,164 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:53,207 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:53,701 root         DEBUG    finished reading logs
+2022-03-17 14:57:53,701 root         INFO     missing summary data for v8.3.0b08-93-g7b74714, jedwards/pio_update2 [cheyenne]
+2022-03-17 14:57:53,701 root         INFO     finished summaries for branch jedwards/pio_update2 on machine cheyenne
+2022-03-17 14:57:53,702 root         INFO     generating summaries for develop [chianti]
+2022-03-17 14:57:53,702 root         DEBUG    checking out chianti
+2022-03-17 14:57:54,691 root         DEBUG    pulling from chianti
+2022-03-17 14:57:54,987 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
+2022-03-17 14:57:54,987 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
+2022-03-17 14:57:54,987 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:55,050 root         DEBUG    matching logs: 0
+2022-03-17 14:57:55,050 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:55,062 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:55,179 root         ERROR    could not verify matches, grep returned 16 ...
 [['./develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/chianti/gfortran/9.3.0/g/openmpi/4.0.5-gcc-9.3.0/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/chianti/intel/2021.2/O/intelmpi/2021.2.0-gcc-9.3.0/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/chianti/intel/2021.2/g/intelmpi/2021.2.0-gcc-9.3.0/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './output.txt:1323:v8.3.0b09-3-ge20ebbf', './output.txt:1333:v8.3.0b09-3-ge20ebbf', './output.txt:1343:v8.3.0b09-3-ge20ebbf', './output.txt:1353:v8.3.0b09-3-ge20ebbf', './output.txt:1363:v8.3.0b09-3-ge20ebbf', './output.txt:1373:v8.3.0b09-3-ge20ebbf', './summary_output.txt:5:git hash = v8.3.0b09-3-ge20ebbf']]
-2022-03-17 14:56:16,398 root         DEBUG    finished reading logs
-2022-03-17 14:56:16,398 root         INFO     missing summary data for v8.3.0b09-3-ge20ebbf, develop [chianti]
-2022-03-17 14:56:16,398 root         INFO     processing hash [1: v8.3.0b09-2-g2a2241b]
-2022-03-17 14:56:16,398 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
-2022-03-17 14:56:16,399 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:16,461 root         DEBUG    matching logs: 0
-2022-03-17 14:56:16,462 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:16,473 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:16,563 root         DEBUG    finished reading logs
-2022-03-17 14:56:16,564 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [chianti]
-2022-03-17 14:56:16,564 root         INFO     processing hash [2: v8.3.0b09]
-2022-03-17 14:56:16,564 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-17 14:56:16,564 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:16,618 root         DEBUG    matching logs: 0
-2022-03-17 14:56:16,618 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:16,629 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:16,802 root         ERROR    could not verify matches, grep returned 12285 ...
+2022-03-17 14:57:55,179 root         DEBUG    finished reading logs
+2022-03-17 14:57:55,179 root         INFO     missing summary data for v8.3.0b09-3-ge20ebbf, develop [chianti]
+2022-03-17 14:57:55,179 root         INFO     processing hash [1: v8.3.0b09-2-g2a2241b]
+2022-03-17 14:57:55,179 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
+2022-03-17 14:57:55,179 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:55,232 root         DEBUG    matching logs: 0
+2022-03-17 14:57:55,232 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:55,243 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:55,331 root         DEBUG    finished reading logs
+2022-03-17 14:57:55,331 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [chianti]
+2022-03-17 14:57:55,331 root         INFO     processing hash [2: v8.3.0b09]
+2022-03-17 14:57:55,331 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-17 14:57:55,331 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:55,386 root         DEBUG    matching logs: 0
+2022-03-17 14:57:55,386 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:55,397 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:55,573 root         ERROR    could not verify matches, grep returned 12285 ...
 [['./develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/lib/esmf.mk:17:ESMF_VERSION_STRING_GIT=v8.3.0b09-3-ge20ebbf11d', "./develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/lib/esmf.mk:37:ESMF_F90COMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/home/mpotts/gfortran_9.3.0_openmpi_O_develop", "./develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/lib/esmf.mk:56:ESMF_CXXCOMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/home/mpotts/gfortran_9.3.0_openmpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11 -DESMF_NO_SIGUSR2", './develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/summary.dat:26:v8.3.0b09-3-ge20ebbf11d', "./develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/summary.dat:170:ESMF_F90COMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/home/mpotts/gfortran_9.3.0_openmpi_O_develop", "./develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/summary.dat:187:ESMF_CXXCOMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/home/mpotts/gfortran_9.3.0_openmpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11 -DESMF_NO_SIGUSR2", './develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/examples/ESMF_GridUsageEx.Log:8:20220317 015133.883 INFO             PET0 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d', './develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/examples/ESMF_GridUsageEx.Log:27:20220317 015133.883 INFO             PET1 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d', './develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/examples/ESMF_GridUsageEx.Log:46:20220317 015133.883 INFO             PET2 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d', './develop/chianti/gfortran/9.3.0/O/openmpi/4.0.5-gcc-9.3.0/examples/ESMF_GridUsageEx.Log:65:20220317 015133.883 INFO             PET3 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d']]
-2022-03-17 14:56:16,803 root         DEBUG    finished reading logs
-2022-03-17 14:56:16,803 root         INFO     missing summary data for v8.3.0b09, develop [chianti]
-2022-03-17 14:56:16,803 root         INFO     finished summaries for branch develop on machine chianti
-2022-03-17 14:56:16,803 root         INFO     generating summaries for jedwards/pio_update, [chianti]
-2022-03-17 14:56:16,803 root         DEBUG    checking out chianti
-2022-03-17 14:56:17,203 root         DEBUG    pulling from chianti
-2022-03-17 14:56:17,535 root         INFO     finished summaries for branch jedwards/pio_update, on machine chianti
-2022-03-17 14:56:17,535 root         INFO     generating summaries for jedwards/pio_update2 [chianti]
-2022-03-17 14:56:17,535 root         DEBUG    checking out chianti
-2022-03-17 14:56:17,549 root         DEBUG    pulling from chianti
-2022-03-17 14:56:17,913 root         INFO     finished summaries for branch jedwards/pio_update2 on machine chianti
-2022-03-17 14:56:17,913 root         INFO     generating summaries for develop [cori]
-2022-03-17 14:56:17,914 root         DEBUG    checking out cori
-2022-03-17 14:56:18,800 root         DEBUG    pulling from cori
-2022-03-17 14:56:19,119 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
-2022-03-17 14:56:19,119 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
-2022-03-17 14:56:19,119 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:19,200 root         DEBUG    matching logs: 0
-2022-03-17 14:56:19,200 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:19,220 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:19,371 root         ERROR    could not verify matches, grep returned 16 ...
+2022-03-17 14:57:55,574 root         DEBUG    finished reading logs
+2022-03-17 14:57:55,574 root         INFO     missing summary data for v8.3.0b09, develop [chianti]
+2022-03-17 14:57:55,574 root         INFO     finished summaries for branch develop on machine chianti
+2022-03-17 14:57:55,574 root         INFO     generating summaries for jedwards/pio_update, [chianti]
+2022-03-17 14:57:55,574 root         DEBUG    checking out chianti
+2022-03-17 14:57:55,972 root         DEBUG    pulling from chianti
+2022-03-17 14:57:56,278 root         INFO     finished summaries for branch jedwards/pio_update, on machine chianti
+2022-03-17 14:57:56,278 root         INFO     generating summaries for jedwards/pio_update2 [chianti]
+2022-03-17 14:57:56,278 root         DEBUG    checking out chianti
+2022-03-17 14:57:56,292 root         DEBUG    pulling from chianti
+2022-03-17 14:57:56,632 root         INFO     finished summaries for branch jedwards/pio_update2 on machine chianti
+2022-03-17 14:57:56,632 root         INFO     generating summaries for develop [cori]
+2022-03-17 14:57:56,633 root         DEBUG    checking out cori
+2022-03-17 14:57:57,487 root         DEBUG    pulling from cori
+2022-03-17 14:57:57,821 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
+2022-03-17 14:57:57,822 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
+2022-03-17 14:57:57,822 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:57,885 root         DEBUG    matching logs: 0
+2022-03-17 14:57:57,885 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:57,900 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:58,045 root         ERROR    could not verify matches, grep returned 16 ...
 [['./develop/cori/intel/19.0.3/O/mpi/7.7.10/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/cori/intel/19.0.3/O/mpiuni/none/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/cori/intel/19.0.3/g/mpi/7.7.10/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/cori/intel/19.0.3/g/mpiuni/none/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './output.txt:1323:v8.3.0b09-3-ge20ebbf', './output.txt:1333:v8.3.0b09-3-ge20ebbf', './output.txt:1343:v8.3.0b09-3-ge20ebbf', './output.txt:1353:v8.3.0b09-3-ge20ebbf', './output.txt:1363:v8.3.0b09-3-ge20ebbf', './output.txt:1373:v8.3.0b09-3-ge20ebbf', './summary_output.txt:5:git hash = v8.3.0b09-3-ge20ebbf']]
-2022-03-17 14:56:19,371 root         DEBUG    finished reading logs
-2022-03-17 14:56:19,371 root         INFO     missing summary data for v8.3.0b09-3-ge20ebbf, develop [cori]
-2022-03-17 14:56:19,371 root         INFO     processing hash [1: v8.3.0b09-2-g2a2241b]
-2022-03-17 14:56:19,371 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
-2022-03-17 14:56:19,371 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:19,428 root         DEBUG    matching logs: 0
-2022-03-17 14:56:19,428 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:19,444 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:19,562 root         DEBUG    finished reading logs
-2022-03-17 14:56:19,562 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [cori]
-2022-03-17 14:56:19,562 root         INFO     processing hash [2: v8.3.0b09]
-2022-03-17 14:56:19,562 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-17 14:56:19,562 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:19,618 root         DEBUG    matching logs: 0
-2022-03-17 14:56:19,618 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:19,634 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:19,899 root         ERROR    could not verify matches, grep returned 19495 ...
+2022-03-17 14:57:58,045 root         DEBUG    finished reading logs
+2022-03-17 14:57:58,045 root         INFO     missing summary data for v8.3.0b09-3-ge20ebbf, develop [cori]
+2022-03-17 14:57:58,045 root         INFO     processing hash [1: v8.3.0b09-2-g2a2241b]
+2022-03-17 14:57:58,045 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
+2022-03-17 14:57:58,045 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:58,099 root         DEBUG    matching logs: 0
+2022-03-17 14:57:58,099 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:58,115 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:58,233 root         DEBUG    finished reading logs
+2022-03-17 14:57:58,233 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [cori]
+2022-03-17 14:57:58,233 root         INFO     processing hash [2: v8.3.0b09]
+2022-03-17 14:57:58,233 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-17 14:57:58,233 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:58,287 root         DEBUG    matching logs: 0
+2022-03-17 14:57:58,287 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:58,302 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:58,564 root         ERROR    could not verify matches, grep returned 19495 ...
 [["./develop/values.txt:2:['v8.3.0b09']", './develop/values.txt:3:v8.3.0b09-3-ge20ebbf11d', './develop/cori/intel/19.0.3/O/mpi/7.7.10/lib/esmf.mk:17:ESMF_VERSION_STRING_GIT=v8.3.0b09-3-ge20ebbf11d', "./develop/cori/intel/19.0.3/O/mpi/7.7.10/lib/esmf.mk:37:ESMF_F90COMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DS64=1 -DESMF_OS_Unicos=1 -DESMF_COMM=mpi -DESMF_DIR=/global/cscratch1/sd/rsdunlap/esmf-testing/intel_19.0.3_mpi_O_develop", "./develop/cori/intel/19.0.3/O/mpi/7.7.10/lib/esmf.mk:56:ESMF_CXXCOMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DS64=1 -DESMF_OS_Unicos=1 -DESMF_COMM=mpi -DESMF_DIR=/global/cscratch1/sd/rsdunlap/esmf-testing/intel_19.0.3_mpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11 -DESMF_NO_POSIXIPC", './develop/cori/intel/19.0.3/O/mpi/7.7.10/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/cori/intel/19.0.3/O/mpi/7.7.10/summary.dat:43:v8.3.0b09-3-ge20ebbf11d', "./develop/cori/intel/19.0.3/O/mpi/7.7.10/summary.dat:188:ESMF_F90COMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DS64=1 -DESMF_OS_Unicos=1 -DESMF_COMM=mpi -DESMF_DIR=/global/cscratch1/sd/rsdunlap/esmf-testing/intel_19.0.3_mpi_O_develop", "./develop/cori/intel/19.0.3/O/mpi/7.7.10/summary.dat:205:ESMF_CXXCOMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DS64=1 -DESMF_OS_Unicos=1 -DESMF_COMM=mpi -DESMF_DIR=/global/cscratch1/sd/rsdunlap/esmf-testing/intel_19.0.3_mpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11 -DESMF_NO_POSIXIPC", './develop/cori/intel/19.0.3/O/mpi/7.7.10/examples/ESMF_GridUsageEx.Log:8:20220317 034547.677 INFO             PET0 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d', './develop/cori/intel/19.0.3/O/mpi/7.7.10/examples/ESMF_GridUsageEx.Log:27:20220317 034547.677 INFO             PET1 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d']]
-2022-03-17 14:56:19,901 root         DEBUG    finished reading logs
-2022-03-17 14:56:19,901 root         INFO     missing summary data for v8.3.0b09, develop [cori]
-2022-03-17 14:56:19,901 root         INFO     finished summaries for branch develop on machine cori
-2022-03-17 14:56:19,901 root         INFO     generating summaries for jedwards/pio_update, [cori]
-2022-03-17 14:56:19,902 root         DEBUG    checking out cori
-2022-03-17 14:56:20,397 root         DEBUG    pulling from cori
-2022-03-17 14:56:20,725 root         INFO     finished summaries for branch jedwards/pio_update, on machine cori
-2022-03-17 14:56:20,726 root         INFO     generating summaries for jedwards/pio_update2 [cori]
-2022-03-17 14:56:20,726 root         DEBUG    checking out cori
-2022-03-17 14:56:20,745 root         DEBUG    pulling from cori
-2022-03-17 14:56:21,047 root         INFO     processing hash [0: v8.3.0b09-100-g5ff85a9]
-2022-03-17 14:56:21,047 root         DEBUG    generating summary for [v8.3.0b09-100-g5ff85a9]
-2022-03-17 14:56:21,047 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:21,117 root         DEBUG    matching logs: 0
-2022-03-17 14:56:21,117 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:21,133 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:21,270 root         ERROR    could not verify matches, grep returned 16 ...
+2022-03-17 14:57:58,566 root         DEBUG    finished reading logs
+2022-03-17 14:57:58,566 root         INFO     missing summary data for v8.3.0b09, develop [cori]
+2022-03-17 14:57:58,566 root         INFO     finished summaries for branch develop on machine cori
+2022-03-17 14:57:58,566 root         INFO     generating summaries for jedwards/pio_update, [cori]
+2022-03-17 14:57:58,567 root         DEBUG    checking out cori
+2022-03-17 14:57:58,932 root         DEBUG    pulling from cori
+2022-03-17 14:57:59,267 root         INFO     finished summaries for branch jedwards/pio_update, on machine cori
+2022-03-17 14:57:59,268 root         INFO     generating summaries for jedwards/pio_update2 [cori]
+2022-03-17 14:57:59,269 root         DEBUG    checking out cori
+2022-03-17 14:57:59,310 root         DEBUG    pulling from cori
+2022-03-17 14:57:59,637 root         INFO     processing hash [0: v8.3.0b09-100-g5ff85a9]
+2022-03-17 14:57:59,638 root         DEBUG    generating summary for [v8.3.0b09-100-g5ff85a9]
+2022-03-17 14:57:59,638 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:59,716 root         DEBUG    matching logs: 0
+2022-03-17 14:57:59,717 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:59,732 root         DEBUG    matching summaries: 0
+2022-03-17 14:57:59,872 root         ERROR    could not verify matches, grep returned 16 ...
 [['./output.txt:1383:v8.3.0b09-100-g5ff85a9', './output.txt:1393:v8.3.0b09-100-g5ff85a9', './output.txt:1403:v8.3.0b09-100-g5ff85a9', './output.txt:1413:v8.3.0b09-100-g5ff85a9', './output.txt:1423:v8.3.0b09-100-g5ff85a9', './output.txt:1433:v8.3.0b09-100-g5ff85a9', './summary_output.txt:65:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:75:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:85:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:95:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:105:git hash = v8.3.0b09-100-g5ff85a9']]
-2022-03-17 14:56:21,270 root         DEBUG    finished reading logs
-2022-03-17 14:56:21,270 root         INFO     missing summary data for v8.3.0b09-100-g5ff85a9, jedwards/pio_update2 [cori]
-2022-03-17 14:56:21,271 root         INFO     processing hash [1: v8.3.0b09-94-gba2d53f]
-2022-03-17 14:56:21,271 root         DEBUG    generating summary for [v8.3.0b09-94-gba2d53f]
-2022-03-17 14:56:21,271 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:21,324 root         DEBUG    matching logs: 0
-2022-03-17 14:56:21,325 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:21,340 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:21,451 root         DEBUG    finished reading logs
-2022-03-17 14:56:21,451 root         INFO     missing summary data for v8.3.0b09-94-gba2d53f, jedwards/pio_update2 [cori]
-2022-03-17 14:56:21,451 root         INFO     processing hash [2: v8.3.0b08-94-gc0ddbab]
-2022-03-17 14:56:21,451 root         DEBUG    generating summary for [v8.3.0b08-94-gc0ddbab]
-2022-03-17 14:56:21,451 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:21,508 root         DEBUG    matching logs: 0
-2022-03-17 14:56:21,508 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:21,524 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:21,637 root         DEBUG    finished reading logs
-2022-03-17 14:56:21,637 root         INFO     missing summary data for v8.3.0b08-94-gc0ddbab, jedwards/pio_update2 [cori]
-2022-03-17 14:56:21,637 root         INFO     finished summaries for branch jedwards/pio_update2 on machine cori
-2022-03-17 14:56:21,637 root         INFO     generating summaries for develop [discover]
-2022-03-17 14:56:21,637 root         DEBUG    checking out discover
-2022-03-17 14:56:24,691 root         DEBUG    pulling from discover
-2022-03-17 14:56:25,294 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
-2022-03-17 14:56:25,294 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
-2022-03-17 14:56:25,294 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:25,537 root         DEBUG    matching logs: 0
-2022-03-17 14:56:25,537 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:25,590 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:26,282 root         ERROR    could not verify matches, grep returned 26 ...
+2022-03-17 14:57:59,872 root         DEBUG    finished reading logs
+2022-03-17 14:57:59,872 root         INFO     missing summary data for v8.3.0b09-100-g5ff85a9, jedwards/pio_update2 [cori]
+2022-03-17 14:57:59,872 root         INFO     processing hash [1: v8.3.0b09-94-gba2d53f]
+2022-03-17 14:57:59,872 root         DEBUG    generating summary for [v8.3.0b09-94-gba2d53f]
+2022-03-17 14:57:59,872 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:57:59,925 root         DEBUG    matching logs: 0
+2022-03-17 14:57:59,925 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:57:59,940 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:00,049 root         DEBUG    finished reading logs
+2022-03-17 14:58:00,050 root         INFO     missing summary data for v8.3.0b09-94-gba2d53f, jedwards/pio_update2 [cori]
+2022-03-17 14:58:00,050 root         INFO     processing hash [2: v8.3.0b08-94-gc0ddbab]
+2022-03-17 14:58:00,050 root         DEBUG    generating summary for [v8.3.0b08-94-gc0ddbab]
+2022-03-17 14:58:00,050 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:00,105 root         DEBUG    matching logs: 0
+2022-03-17 14:58:00,106 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:00,121 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:00,234 root         DEBUG    finished reading logs
+2022-03-17 14:58:00,234 root         INFO     missing summary data for v8.3.0b08-94-gc0ddbab, jedwards/pio_update2 [cori]
+2022-03-17 14:58:00,234 root         INFO     finished summaries for branch jedwards/pio_update2 on machine cori
+2022-03-17 14:58:00,234 root         INFO     generating summaries for develop [discover]
+2022-03-17 14:58:00,234 root         DEBUG    checking out discover
+2022-03-17 14:58:03,293 root         DEBUG    pulling from discover
+2022-03-17 14:58:03,621 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
+2022-03-17 14:58:03,621 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
+2022-03-17 14:58:03,621 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:03,866 root         DEBUG    matching logs: 0
+2022-03-17 14:58:03,866 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:03,919 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:04,605 root         ERROR    could not verify matches, grep returned 26 ...
 [['./develop/discover/gfortran/10.1.0/O/intelmpi/19.1.3.304/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/discover/gfortran/10.1.0/g/intelmpi/19.1.3.304/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/discover/gfortran/8.3.0/O/mpt/2.17/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/discover/gfortran/8.3.0/O/intelmpi/19.1.3.304/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/discover/gfortran/8.3.0/O/mpiuni/none/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/discover/gfortran/8.3.0/g/mpt/2.17/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/discover/gfortran/8.3.0/g/intelmpi/19.1.3.304/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/discover/gfortran/8.3.0/g/mpiuni/none/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/discover/pgi/2020/O/mpiuni/none/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/discover/pgi/2020/g/mpiuni/none/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/discover/intel/19.1.3/O/mpt/2.17/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf']]
-2022-03-17 14:56:26,282 root         DEBUG    finished reading logs
-2022-03-17 14:56:26,282 root         INFO     missing summary data for v8.3.0b09-3-ge20ebbf, develop [discover]
-2022-03-17 14:56:26,282 root         INFO     processing hash [1: v8.3.0b09-2-g2a2241b]
-2022-03-17 14:56:26,282 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
-2022-03-17 14:56:26,282 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:26,539 root         DEBUG    matching logs: 0
-2022-03-17 14:56:26,539 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:26,594 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:27,248 root         ERROR    could not verify matches, grep returned 4 ...
+2022-03-17 14:58:04,606 root         DEBUG    finished reading logs
+2022-03-17 14:58:04,606 root         INFO     missing summary data for v8.3.0b09-3-ge20ebbf, develop [discover]
+2022-03-17 14:58:04,606 root         INFO     processing hash [1: v8.3.0b09-2-g2a2241b]
+2022-03-17 14:58:04,606 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
+2022-03-17 14:58:04,606 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:04,854 root         DEBUG    matching logs: 0
+2022-03-17 14:58:04,854 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:04,907 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:05,519 root         ERROR    could not verify matches, grep returned 4 ...
 [['./develop/discover/intel/2020/O/mpt/2.17/summary.dat:5:git hash = v8.3.0b09-2-g2a2241b', './develop/discover/intel/2020/O/intelmpi/19.1.3.304/summary.dat:5:git hash = v8.3.0b09-2-g2a2241b', './develop/discover/intel/2020/g/mpt/2.17/summary.dat:5:git hash = v8.3.0b09-2-g2a2241b', './develop/discover/intel/2020/g/intelmpi/19.1.3.304/summary.dat:5:git hash = v8.3.0b09-2-g2a2241b']]
-2022-03-17 14:56:27,248 root         DEBUG    finished reading logs
-2022-03-17 14:56:27,248 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [discover]
-2022-03-17 14:56:27,248 root         INFO     processing hash [2: v8.3.0b09]
-2022-03-17 14:56:27,248 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-17 14:56:27,249 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:27,617 root         DEBUG    matching logs: 0
-2022-03-17 14:56:27,617 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:27,685 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:29,282 root         ERROR    could not verify matches, grep returned 92483 ...
+2022-03-17 14:58:05,520 root         DEBUG    finished reading logs
+2022-03-17 14:58:05,520 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [discover]
+2022-03-17 14:58:05,520 root         INFO     processing hash [2: v8.3.0b09]
+2022-03-17 14:58:05,520 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-17 14:58:05,520 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:05,750 root         DEBUG    matching logs: 0
+2022-03-17 14:58:05,750 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:05,803 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:07,026 root         ERROR    could not verify matches, grep returned 92483 ...
 [['./develop/discover/gfortran/10.1.0/O/intelmpi/19.1.3.304/lib/esmf.mk:17:ESMF_VERSION_STRING_GIT=v8.3.0b09-3-ge20ebbf11d', "./develop/discover/gfortran/10.1.0/O/intelmpi/19.1.3.304/lib/esmf.mk:37:ESMF_F90COMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=intelmpi -DESMF_DIR=/gpfsm/dnb04/projects/p98/mpotts/esmf/gfortran_10.1.0_intelmpi_O_develop", "./develop/discover/gfortran/10.1.0/O/intelmpi/19.1.3.304/lib/esmf.mk:56:ESMF_CXXCOMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=intelmpi -DESMF_DIR=/gpfsm/dnb04/projects/p98/mpotts/esmf/gfortran_10.1.0_intelmpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11", './develop/discover/gfortran/10.1.0/O/intelmpi/19.1.3.304/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/discover/gfortran/10.1.0/O/intelmpi/19.1.3.304/summary.dat:25:v8.3.0b09-3-ge20ebbf11d', "./develop/discover/gfortran/10.1.0/O/intelmpi/19.1.3.304/summary.dat:162:ESMF_F90COMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=intelmpi -DESMF_DIR=/gpfsm/dnb04/projects/p98/mpotts/esmf/gfortran_10.1.0_intelmpi_O_develop", "./develop/discover/gfortran/10.1.0/O/intelmpi/19.1.3.304/summary.dat:179:ESMF_CXXCOMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=intelmpi -DESMF_DIR=/gpfsm/dnb04/projects/p98/mpotts/esmf/gfortran_10.1.0_intelmpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11", './develop/discover/gfortran/10.1.0/O/intelmpi/19.1.3.304/examples/ESMF_GridUsageEx.Log:8:20220317 013659.514 INFO             PET0 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d', './develop/discover/gfortran/10.1.0/O/intelmpi/19.1.3.304/examples/ESMF_GridUsageEx.Log:27:20220317 013659.514 INFO             PET1 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d', './develop/discover/gfortran/10.1.0/O/intelmpi/19.1.3.304/examples/ESMF_GridUsageEx.Log:46:20220317 013659.513 INFO             PET2 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d', './develop/discover/gfortran/10.1.0/O/intelmpi/19.1.3.304/examples/ESMF_GridUsageEx.Log:65:20220317 013659.515 INFO             PET3 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d']]
-2022-03-17 14:56:29,287 root         DEBUG    finished reading logs
-2022-03-17 14:56:29,287 root         INFO     missing summary data for v8.3.0b09, develop [discover]
-2022-03-17 14:56:29,287 root         INFO     finished summaries for branch develop on machine discover
-2022-03-17 14:56:29,287 root         INFO     generating summaries for jedwards/pio_update, [discover]
-2022-03-17 14:56:29,287 root         DEBUG    checking out discover
-2022-03-17 14:56:30,087 root         DEBUG    pulling from discover
-2022-03-17 14:56:30,385 root         INFO     finished summaries for branch jedwards/pio_update, on machine discover
-2022-03-17 14:56:30,385 root         INFO     generating summaries for jedwards/pio_update2 [discover]
-2022-03-17 14:56:30,385 root         DEBUG    checking out discover
-2022-03-17 14:56:30,432 root         DEBUG    pulling from discover
-2022-03-17 14:56:30,743 root         INFO     processing hash [0: v8.3.0b09-100-g5ff85a9]
-2022-03-17 14:56:30,743 root         DEBUG    generating summary for [v8.3.0b09-100-g5ff85a9]
-2022-03-17 14:56:30,743 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:31,014 root         DEBUG    matching logs: 0
-2022-03-17 14:56:31,015 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:31,069 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:31,711 root         ERROR    could not verify matches, grep returned 30 ...
+2022-03-17 14:58:07,031 root         DEBUG    finished reading logs
+2022-03-17 14:58:07,031 root         INFO     missing summary data for v8.3.0b09, develop [discover]
+2022-03-17 14:58:07,031 root         INFO     finished summaries for branch develop on machine discover
+2022-03-17 14:58:07,031 root         INFO     generating summaries for jedwards/pio_update, [discover]
+2022-03-17 14:58:07,031 root         DEBUG    checking out discover
+2022-03-17 14:58:07,314 root         DEBUG    pulling from discover
+2022-03-17 14:58:07,662 root         INFO     finished summaries for branch jedwards/pio_update, on machine discover
+2022-03-17 14:58:07,662 root         INFO     generating summaries for jedwards/pio_update2 [discover]
+2022-03-17 14:58:07,662 root         DEBUG    checking out discover
+2022-03-17 14:58:07,710 root         DEBUG    pulling from discover
+2022-03-17 14:58:08,069 root         INFO     processing hash [0: v8.3.0b09-100-g5ff85a9]
+2022-03-17 14:58:08,070 root         DEBUG    generating summary for [v8.3.0b09-100-g5ff85a9]
+2022-03-17 14:58:08,070 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:08,312 root         DEBUG    matching logs: 0
+2022-03-17 14:58:08,312 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:08,367 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:09,042 root         ERROR    could not verify matches, grep returned 30 ...
 [['./output.txt:1383:v8.3.0b09-100-g5ff85a9', './output.txt:1393:v8.3.0b09-100-g5ff85a9', './output.txt:1403:v8.3.0b09-100-g5ff85a9', './output.txt:1413:v8.3.0b09-100-g5ff85a9', './output.txt:1423:v8.3.0b09-100-g5ff85a9', './output.txt:1433:v8.3.0b09-100-g5ff85a9', './summary_output.txt:65:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:75:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:85:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:95:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:105:git hash = v8.3.0b09-100-g5ff85a9']]
-2022-03-17 14:56:31,711 root         DEBUG    finished reading logs
-2022-03-17 14:56:31,711 root         INFO     missing summary data for v8.3.0b09-100-g5ff85a9, jedwards/pio_update2 [discover]
-2022-03-17 14:56:31,712 root         INFO     processing hash [1: v8.3.0b09-96-g559b459]
-2022-03-17 14:56:31,712 root         DEBUG    generating summary for [v8.3.0b09-96-g559b459]
-2022-03-17 14:56:31,712 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:31,936 root         DEBUG    matching logs: 0
-2022-03-17 14:56:31,937 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:31,989 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:32,560 root         DEBUG    finished reading logs
-2022-03-17 14:56:32,561 root         INFO     missing summary data for v8.3.0b09-96-g559b459, jedwards/pio_update2 [discover]
-2022-03-17 14:56:32,561 root         INFO     processing hash [2: v8.3.0b09-94-gba2d53f]
-2022-03-17 14:56:32,561 root         DEBUG    generating summary for [v8.3.0b09-94-gba2d53f]
-2022-03-17 14:56:32,561 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:32,787 root         DEBUG    matching logs: 0
-2022-03-17 14:56:32,787 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:32,840 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:33,391 root         DEBUG    finished reading logs
-2022-03-17 14:56:33,391 root         INFO     missing summary data for v8.3.0b09-94-gba2d53f, jedwards/pio_update2 [discover]
-2022-03-17 14:56:33,391 root         INFO     processing hash [3: v8.3.0b09-93-ga567ee5]
-2022-03-17 14:56:33,392 root         DEBUG    generating summary for [v8.3.0b09-93-ga567ee5]
-2022-03-17 14:56:33,392 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:33,622 root         DEBUG    matching logs: 0
-2022-03-17 14:56:33,622 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:33,675 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:34,236 root         DEBUG    finished reading logs
-2022-03-17 14:56:34,236 root         INFO     missing summary data for v8.3.0b09-93-ga567ee5, jedwards/pio_update2 [discover]
-2022-03-17 14:56:34,236 root         INFO     processing hash [4: v8.3.0b08-93-g7b74714]
-2022-03-17 14:56:34,236 root         DEBUG    generating summary for [v8.3.0b08-93-g7b74714]
-2022-03-17 14:56:34,236 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:34,462 root         DEBUG    matching logs: 0
-2022-03-17 14:56:34,462 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:34,515 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:35,101 root         DEBUG    finished reading logs
-2022-03-17 14:56:35,102 root         INFO     missing summary data for v8.3.0b08-93-g7b74714, jedwards/pio_update2 [discover]
-2022-03-17 14:56:35,102 root         INFO     processing hash [5: v8.3.0b08-90-g763a128]
-2022-03-17 14:56:35,102 root         DEBUG    generating summary for [v8.3.0b08-90-g763a128]
-2022-03-17 14:56:35,102 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:35,327 root         DEBUG    matching logs: 0
-2022-03-17 14:56:35,327 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:35,380 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:35,948 root         DEBUG    finished reading logs
-2022-03-17 14:56:35,949 root         INFO     missing summary data for v8.3.0b08-90-g763a128, jedwards/pio_update2 [discover]
-2022-03-17 14:56:35,949 root         INFO     finished summaries for branch jedwards/pio_update2 on machine discover
-2022-03-17 14:56:35,949 root         INFO     generating summaries for develop [gaea]
-2022-03-17 14:56:35,949 root         DEBUG    checking out gaea
-2022-03-17 14:56:37,804 root         DEBUG    pulling from gaea
-2022-03-17 14:56:38,112 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
-2022-03-17 14:56:38,113 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
-2022-03-17 14:56:38,113 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:38,219 root         DEBUG    matching logs: 0
-2022-03-17 14:56:38,219 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:38,244 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:38,520 root         ERROR    could not verify matches, grep returned 20 ...
+2022-03-17 14:58:09,042 root         DEBUG    finished reading logs
+2022-03-17 14:58:09,042 root         INFO     missing summary data for v8.3.0b09-100-g5ff85a9, jedwards/pio_update2 [discover]
+2022-03-17 14:58:09,042 root         INFO     processing hash [1: v8.3.0b09-96-g559b459]
+2022-03-17 14:58:09,042 root         DEBUG    generating summary for [v8.3.0b09-96-g559b459]
+2022-03-17 14:58:09,043 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:09,270 root         DEBUG    matching logs: 0
+2022-03-17 14:58:09,270 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:09,325 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:09,925 root         DEBUG    finished reading logs
+2022-03-17 14:58:09,925 root         INFO     missing summary data for v8.3.0b09-96-g559b459, jedwards/pio_update2 [discover]
+2022-03-17 14:58:09,925 root         INFO     processing hash [2: v8.3.0b09-94-gba2d53f]
+2022-03-17 14:58:09,925 root         DEBUG    generating summary for [v8.3.0b09-94-gba2d53f]
+2022-03-17 14:58:09,925 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:10,181 root         DEBUG    matching logs: 0
+2022-03-17 14:58:10,181 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:10,236 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:10,785 root         DEBUG    finished reading logs
+2022-03-17 14:58:10,786 root         INFO     missing summary data for v8.3.0b09-94-gba2d53f, jedwards/pio_update2 [discover]
+2022-03-17 14:58:10,786 root         INFO     processing hash [3: v8.3.0b09-93-ga567ee5]
+2022-03-17 14:58:10,786 root         DEBUG    generating summary for [v8.3.0b09-93-ga567ee5]
+2022-03-17 14:58:10,786 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:11,011 root         DEBUG    matching logs: 0
+2022-03-17 14:58:11,011 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:11,064 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:11,624 root         DEBUG    finished reading logs
+2022-03-17 14:58:11,624 root         INFO     missing summary data for v8.3.0b09-93-ga567ee5, jedwards/pio_update2 [discover]
+2022-03-17 14:58:11,625 root         INFO     processing hash [4: v8.3.0b08-93-g7b74714]
+2022-03-17 14:58:11,625 root         DEBUG    generating summary for [v8.3.0b08-93-g7b74714]
+2022-03-17 14:58:11,625 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:11,847 root         DEBUG    matching logs: 0
+2022-03-17 14:58:11,848 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:11,901 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:12,480 root         DEBUG    finished reading logs
+2022-03-17 14:58:12,480 root         INFO     missing summary data for v8.3.0b08-93-g7b74714, jedwards/pio_update2 [discover]
+2022-03-17 14:58:12,480 root         INFO     processing hash [5: v8.3.0b08-90-g763a128]
+2022-03-17 14:58:12,480 root         DEBUG    generating summary for [v8.3.0b08-90-g763a128]
+2022-03-17 14:58:12,480 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:12,703 root         DEBUG    matching logs: 0
+2022-03-17 14:58:12,703 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:12,757 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:13,332 root         DEBUG    finished reading logs
+2022-03-17 14:58:13,332 root         INFO     missing summary data for v8.3.0b08-90-g763a128, jedwards/pio_update2 [discover]
+2022-03-17 14:58:13,332 root         INFO     finished summaries for branch jedwards/pio_update2 on machine discover
+2022-03-17 14:58:13,332 root         INFO     generating summaries for develop [gaea]
+2022-03-17 14:58:13,333 root         DEBUG    checking out gaea
+2022-03-17 14:58:15,196 root         DEBUG    pulling from gaea
+2022-03-17 14:58:15,509 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
+2022-03-17 14:58:15,509 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
+2022-03-17 14:58:15,509 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:15,638 root         DEBUG    matching logs: 0
+2022-03-17 14:58:15,638 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:15,665 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:15,946 root         ERROR    could not verify matches, grep returned 20 ...
 [['./develop/gaea/gfortran/8.3.0/O/mpi/7.7.11/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/gaea/gfortran/8.3.0/O/mpiuni/none/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/gaea/gfortran/8.3.0/g/mpi/7.7.11/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/gaea/gfortran/8.3.0/g/mpiuni/none/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/gaea/intel/2019.5/O/mpi/7.7.11/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/gaea/intel/2019.5/O/mpiuni/none/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/gaea/intel/2019.5/g/mpi/7.7.11/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/gaea/intel/2019.5/g/mpiuni/none/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './output.txt:1323:v8.3.0b09-3-ge20ebbf', './output.txt:1333:v8.3.0b09-3-ge20ebbf', './output.txt:1343:v8.3.0b09-3-ge20ebbf']]
-2022-03-17 14:56:38,520 root         DEBUG    finished reading logs
-2022-03-17 14:56:38,520 root         INFO     missing summary data for v8.3.0b09-3-ge20ebbf, develop [gaea]
-2022-03-17 14:56:38,520 root         INFO     processing hash [1: v8.3.0b09-2-g2a2241b]
-2022-03-17 14:56:38,520 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
-2022-03-17 14:56:38,520 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:38,623 root         DEBUG    matching logs: 0
-2022-03-17 14:56:38,624 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:38,655 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:38,897 root         DEBUG    finished reading logs
-2022-03-17 14:56:38,897 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [gaea]
-2022-03-17 14:56:38,897 root         INFO     processing hash [2: v8.3.0b09]
-2022-03-17 14:56:38,897 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-17 14:56:38,897 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:38,998 root         DEBUG    matching logs: 0
-2022-03-17 14:56:38,999 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:39,025 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:39,536 root         ERROR    could not verify matches, grep returned 38877 ...
+2022-03-17 14:58:15,946 root         DEBUG    finished reading logs
+2022-03-17 14:58:15,946 root         INFO     missing summary data for v8.3.0b09-3-ge20ebbf, develop [gaea]
+2022-03-17 14:58:15,946 root         INFO     processing hash [1: v8.3.0b09-2-g2a2241b]
+2022-03-17 14:58:15,946 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
+2022-03-17 14:58:15,946 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:16,050 root         DEBUG    matching logs: 0
+2022-03-17 14:58:16,051 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:16,077 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:16,312 root         DEBUG    finished reading logs
+2022-03-17 14:58:16,312 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [gaea]
+2022-03-17 14:58:16,312 root         INFO     processing hash [2: v8.3.0b09]
+2022-03-17 14:58:16,312 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-17 14:58:16,312 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:16,413 root         DEBUG    matching logs: 0
+2022-03-17 14:58:16,413 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:16,440 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:16,952 root         ERROR    could not verify matches, grep returned 38877 ...
 [['./develop/gaea/gfortran/8.3.0/O/mpi/7.7.11/lib/esmf.mk:17:ESMF_VERSION_STRING_GIT=v8.3.0b09-3-ge20ebbf11d', "./develop/gaea/gfortran/8.3.0/O/mpi/7.7.11/lib/esmf.mk:37:ESMF_F90COMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DS64=1 -DESMF_OS_Unicos=1 -DESMF_COMM=mpi -DESMF_DIR=/lustre/f2/dev/ncep/Mark.Potts/gfortran_8.3.0_mpi_O_develop", "./develop/gaea/gfortran/8.3.0/O/mpi/7.7.11/lib/esmf.mk:56:ESMF_CXXCOMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DS64=1 -DESMF_OS_Unicos=1 -DESMF_COMM=mpi -DESMF_DIR=/lustre/f2/dev/ncep/Mark.Potts/gfortran_8.3.0_mpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11 -DESMF_NO_POSIXIPC", './develop/gaea/gfortran/8.3.0/O/mpi/7.7.11/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/gaea/gfortran/8.3.0/O/mpi/7.7.11/summary.dat:40:v8.3.0b09-3-ge20ebbf11d', "./develop/gaea/gfortran/8.3.0/O/mpi/7.7.11/summary.dat:187:ESMF_F90COMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DS64=1 -DESMF_OS_Unicos=1 -DESMF_COMM=mpi -DESMF_DIR=/lustre/f2/dev/ncep/Mark.Potts/gfortran_8.3.0_mpi_O_develop", "./develop/gaea/gfortran/8.3.0/O/mpi/7.7.11/summary.dat:204:ESMF_CXXCOMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DS64=1 -DESMF_OS_Unicos=1 -DESMF_COMM=mpi -DESMF_DIR=/lustre/f2/dev/ncep/Mark.Potts/gfortran_8.3.0_mpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11 -DESMF_NO_POSIXIPC", './develop/gaea/gfortran/8.3.0/O/mpi/7.7.11/examples/ESMF_GridUsageEx.Log:8:20220317 015150.010 INFO             PET0 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d', './develop/gaea/gfortran/8.3.0/O/mpi/7.7.11/examples/ESMF_GridUsageEx.Log:27:20220317 015150.037 INFO             PET1 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d', './develop/gaea/gfortran/8.3.0/O/mpi/7.7.11/examples/ESMF_GridUsageEx.Log:46:20220317 015150.021 INFO             PET2 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d', './develop/gaea/gfortran/8.3.0/O/mpi/7.7.11/examples/ESMF_GridUsageEx.Log:65:20220317 015150.028 INFO             PET3 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf11d']]
-2022-03-17 14:56:39,539 root         DEBUG    finished reading logs
-2022-03-17 14:56:39,539 root         INFO     missing summary data for v8.3.0b09, develop [gaea]
-2022-03-17 14:56:39,539 root         INFO     finished summaries for branch develop on machine gaea
-2022-03-17 14:56:39,539 root         INFO     generating summaries for jedwards/pio_update, [gaea]
-2022-03-17 14:56:39,539 root         DEBUG    checking out gaea
-2022-03-17 14:56:40,143 root         DEBUG    pulling from gaea
-2022-03-17 14:56:40,459 root         INFO     finished summaries for branch jedwards/pio_update, on machine gaea
-2022-03-17 14:56:40,459 root         INFO     generating summaries for jedwards/pio_update2 [gaea]
-2022-03-17 14:56:40,459 root         DEBUG    checking out gaea
-2022-03-17 14:56:40,488 root         DEBUG    pulling from gaea
-2022-03-17 14:56:40,852 root         INFO     processing hash [0: v8.3.0b09-100-g5ff85a9]
-2022-03-17 14:56:40,852 root         DEBUG    generating summary for [v8.3.0b09-100-g5ff85a9]
-2022-03-17 14:56:40,852 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:40,970 root         DEBUG    matching logs: 0
-2022-03-17 14:56:40,970 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:40,998 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:41,291 root         ERROR    could not verify matches, grep returned 20 ...
+2022-03-17 14:58:16,954 root         DEBUG    finished reading logs
+2022-03-17 14:58:16,955 root         INFO     missing summary data for v8.3.0b09, develop [gaea]
+2022-03-17 14:58:16,955 root         INFO     finished summaries for branch develop on machine gaea
+2022-03-17 14:58:16,955 root         INFO     generating summaries for jedwards/pio_update, [gaea]
+2022-03-17 14:58:16,955 root         DEBUG    checking out gaea
+2022-03-17 14:58:17,111 root         DEBUG    pulling from gaea
+2022-03-17 14:58:17,435 root         INFO     finished summaries for branch jedwards/pio_update, on machine gaea
+2022-03-17 14:58:17,435 root         INFO     generating summaries for jedwards/pio_update2 [gaea]
+2022-03-17 14:58:17,436 root         DEBUG    checking out gaea
+2022-03-17 14:58:17,479 root         DEBUG    pulling from gaea
+2022-03-17 14:58:17,836 root         INFO     processing hash [0: v8.3.0b09-100-g5ff85a9]
+2022-03-17 14:58:17,836 root         DEBUG    generating summary for [v8.3.0b09-100-g5ff85a9]
+2022-03-17 14:58:17,836 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:17,954 root         DEBUG    matching logs: 0
+2022-03-17 14:58:17,954 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:17,980 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:18,283 root         ERROR    could not verify matches, grep returned 20 ...
 [['./output.txt:1383:v8.3.0b09-100-g5ff85a9', './output.txt:1393:v8.3.0b09-100-g5ff85a9', './output.txt:1403:v8.3.0b09-100-g5ff85a9', './output.txt:1413:v8.3.0b09-100-g5ff85a9', './output.txt:1423:v8.3.0b09-100-g5ff85a9', './output.txt:1433:v8.3.0b09-100-g5ff85a9', './summary_output.txt:65:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:75:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:85:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:95:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:105:git hash = v8.3.0b09-100-g5ff85a9']]
-2022-03-17 14:56:41,292 root         DEBUG    finished reading logs
-2022-03-17 14:56:41,292 root         INFO     missing summary data for v8.3.0b09-100-g5ff85a9, jedwards/pio_update2 [gaea]
-2022-03-17 14:56:41,292 root         INFO     processing hash [1: v8.3.0b09-96-g559b459]
-2022-03-17 14:56:41,292 root         DEBUG    generating summary for [v8.3.0b09-96-g559b459]
-2022-03-17 14:56:41,292 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:41,396 root         DEBUG    matching logs: 0
-2022-03-17 14:56:41,396 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:41,435 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:41,674 root         DEBUG    finished reading logs
-2022-03-17 14:56:41,675 root         INFO     missing summary data for v8.3.0b09-96-g559b459, jedwards/pio_update2 [gaea]
-2022-03-17 14:56:41,675 root         INFO     processing hash [2: v8.3.0b09-94-gba2d53f]
-2022-03-17 14:56:41,675 root         DEBUG    generating summary for [v8.3.0b09-94-gba2d53f]
-2022-03-17 14:56:41,675 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:41,780 root         DEBUG    matching logs: 0
-2022-03-17 14:56:41,780 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:41,807 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:42,023 root         DEBUG    finished reading logs
-2022-03-17 14:56:42,023 root         INFO     missing summary data for v8.3.0b09-94-gba2d53f, jedwards/pio_update2 [gaea]
-2022-03-17 14:56:42,024 root         INFO     processing hash [3: v8.3.0b09-93-ga567ee5]
-2022-03-17 14:56:42,024 root         DEBUG    generating summary for [v8.3.0b09-93-ga567ee5]
-2022-03-17 14:56:42,024 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:42,127 root         DEBUG    matching logs: 0
-2022-03-17 14:56:42,127 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:42,154 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:42,381 root         DEBUG    finished reading logs
-2022-03-17 14:56:42,381 root         INFO     missing summary data for v8.3.0b09-93-ga567ee5, jedwards/pio_update2 [gaea]
-2022-03-17 14:56:42,381 root         INFO     processing hash [4: v8.3.0b08-93-g7b74714]
-2022-03-17 14:56:42,381 root         DEBUG    generating summary for [v8.3.0b08-93-g7b74714]
-2022-03-17 14:56:42,381 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:42,484 root         DEBUG    matching logs: 0
-2022-03-17 14:56:42,484 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:42,511 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:42,740 root         DEBUG    finished reading logs
-2022-03-17 14:56:42,740 root         INFO     missing summary data for v8.3.0b08-93-g7b74714, jedwards/pio_update2 [gaea]
-2022-03-17 14:56:42,741 root         INFO     processing hash [5: v8.3.0b08-90-g763a128]
-2022-03-17 14:56:42,741 root         DEBUG    generating summary for [v8.3.0b08-90-g763a128]
-2022-03-17 14:56:42,741 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:42,843 root         DEBUG    matching logs: 0
-2022-03-17 14:56:42,843 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:42,869 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:43,092 root         DEBUG    finished reading logs
-2022-03-17 14:56:43,092 root         INFO     missing summary data for v8.3.0b08-90-g763a128, jedwards/pio_update2 [gaea]
-2022-03-17 14:56:43,092 root         INFO     finished summaries for branch jedwards/pio_update2 on machine gaea
-2022-03-17 14:56:43,092 root         INFO     generating summaries for develop [gaffney]
-2022-03-17 14:56:43,092 root         DEBUG    checking out gaffney
-2022-03-17 14:56:43,260 root         DEBUG    pulling from gaffney
-2022-03-17 14:56:43,582 root         INFO     finished summaries for branch develop on machine gaffney
-2022-03-17 14:56:43,582 root         INFO     generating summaries for jedwards/pio_update, [gaffney]
-2022-03-17 14:56:43,582 root         DEBUG    checking out gaffney
-2022-03-17 14:56:43,594 root         DEBUG    pulling from gaffney
-2022-03-17 14:56:43,946 root         INFO     finished summaries for branch jedwards/pio_update, on machine gaffney
-2022-03-17 14:56:43,946 root         INFO     generating summaries for jedwards/pio_update2 [gaffney]
-2022-03-17 14:56:43,947 root         DEBUG    checking out gaffney
-2022-03-17 14:56:43,965 root         DEBUG    pulling from gaffney
-2022-03-17 14:56:44,310 root         INFO     finished summaries for branch jedwards/pio_update2 on machine gaffney
-2022-03-17 14:56:44,310 root         INFO     generating summaries for develop [hera]
-2022-03-17 14:56:44,311 root         DEBUG    checking out hera
-2022-03-17 14:56:45,067 root         DEBUG    pulling from hera
-2022-03-17 14:56:45,421 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
-2022-03-17 14:56:45,421 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
-2022-03-17 14:56:45,421 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:45,528 root         DEBUG    matching logs: 0
-2022-03-17 14:56:45,529 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:45,548 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:45,716 root         ERROR    could not verify matches, grep returned 24 ...
+2022-03-17 14:58:18,283 root         DEBUG    finished reading logs
+2022-03-17 14:58:18,284 root         INFO     missing summary data for v8.3.0b09-100-g5ff85a9, jedwards/pio_update2 [gaea]
+2022-03-17 14:58:18,284 root         INFO     processing hash [1: v8.3.0b09-96-g559b459]
+2022-03-17 14:58:18,284 root         DEBUG    generating summary for [v8.3.0b09-96-g559b459]
+2022-03-17 14:58:18,284 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:18,408 root         DEBUG    matching logs: 0
+2022-03-17 14:58:18,408 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:18,435 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:18,666 root         DEBUG    finished reading logs
+2022-03-17 14:58:18,666 root         INFO     missing summary data for v8.3.0b09-96-g559b459, jedwards/pio_update2 [gaea]
+2022-03-17 14:58:18,666 root         INFO     processing hash [2: v8.3.0b09-94-gba2d53f]
+2022-03-17 14:58:18,667 root         DEBUG    generating summary for [v8.3.0b09-94-gba2d53f]
+2022-03-17 14:58:18,667 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:18,769 root         DEBUG    matching logs: 0
+2022-03-17 14:58:18,769 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:18,796 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:19,011 root         DEBUG    finished reading logs
+2022-03-17 14:58:19,011 root         INFO     missing summary data for v8.3.0b09-94-gba2d53f, jedwards/pio_update2 [gaea]
+2022-03-17 14:58:19,012 root         INFO     processing hash [3: v8.3.0b09-93-ga567ee5]
+2022-03-17 14:58:19,012 root         DEBUG    generating summary for [v8.3.0b09-93-ga567ee5]
+2022-03-17 14:58:19,012 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:19,114 root         DEBUG    matching logs: 0
+2022-03-17 14:58:19,114 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:19,141 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:19,364 root         DEBUG    finished reading logs
+2022-03-17 14:58:19,365 root         INFO     missing summary data for v8.3.0b09-93-ga567ee5, jedwards/pio_update2 [gaea]
+2022-03-17 14:58:19,365 root         INFO     processing hash [4: v8.3.0b08-93-g7b74714]
+2022-03-17 14:58:19,365 root         DEBUG    generating summary for [v8.3.0b08-93-g7b74714]
+2022-03-17 14:58:19,365 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:19,467 root         DEBUG    matching logs: 0
+2022-03-17 14:58:19,467 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:19,493 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:19,724 root         DEBUG    finished reading logs
+2022-03-17 14:58:19,725 root         INFO     missing summary data for v8.3.0b08-93-g7b74714, jedwards/pio_update2 [gaea]
+2022-03-17 14:58:19,725 root         INFO     processing hash [5: v8.3.0b08-90-g763a128]
+2022-03-17 14:58:19,725 root         DEBUG    generating summary for [v8.3.0b08-90-g763a128]
+2022-03-17 14:58:19,725 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:19,829 root         DEBUG    matching logs: 0
+2022-03-17 14:58:19,829 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:19,855 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:20,077 root         DEBUG    finished reading logs
+2022-03-17 14:58:20,077 root         INFO     missing summary data for v8.3.0b08-90-g763a128, jedwards/pio_update2 [gaea]
+2022-03-17 14:58:20,077 root         INFO     finished summaries for branch jedwards/pio_update2 on machine gaea
+2022-03-17 14:58:20,077 root         INFO     generating summaries for develop [gaffney]
+2022-03-17 14:58:20,078 root         DEBUG    checking out gaffney
+2022-03-17 14:58:20,242 root         DEBUG    pulling from gaffney
+2022-03-17 14:58:20,562 root         INFO     finished summaries for branch develop on machine gaffney
+2022-03-17 14:58:20,562 root         INFO     generating summaries for jedwards/pio_update, [gaffney]
+2022-03-17 14:58:20,562 root         DEBUG    checking out gaffney
+2022-03-17 14:58:20,570 root         DEBUG    pulling from gaffney
+2022-03-17 14:58:20,890 root         INFO     finished summaries for branch jedwards/pio_update, on machine gaffney
+2022-03-17 14:58:20,890 root         INFO     generating summaries for jedwards/pio_update2 [gaffney]
+2022-03-17 14:58:20,891 root         DEBUG    checking out gaffney
+2022-03-17 14:58:20,905 root         DEBUG    pulling from gaffney
+2022-03-17 14:58:21,286 root         INFO     finished summaries for branch jedwards/pio_update2 on machine gaffney
+2022-03-17 14:58:21,286 root         INFO     generating summaries for develop [hera]
+2022-03-17 14:58:21,287 root         DEBUG    checking out hera
+2022-03-17 14:58:22,034 root         DEBUG    pulling from hera
+2022-03-17 14:58:22,358 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
+2022-03-17 14:58:22,358 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
+2022-03-17 14:58:22,358 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:22,461 root         DEBUG    matching logs: 0
+2022-03-17 14:58:22,461 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:22,481 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:22,649 root         ERROR    could not verify matches, grep returned 24 ...
 [['./develop/hera/gfortran/9.2.0b/O/intelmpi/2020/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/hera/gfortran/9.2.0b/g/intelmpi/2020/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/hera/gfortran/9.2.0/O/openmpi/3.1.4/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/hera/gfortran/9.2.0/O/mpiuni/none/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/hera/gfortran/9.2.0/g/openmpi/3.1.4/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/hera/gfortran/9.2.0/g/mpiuni/none/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/hera/pgi/18.1/O/intelmpi/2018.0.4/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/hera/pgi/18.1/g/intelmpi/2018.0.4/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/hera/intel/18.0.4/O/intelmpi/2018.4.274/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/hera/intel/18.0.4/O/mpiuni/none/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/hera/intel/18.0.4/g/intelmpi/2018.4.274/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf']]
-2022-03-17 14:56:45,716 root         DEBUG    finished reading logs
-2022-03-17 14:56:45,716 root         INFO     missing summary data for v8.3.0b09-3-ge20ebbf, develop [hera]
-2022-03-17 14:56:45,716 root         INFO     processing hash [1: v8.3.0b09-2-g2a2241b]
-2022-03-17 14:56:45,717 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
-2022-03-17 14:56:45,717 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:45,818 root         DEBUG    matching logs: 0
-2022-03-17 14:56:45,818 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:45,838 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:45,970 root         DEBUG    finished reading logs
-2022-03-17 14:56:45,971 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [hera]
-2022-03-17 14:56:45,971 root         INFO     processing hash [2: v8.3.0b09-1-g1bcf580]
-2022-03-17 14:56:45,971 root         DEBUG    generating summary for [v8.3.0b09-1-g1bcf580]
-2022-03-17 14:56:45,971 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:46,066 root         DEBUG    matching logs: 0
-2022-03-17 14:56:46,067 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:46,086 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:46,221 root         DEBUG    finished reading logs
-2022-03-17 14:56:46,222 root         INFO     missing summary data for v8.3.0b09-1-g1bcf580, develop [hera]
-2022-03-17 14:56:46,222 root         INFO     processing hash [3: v8.3.0b09]
-2022-03-17 14:56:46,222 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-17 14:56:46,222 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:46,318 root         DEBUG    matching logs: 0
-2022-03-17 14:56:46,318 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:46,337 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:46,634 root         ERROR    could not verify matches, grep returned 22361 ...
+2022-03-17 14:58:22,649 root         DEBUG    finished reading logs
+2022-03-17 14:58:22,649 root         INFO     missing summary data for v8.3.0b09-3-ge20ebbf, develop [hera]
+2022-03-17 14:58:22,650 root         INFO     processing hash [1: v8.3.0b09-2-g2a2241b]
+2022-03-17 14:58:22,650 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
+2022-03-17 14:58:22,650 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:22,745 root         DEBUG    matching logs: 0
+2022-03-17 14:58:22,746 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:22,765 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:22,897 root         DEBUG    finished reading logs
+2022-03-17 14:58:22,897 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [hera]
+2022-03-17 14:58:22,897 root         INFO     processing hash [2: v8.3.0b09-1-g1bcf580]
+2022-03-17 14:58:22,897 root         DEBUG    generating summary for [v8.3.0b09-1-g1bcf580]
+2022-03-17 14:58:22,897 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:22,995 root         DEBUG    matching logs: 0
+2022-03-17 14:58:22,995 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:23,015 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:23,148 root         DEBUG    finished reading logs
+2022-03-17 14:58:23,148 root         INFO     missing summary data for v8.3.0b09-1-g1bcf580, develop [hera]
+2022-03-17 14:58:23,148 root         INFO     processing hash [3: v8.3.0b09]
+2022-03-17 14:58:23,149 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-17 14:58:23,149 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:23,242 root         DEBUG    matching logs: 0
+2022-03-17 14:58:23,242 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:23,262 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:23,558 root         ERROR    could not verify matches, grep returned 22361 ...
 [['./develop/hera/gfortran/9.2.0b/O/intelmpi/2020/lib/esmf.mk:17:ESMF_VERSION_STRING_GIT=v8.3.0b09-3-ge20ebbf11d', "./develop/hera/gfortran/9.2.0b/O/intelmpi/2020/lib/esmf.mk:37:ESMF_F90COMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=intelmpi -DESMF_DIR=/scratch1/NCEPDEV/stmp2/role.esmfmaint/gfortran_9.2.0b_intelmpi_O_develop", "./develop/hera/gfortran/9.2.0b/O/intelmpi/2020/lib/esmf.mk:56:ESMF_CXXCOMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=intelmpi -DESMF_DIR=/scratch1/NCEPDEV/stmp2/role.esmfmaint/gfortran_9.2.0b_intelmpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11", 'Binary file ./develop/hera/gfortran/9.2.0b/O/intelmpi/2020/run_regrid_from_file.log matches', './develop/hera/gfortran/9.2.0b/O/intelmpi/2020/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/hera/gfortran/9.2.0b/O/intelmpi/2020/summary.dat:24:v8.3.0b09-3-ge20ebbf11d', "./develop/hera/gfortran/9.2.0b/O/intelmpi/2020/summary.dat:163:ESMF_F90COMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=intelmpi -DESMF_DIR=/scratch1/NCEPDEV/stmp2/role.esmfmaint/gfortran_9.2.0b_intelmpi_O_develop", "./develop/hera/gfortran/9.2.0b/O/intelmpi/2020/summary.dat:180:ESMF_CXXCOMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=intelmpi -DESMF_DIR=/scratch1/NCEPDEV/stmp2/role.esmfmaint/gfortran_9.2.0b_intelmpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11", './develop/hera/gfortran/9.2.0b/O/intelmpi/2020/out/test.log:5:v8.3.0b09-3-ge20ebbf11d', "./develop/hera/gfortran/9.2.0b/O/intelmpi/2020/out/test.log:144:ESMF_F90COMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=intelmpi -DESMF_DIR=/scratch1/NCEPDEV/stmp2/role.esmfmaint/gfortran_9.2.0b_intelmpi_O_develop", "./develop/hera/gfortran/9.2.0b/O/intelmpi/2020/out/test.log:161:ESMF_CXXCOMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf11d' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=intelmpi -DESMF_DIR=/scratch1/NCEPDEV/stmp2/role.esmfmaint/gfortran_9.2.0b_intelmpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11"]]
-2022-03-17 14:56:46,636 root         DEBUG    finished reading logs
-2022-03-17 14:56:46,636 root         INFO     missing summary data for v8.3.0b09, develop [hera]
-2022-03-17 14:56:46,637 root         INFO     finished summaries for branch develop on machine hera
-2022-03-17 14:56:46,637 root         INFO     generating summaries for jedwards/pio_update, [hera]
-2022-03-17 14:56:46,637 root         DEBUG    checking out hera
-2022-03-17 14:56:46,712 root         DEBUG    pulling from hera
-2022-03-17 14:56:47,035 root         INFO     finished summaries for branch jedwards/pio_update, on machine hera
-2022-03-17 14:56:47,035 root         INFO     generating summaries for jedwards/pio_update2 [hera]
-2022-03-17 14:56:47,036 root         DEBUG    checking out hera
-2022-03-17 14:56:47,064 root         DEBUG    pulling from hera
-2022-03-17 14:56:47,452 root         INFO     processing hash [0: v8.3.0b09-100-g5ff85a9]
-2022-03-17 14:56:47,452 root         DEBUG    generating summary for [v8.3.0b09-100-g5ff85a9]
-2022-03-17 14:56:47,452 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:47,554 root         DEBUG    matching logs: 0
-2022-03-17 14:56:47,554 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:47,575 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:47,733 root         ERROR    could not verify matches, grep returned 24 ...
+2022-03-17 14:58:23,560 root         DEBUG    finished reading logs
+2022-03-17 14:58:23,560 root         INFO     missing summary data for v8.3.0b09, develop [hera]
+2022-03-17 14:58:23,560 root         INFO     finished summaries for branch develop on machine hera
+2022-03-17 14:58:23,560 root         INFO     generating summaries for jedwards/pio_update, [hera]
+2022-03-17 14:58:23,560 root         DEBUG    checking out hera
+2022-03-17 14:58:23,599 root         DEBUG    pulling from hera
+2022-03-17 14:58:23,886 root         INFO     finished summaries for branch jedwards/pio_update, on machine hera
+2022-03-17 14:58:23,886 root         INFO     generating summaries for jedwards/pio_update2 [hera]
+2022-03-17 14:58:23,887 root         DEBUG    checking out hera
+2022-03-17 14:58:23,905 root         DEBUG    pulling from hera
+2022-03-17 14:58:24,269 root         INFO     processing hash [0: v8.3.0b09-100-g5ff85a9]
+2022-03-17 14:58:24,269 root         DEBUG    generating summary for [v8.3.0b09-100-g5ff85a9]
+2022-03-17 14:58:24,269 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:24,370 root         DEBUG    matching logs: 0
+2022-03-17 14:58:24,370 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:24,389 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:24,544 root         ERROR    could not verify matches, grep returned 24 ...
 [['./output.txt:1383:v8.3.0b09-100-g5ff85a9', './output.txt:1393:v8.3.0b09-100-g5ff85a9', './output.txt:1403:v8.3.0b09-100-g5ff85a9', './output.txt:1413:v8.3.0b09-100-g5ff85a9', './output.txt:1423:v8.3.0b09-100-g5ff85a9', './output.txt:1433:v8.3.0b09-100-g5ff85a9', './summary_output.txt:65:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:75:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:85:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:95:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:105:git hash = v8.3.0b09-100-g5ff85a9']]
-2022-03-17 14:56:47,733 root         DEBUG    finished reading logs
-2022-03-17 14:56:47,733 root         INFO     missing summary data for v8.3.0b09-100-g5ff85a9, jedwards/pio_update2 [hera]
-2022-03-17 14:56:47,733 root         INFO     processing hash [1: v8.3.0b09-99-g1c5bae8]
-2022-03-17 14:56:47,733 root         DEBUG    generating summary for [v8.3.0b09-99-g1c5bae8]
-2022-03-17 14:56:47,733 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:47,830 root         DEBUG    matching logs: 0
-2022-03-17 14:56:47,830 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:47,851 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:47,976 root         DEBUG    finished reading logs
-2022-03-17 14:56:47,976 root         INFO     missing summary data for v8.3.0b09-99-g1c5bae8, jedwards/pio_update2 [hera]
-2022-03-17 14:56:47,976 root         INFO     processing hash [2: v8.3.0b09-96-g559b459]
-2022-03-17 14:56:47,976 root         DEBUG    generating summary for [v8.3.0b09-96-g559b459]
-2022-03-17 14:56:47,976 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:48,075 root         DEBUG    matching logs: 0
-2022-03-17 14:56:48,075 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:48,095 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:48,226 root         DEBUG    finished reading logs
-2022-03-17 14:56:48,227 root         INFO     missing summary data for v8.3.0b09-96-g559b459, jedwards/pio_update2 [hera]
-2022-03-17 14:56:48,227 root         INFO     processing hash [3: v8.3.0b09-94-gba2d53f]
-2022-03-17 14:56:48,227 root         DEBUG    generating summary for [v8.3.0b09-94-gba2d53f]
-2022-03-17 14:56:48,227 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:48,325 root         DEBUG    matching logs: 0
-2022-03-17 14:56:48,325 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:48,345 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:48,471 root         DEBUG    finished reading logs
-2022-03-17 14:56:48,471 root         INFO     missing summary data for v8.3.0b09-94-gba2d53f, jedwards/pio_update2 [hera]
-2022-03-17 14:56:48,471 root         INFO     processing hash [4: v8.3.0b09-93-ga567ee5]
-2022-03-17 14:56:48,471 root         DEBUG    generating summary for [v8.3.0b09-93-ga567ee5]
-2022-03-17 14:56:48,471 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:48,569 root         DEBUG    matching logs: 0
-2022-03-17 14:56:48,569 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:48,589 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:48,712 root         DEBUG    finished reading logs
-2022-03-17 14:56:48,712 root         INFO     missing summary data for v8.3.0b09-93-ga567ee5, jedwards/pio_update2 [hera]
-2022-03-17 14:56:48,712 root         INFO     processing hash [5: v8.3.0b08-93-g7b74714]
-2022-03-17 14:56:48,712 root         DEBUG    generating summary for [v8.3.0b08-93-g7b74714]
-2022-03-17 14:56:48,712 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:48,808 root         DEBUG    matching logs: 0
-2022-03-17 14:56:48,808 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:48,828 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:48,958 root         DEBUG    finished reading logs
-2022-03-17 14:56:48,959 root         INFO     missing summary data for v8.3.0b08-93-g7b74714, jedwards/pio_update2 [hera]
-2022-03-17 14:56:48,959 root         INFO     processing hash [6: v8.3.0b08-90-g763a128]
-2022-03-17 14:56:48,959 root         DEBUG    generating summary for [v8.3.0b08-90-g763a128]
-2022-03-17 14:56:48,959 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:49,055 root         DEBUG    matching logs: 0
-2022-03-17 14:56:49,055 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:49,075 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:49,199 root         DEBUG    finished reading logs
-2022-03-17 14:56:49,199 root         INFO     missing summary data for v8.3.0b08-90-g763a128, jedwards/pio_update2 [hera]
-2022-03-17 14:56:49,200 root         INFO     finished summaries for branch jedwards/pio_update2 on machine hera
-2022-03-17 14:56:49,200 root         INFO     generating summaries for develop [izumi]
-2022-03-17 14:56:49,200 root         DEBUG    checking out izumi
-2022-03-17 14:56:49,309 root         DEBUG    pulling from izumi
-2022-03-17 14:56:49,653 root         INFO     finished summaries for branch develop on machine izumi
-2022-03-17 14:56:49,653 root         INFO     generating summaries for jedwards/pio_update, [izumi]
-2022-03-17 14:56:49,654 root         DEBUG    checking out izumi
-2022-03-17 14:56:49,667 root         DEBUG    pulling from izumi
-2022-03-17 14:56:50,063 root         INFO     finished summaries for branch jedwards/pio_update, on machine izumi
-2022-03-17 14:56:50,064 root         INFO     generating summaries for jedwards/pio_update2 [izumi]
-2022-03-17 14:56:50,064 root         DEBUG    checking out izumi
-2022-03-17 14:56:50,083 root         DEBUG    pulling from izumi
-2022-03-17 14:56:50,446 root         INFO     finished summaries for branch jedwards/pio_update2 on machine izumi
-2022-03-17 14:56:50,446 root         INFO     generating summaries for develop [jet]
-2022-03-17 14:56:50,446 root         DEBUG    checking out jet
-2022-03-17 14:56:50,478 root         DEBUG    pulling from jet
-2022-03-17 14:56:50,838 root         INFO     processing hash [0: v8.3.0b09-2-g2a2241b]
-2022-03-17 14:56:50,838 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
-2022-03-17 14:56:50,839 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:50,859 root         DEBUG    matching logs: 0
-2022-03-17 14:56:50,859 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:50,868 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:50,878 root         DEBUG    finished reading logs
-2022-03-17 14:56:50,878 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [jet]
-2022-03-17 14:56:50,878 root         INFO     processing hash [1: v8.3.0b09]
-2022-03-17 14:56:50,878 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-17 14:56:50,878 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:50,884 root         DEBUG    matching logs: 0
-2022-03-17 14:56:50,884 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:50,890 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:50,900 root         ERROR    could not verify matches, grep returned 319 ...
+2022-03-17 14:58:24,544 root         DEBUG    finished reading logs
+2022-03-17 14:58:24,544 root         INFO     missing summary data for v8.3.0b09-100-g5ff85a9, jedwards/pio_update2 [hera]
+2022-03-17 14:58:24,544 root         INFO     processing hash [1: v8.3.0b09-99-g1c5bae8]
+2022-03-17 14:58:24,544 root         DEBUG    generating summary for [v8.3.0b09-99-g1c5bae8]
+2022-03-17 14:58:24,544 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:24,638 root         DEBUG    matching logs: 0
+2022-03-17 14:58:24,638 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:24,658 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:24,783 root         DEBUG    finished reading logs
+2022-03-17 14:58:24,783 root         INFO     missing summary data for v8.3.0b09-99-g1c5bae8, jedwards/pio_update2 [hera]
+2022-03-17 14:58:24,783 root         INFO     processing hash [2: v8.3.0b09-96-g559b459]
+2022-03-17 14:58:24,783 root         DEBUG    generating summary for [v8.3.0b09-96-g559b459]
+2022-03-17 14:58:24,783 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:24,884 root         DEBUG    matching logs: 0
+2022-03-17 14:58:24,884 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:24,905 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:25,034 root         DEBUG    finished reading logs
+2022-03-17 14:58:25,034 root         INFO     missing summary data for v8.3.0b09-96-g559b459, jedwards/pio_update2 [hera]
+2022-03-17 14:58:25,034 root         INFO     processing hash [3: v8.3.0b09-94-gba2d53f]
+2022-03-17 14:58:25,034 root         DEBUG    generating summary for [v8.3.0b09-94-gba2d53f]
+2022-03-17 14:58:25,034 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:25,128 root         DEBUG    matching logs: 0
+2022-03-17 14:58:25,128 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:25,148 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:25,273 root         DEBUG    finished reading logs
+2022-03-17 14:58:25,273 root         INFO     missing summary data for v8.3.0b09-94-gba2d53f, jedwards/pio_update2 [hera]
+2022-03-17 14:58:25,274 root         INFO     processing hash [4: v8.3.0b09-93-ga567ee5]
+2022-03-17 14:58:25,274 root         DEBUG    generating summary for [v8.3.0b09-93-ga567ee5]
+2022-03-17 14:58:25,274 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:25,369 root         DEBUG    matching logs: 0
+2022-03-17 14:58:25,369 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:25,389 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:25,511 root         DEBUG    finished reading logs
+2022-03-17 14:58:25,511 root         INFO     missing summary data for v8.3.0b09-93-ga567ee5, jedwards/pio_update2 [hera]
+2022-03-17 14:58:25,512 root         INFO     processing hash [5: v8.3.0b08-93-g7b74714]
+2022-03-17 14:58:25,512 root         DEBUG    generating summary for [v8.3.0b08-93-g7b74714]
+2022-03-17 14:58:25,512 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:25,607 root         DEBUG    matching logs: 0
+2022-03-17 14:58:25,607 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:25,626 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:25,754 root         DEBUG    finished reading logs
+2022-03-17 14:58:25,754 root         INFO     missing summary data for v8.3.0b08-93-g7b74714, jedwards/pio_update2 [hera]
+2022-03-17 14:58:25,754 root         INFO     processing hash [6: v8.3.0b08-90-g763a128]
+2022-03-17 14:58:25,754 root         DEBUG    generating summary for [v8.3.0b08-90-g763a128]
+2022-03-17 14:58:25,754 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:25,849 root         DEBUG    matching logs: 0
+2022-03-17 14:58:25,850 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:25,869 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:25,991 root         DEBUG    finished reading logs
+2022-03-17 14:58:25,992 root         INFO     missing summary data for v8.3.0b08-90-g763a128, jedwards/pio_update2 [hera]
+2022-03-17 14:58:25,992 root         INFO     finished summaries for branch jedwards/pio_update2 on machine hera
+2022-03-17 14:58:25,992 root         INFO     generating summaries for develop [izumi]
+2022-03-17 14:58:25,992 root         DEBUG    checking out izumi
+2022-03-17 14:58:26,096 root         DEBUG    pulling from izumi
+2022-03-17 14:58:26,416 root         INFO     finished summaries for branch develop on machine izumi
+2022-03-17 14:58:26,417 root         INFO     generating summaries for jedwards/pio_update, [izumi]
+2022-03-17 14:58:26,418 root         DEBUG    checking out izumi
+2022-03-17 14:58:26,440 root         DEBUG    pulling from izumi
+2022-03-17 14:58:26,809 root         INFO     finished summaries for branch jedwards/pio_update, on machine izumi
+2022-03-17 14:58:26,809 root         INFO     generating summaries for jedwards/pio_update2 [izumi]
+2022-03-17 14:58:26,810 root         DEBUG    checking out izumi
+2022-03-17 14:58:26,828 root         DEBUG    pulling from izumi
+2022-03-17 14:58:27,175 root         INFO     finished summaries for branch jedwards/pio_update2 on machine izumi
+2022-03-17 14:58:27,175 root         INFO     generating summaries for develop [jet]
+2022-03-17 14:58:27,176 root         DEBUG    checking out jet
+2022-03-17 14:58:27,206 root         DEBUG    pulling from jet
+2022-03-17 14:58:27,496 root         INFO     processing hash [0: v8.3.0b09-2-g2a2241b]
+2022-03-17 14:58:27,496 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
+2022-03-17 14:58:27,496 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:27,508 root         DEBUG    matching logs: 0
+2022-03-17 14:58:27,508 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:27,518 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:27,530 root         DEBUG    finished reading logs
+2022-03-17 14:58:27,530 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [jet]
+2022-03-17 14:58:27,531 root         INFO     processing hash [1: v8.3.0b09]
+2022-03-17 14:58:27,531 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-17 14:58:27,531 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:27,540 root         DEBUG    matching logs: 0
+2022-03-17 14:58:27,540 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:27,547 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:27,557 root         ERROR    could not verify matches, grep returned 319 ...
 [["./develop/values.txt:2:['v8.3.0b09']", './develop/values.txt:3:v8.3.0b09-3-ge20ebbf11d', './output.txt:5:v8.3.0b09-3-ge20ebbf11d', './output.txt:15:v8.3.0b09-3-ge20ebbf11d', './output.txt:25:v8.3.0b09-3-ge20ebbf11d', './output.txt:35:v8.3.0b09-3-ge20ebbf11d', './output.txt:47:v8.3.0b09-3-ge20ebbf11d', './output.txt:59:v8.3.0b09-3-ge20ebbf11d', './output.txt:69:v8.3.0b09-3-ge20ebbf11d', './output.txt:79:v8.3.0b09-3-ge20ebbf11d', './output.txt:89:v8.3.0b09-3-ge20ebbf11d']]
-2022-03-17 14:56:50,900 root         DEBUG    finished reading logs
-2022-03-17 14:56:50,900 root         INFO     missing summary data for v8.3.0b09, develop [jet]
-2022-03-17 14:56:50,900 root         INFO     finished summaries for branch develop on machine jet
-2022-03-17 14:56:50,900 root         INFO     generating summaries for jedwards/pio_update, [jet]
-2022-03-17 14:56:50,901 root         DEBUG    checking out jet
-2022-03-17 14:56:50,915 root         DEBUG    pulling from jet
-2022-03-17 14:56:51,264 root         INFO     finished summaries for branch jedwards/pio_update, on machine jet
-2022-03-17 14:56:51,265 root         INFO     generating summaries for jedwards/pio_update2 [jet]
-2022-03-17 14:56:51,265 root         DEBUG    checking out jet
-2022-03-17 14:56:51,305 root         DEBUG    pulling from jet
-2022-03-17 14:56:51,693 root         INFO     processing hash [0: v8.3.0b09-100-g5ff85a9]
-2022-03-17 14:56:51,694 root         DEBUG    generating summary for [v8.3.0b09-100-g5ff85a9]
-2022-03-17 14:56:51,694 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:51,720 root         DEBUG    matching logs: 0
-2022-03-17 14:56:51,721 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:51,729 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:51,738 root         ERROR    could not verify matches, grep returned 14 ...
+2022-03-17 14:58:27,557 root         DEBUG    finished reading logs
+2022-03-17 14:58:27,558 root         INFO     missing summary data for v8.3.0b09, develop [jet]
+2022-03-17 14:58:27,558 root         INFO     finished summaries for branch develop on machine jet
+2022-03-17 14:58:27,558 root         INFO     generating summaries for jedwards/pio_update, [jet]
+2022-03-17 14:58:27,558 root         DEBUG    checking out jet
+2022-03-17 14:58:27,572 root         DEBUG    pulling from jet
+2022-03-17 14:58:27,899 root         INFO     finished summaries for branch jedwards/pio_update, on machine jet
+2022-03-17 14:58:27,899 root         INFO     generating summaries for jedwards/pio_update2 [jet]
+2022-03-17 14:58:27,899 root         DEBUG    checking out jet
+2022-03-17 14:58:27,924 root         DEBUG    pulling from jet
+2022-03-17 14:58:28,293 root         INFO     processing hash [0: v8.3.0b09-100-g5ff85a9]
+2022-03-17 14:58:28,294 root         DEBUG    generating summary for [v8.3.0b09-100-g5ff85a9]
+2022-03-17 14:58:28,294 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:28,331 root         DEBUG    matching logs: 0
+2022-03-17 14:58:28,331 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:28,338 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:28,347 root         ERROR    could not verify matches, grep returned 14 ...
 [['./output.txt:1383:v8.3.0b09-100-g5ff85a9', './output.txt:1393:v8.3.0b09-100-g5ff85a9', './output.txt:1403:v8.3.0b09-100-g5ff85a9', './output.txt:1413:v8.3.0b09-100-g5ff85a9', './output.txt:1423:v8.3.0b09-100-g5ff85a9', './output.txt:1433:v8.3.0b09-100-g5ff85a9', './summary_output.txt:65:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:75:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:85:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:95:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:105:git hash = v8.3.0b09-100-g5ff85a9']]
-2022-03-17 14:56:51,738 root         DEBUG    finished reading logs
-2022-03-17 14:56:51,738 root         INFO     missing summary data for v8.3.0b09-100-g5ff85a9, jedwards/pio_update2 [jet]
-2022-03-17 14:56:51,739 root         INFO     processing hash [1: v8.3.0b09-96-g559b459]
-2022-03-17 14:56:51,739 root         DEBUG    generating summary for [v8.3.0b09-96-g559b459]
-2022-03-17 14:56:51,739 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:51,754 root         DEBUG    matching logs: 0
-2022-03-17 14:56:51,754 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:51,759 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:51,768 root         DEBUG    finished reading logs
-2022-03-17 14:56:51,768 root         INFO     missing summary data for v8.3.0b09-96-g559b459, jedwards/pio_update2 [jet]
-2022-03-17 14:56:51,768 root         INFO     processing hash [2: v8.3.0b09-94-gba2d53f]
-2022-03-17 14:56:51,768 root         DEBUG    generating summary for [v8.3.0b09-94-gba2d53f]
-2022-03-17 14:56:51,768 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:51,783 root         DEBUG    matching logs: 0
-2022-03-17 14:56:51,783 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:51,789 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:51,797 root         DEBUG    finished reading logs
-2022-03-17 14:56:51,797 root         INFO     missing summary data for v8.3.0b09-94-gba2d53f, jedwards/pio_update2 [jet]
-2022-03-17 14:56:51,797 root         INFO     finished summaries for branch jedwards/pio_update2 on machine jet
-2022-03-17 14:56:51,798 root         INFO     generating summaries for develop [onyx]
-2022-03-17 14:56:51,798 root         DEBUG    checking out onyx
-2022-03-17 14:56:51,806 root         DEBUG    pulling from onyx
-2022-03-17 14:56:52,148 root         INFO     finished summaries for branch develop on machine onyx
-2022-03-17 14:56:52,148 root         INFO     generating summaries for jedwards/pio_update, [onyx]
-2022-03-17 14:56:52,149 root         DEBUG    checking out onyx
-2022-03-17 14:56:52,156 root         DEBUG    pulling from onyx
-2022-03-17 14:56:52,535 root         INFO     finished summaries for branch jedwards/pio_update, on machine onyx
-2022-03-17 14:56:52,535 root         INFO     generating summaries for jedwards/pio_update2 [onyx]
-2022-03-17 14:56:52,536 root         DEBUG    checking out onyx
-2022-03-17 14:56:52,550 root         DEBUG    pulling from onyx
-2022-03-17 14:56:52,872 root         INFO     finished summaries for branch jedwards/pio_update2 on machine onyx
-2022-03-17 14:56:52,873 root         INFO     generating summaries for develop [orion]
-2022-03-17 14:56:52,874 root         DEBUG    checking out orion
-2022-03-17 14:56:53,882 root         DEBUG    pulling from orion
-2022-03-17 14:56:54,201 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
-2022-03-17 14:56:54,202 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
-2022-03-17 14:56:54,202 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:54,303 root         DEBUG    matching logs: 0
-2022-03-17 14:56:54,303 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:54,320 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:54,540 root         ERROR    could not verify matches, grep returned 11512 ...
+2022-03-17 14:58:28,348 root         DEBUG    finished reading logs
+2022-03-17 14:58:28,348 root         INFO     missing summary data for v8.3.0b09-100-g5ff85a9, jedwards/pio_update2 [jet]
+2022-03-17 14:58:28,348 root         INFO     processing hash [1: v8.3.0b09-96-g559b459]
+2022-03-17 14:58:28,348 root         DEBUG    generating summary for [v8.3.0b09-96-g559b459]
+2022-03-17 14:58:28,348 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:28,363 root         DEBUG    matching logs: 0
+2022-03-17 14:58:28,363 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:28,369 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:28,378 root         DEBUG    finished reading logs
+2022-03-17 14:58:28,378 root         INFO     missing summary data for v8.3.0b09-96-g559b459, jedwards/pio_update2 [jet]
+2022-03-17 14:58:28,378 root         INFO     processing hash [2: v8.3.0b09-94-gba2d53f]
+2022-03-17 14:58:28,378 root         DEBUG    generating summary for [v8.3.0b09-94-gba2d53f]
+2022-03-17 14:58:28,378 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:28,393 root         DEBUG    matching logs: 0
+2022-03-17 14:58:28,393 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:28,399 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:28,407 root         DEBUG    finished reading logs
+2022-03-17 14:58:28,407 root         INFO     missing summary data for v8.3.0b09-94-gba2d53f, jedwards/pio_update2 [jet]
+2022-03-17 14:58:28,408 root         INFO     finished summaries for branch jedwards/pio_update2 on machine jet
+2022-03-17 14:58:28,408 root         INFO     generating summaries for develop [onyx]
+2022-03-17 14:58:28,408 root         DEBUG    checking out onyx
+2022-03-17 14:58:28,424 root         DEBUG    pulling from onyx
+2022-03-17 14:58:28,727 root         INFO     finished summaries for branch develop on machine onyx
+2022-03-17 14:58:28,727 root         INFO     generating summaries for jedwards/pio_update, [onyx]
+2022-03-17 14:58:28,728 root         DEBUG    checking out onyx
+2022-03-17 14:58:28,742 root         DEBUG    pulling from onyx
+2022-03-17 14:58:29,105 root         INFO     finished summaries for branch jedwards/pio_update, on machine onyx
+2022-03-17 14:58:29,106 root         INFO     generating summaries for jedwards/pio_update2 [onyx]
+2022-03-17 14:58:29,107 root         DEBUG    checking out onyx
+2022-03-17 14:58:29,127 root         DEBUG    pulling from onyx
+2022-03-17 14:58:29,484 root         INFO     finished summaries for branch jedwards/pio_update2 on machine onyx
+2022-03-17 14:58:29,485 root         INFO     generating summaries for develop [orion]
+2022-03-17 14:58:29,485 root         DEBUG    checking out orion
+2022-03-17 14:58:30,476 root         DEBUG    pulling from orion
+2022-03-17 14:58:30,813 root         INFO     processing hash [0: v8.3.0b09-3-ge20ebbf]
+2022-03-17 14:58:30,814 root         DEBUG    generating summary for [v8.3.0b09-3-ge20ebbf]
+2022-03-17 14:58:30,814 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:30,914 root         DEBUG    matching logs: 0
+2022-03-17 14:58:30,914 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:30,931 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:31,152 root         ERROR    could not verify matches, grep returned 11512 ...
 [['./develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/lib/esmf.mk:17:ESMF_VERSION_STRING_GIT=v8.3.0b09-3-ge20ebbf', "./develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/lib/esmf.mk:37:ESMF_F90COMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/work/noaa/da/mpotts/sandbox/gfortran_8.3.0_openmpi_O_develop", "./develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/lib/esmf.mk:56:ESMF_CXXCOMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/work/noaa/da/mpotts/sandbox/gfortran_8.3.0_openmpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11 -DESMF_NO_SIGUSR2", './develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/summary.dat:25:v8.3.0b09-3-ge20ebbf', "./develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/summary.dat:172:ESMF_F90COMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/work/noaa/da/mpotts/sandbox/gfortran_8.3.0_openmpi_O_develop", "./develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/summary.dat:189:ESMF_CXXCOMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/work/noaa/da/mpotts/sandbox/gfortran_8.3.0_openmpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11 -DESMF_NO_SIGUSR2", './develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/examples/ESMF_GridUsageEx.Log:8:20220317 030319.119 INFO             PET0 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf', './develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/examples/ESMF_GridUsageEx.Log:27:20220317 030319.120 INFO             PET1 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf', './develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/examples/ESMF_GridUsageEx.Log:46:20220317 030319.120 INFO             PET2 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf', './develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/examples/ESMF_GridUsageEx.Log:65:20220317 030319.119 INFO             PET3 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf']]
-2022-03-17 14:56:54,541 root         DEBUG    finished reading logs
-2022-03-17 14:56:54,541 root         INFO     missing summary data for v8.3.0b09-3-ge20ebbf, develop [orion]
-2022-03-17 14:56:54,541 root         INFO     processing hash [1: v8.3.0b09-2-g2a2241b]
-2022-03-17 14:56:54,541 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
-2022-03-17 14:56:54,541 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:54,620 root         DEBUG    matching logs: 0
-2022-03-17 14:56:54,620 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:54,637 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:54,781 root         DEBUG    finished reading logs
-2022-03-17 14:56:54,781 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [orion]
-2022-03-17 14:56:54,781 root         INFO     processing hash [2: v8.3.0b09]
-2022-03-17 14:56:54,781 root         DEBUG    generating summary for [v8.3.0b09]
-2022-03-17 14:56:54,781 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:54,866 root         DEBUG    matching logs: 0
-2022-03-17 14:56:54,866 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:54,882 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:55,190 root         ERROR    could not verify matches, grep returned 23687 ...
+2022-03-17 14:58:31,152 root         DEBUG    finished reading logs
+2022-03-17 14:58:31,153 root         INFO     missing summary data for v8.3.0b09-3-ge20ebbf, develop [orion]
+2022-03-17 14:58:31,153 root         INFO     processing hash [1: v8.3.0b09-2-g2a2241b]
+2022-03-17 14:58:31,153 root         DEBUG    generating summary for [v8.3.0b09-2-g2a2241b]
+2022-03-17 14:58:31,153 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:31,233 root         DEBUG    matching logs: 0
+2022-03-17 14:58:31,233 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:31,249 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:31,393 root         DEBUG    finished reading logs
+2022-03-17 14:58:31,393 root         INFO     missing summary data for v8.3.0b09-2-g2a2241b, develop [orion]
+2022-03-17 14:58:31,393 root         INFO     processing hash [2: v8.3.0b09]
+2022-03-17 14:58:31,393 root         DEBUG    generating summary for [v8.3.0b09]
+2022-03-17 14:58:31,393 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:31,474 root         DEBUG    matching logs: 0
+2022-03-17 14:58:31,474 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:31,490 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:31,798 root         ERROR    could not verify matches, grep returned 23687 ...
 [['./develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/lib/esmf.mk:17:ESMF_VERSION_STRING_GIT=v8.3.0b09-3-ge20ebbf', "./develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/lib/esmf.mk:37:ESMF_F90COMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/work/noaa/da/mpotts/sandbox/gfortran_8.3.0_openmpi_O_develop", "./develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/lib/esmf.mk:56:ESMF_CXXCOMPILECPPFLAGS=-DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/work/noaa/da/mpotts/sandbox/gfortran_8.3.0_openmpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11 -DESMF_NO_SIGUSR2", './develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/summary.dat:5:git hash = v8.3.0b09-3-ge20ebbf', './develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/summary.dat:25:v8.3.0b09-3-ge20ebbf', "./develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/summary.dat:172:ESMF_F90COMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/work/noaa/da/mpotts/sandbox/gfortran_8.3.0_openmpi_O_develop", "./develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/summary.dat:189:ESMF_CXXCOMPILECPPFLAGS: -DESMF_NO_INTEGER_1_BYTE -DESMF_NO_INTEGER_2_BYTE -DESMF_VERSION_STRING_GIT='v8.3.0b09-3-ge20ebbf' -DESMF_MOAB=1 -DESMF_LAPACK=1 -DESMF_LAPACK_INTERNAL=1 -DESMF_NO_ACC_SOFTWARE_STACK=1 -DESMF_NETCDF=1 -DESMF_YAMLCPP=1 -DESMF_YAML=1 -DESMF_PIO=1 -DESMF_MPIIO -DESMF_NO_OPENACC -DESMF_TESTEXHAUSTIVE -DESMF_BOPT_O -DESMF_TESTCOMPTUNNEL -DESMF_TESTWITHTHREADS -DSx86_64_small=1 -DESMF_OS_Linux=1 -DESMF_COMM=openmpi -DESMF_DIR=/work/noaa/da/mpotts/sandbox/gfortran_8.3.0_openmpi_O_develop -D__SDIR__='' -DESMF_CXXSTD=11 -DESMF_NO_SIGUSR2", './develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/examples/ESMF_GridUsageEx.Log:8:20220317 030319.119 INFO             PET0 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf', './develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/examples/ESMF_GridUsageEx.Log:27:20220317 030319.120 INFO             PET1 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf', './develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/examples/ESMF_GridUsageEx.Log:46:20220317 030319.120 INFO             PET2 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf', './develop/orion/gfortran/8.3.0/O/openmpi/4.0.2/examples/ESMF_GridUsageEx.Log:65:20220317 030319.119 INFO             PET3 Running with ESMF Version   : v8.3.0b09-3-ge20ebbf']]
-2022-03-17 14:56:55,191 root         DEBUG    finished reading logs
-2022-03-17 14:56:55,191 root         INFO     missing summary data for v8.3.0b09, develop [orion]
-2022-03-17 14:56:55,191 root         INFO     finished summaries for branch develop on machine orion
-2022-03-17 14:56:55,191 root         INFO     generating summaries for jedwards/pio_update, [orion]
-2022-03-17 14:56:55,191 root         DEBUG    checking out orion
-2022-03-17 14:56:55,812 root         DEBUG    pulling from orion
-2022-03-17 14:56:56,118 root         INFO     finished summaries for branch jedwards/pio_update, on machine orion
-2022-03-17 14:56:56,118 root         INFO     generating summaries for jedwards/pio_update2 [orion]
-2022-03-17 14:56:56,118 root         DEBUG    checking out orion
-2022-03-17 14:56:56,140 root         DEBUG    pulling from orion
-2022-03-17 14:56:56,500 root         INFO     processing hash [0: v8.3.0b09-100-g5ff85a9]
-2022-03-17 14:56:56,500 root         DEBUG    generating summary for [v8.3.0b09-100-g5ff85a9]
-2022-03-17 14:56:56,500 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:56,602 root         DEBUG    matching logs: 0
-2022-03-17 14:56:56,602 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:56,618 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:56,834 root         ERROR    could not verify matches, grep returned 12046 ...
+2022-03-17 14:58:31,798 root         DEBUG    finished reading logs
+2022-03-17 14:58:31,798 root         INFO     missing summary data for v8.3.0b09, develop [orion]
+2022-03-17 14:58:31,799 root         INFO     finished summaries for branch develop on machine orion
+2022-03-17 14:58:31,799 root         INFO     generating summaries for jedwards/pio_update, [orion]
+2022-03-17 14:58:31,799 root         DEBUG    checking out orion
+2022-03-17 14:58:32,164 root         DEBUG    pulling from orion
+2022-03-17 14:58:32,513 root         INFO     finished summaries for branch jedwards/pio_update, on machine orion
+2022-03-17 14:58:32,513 root         INFO     generating summaries for jedwards/pio_update2 [orion]
+2022-03-17 14:58:32,514 root         DEBUG    checking out orion
+2022-03-17 14:58:32,548 root         DEBUG    pulling from orion
+2022-03-17 14:58:32,903 root         INFO     processing hash [0: v8.3.0b09-100-g5ff85a9]
+2022-03-17 14:58:32,903 root         DEBUG    generating summary for [v8.3.0b09-100-g5ff85a9]
+2022-03-17 14:58:32,903 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:33,006 root         DEBUG    matching logs: 0
+2022-03-17 14:58:33,006 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:33,023 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:33,241 root         ERROR    could not verify matches, grep returned 12046 ...
 [['./output.txt:1383:v8.3.0b09-100-g5ff85a9', './output.txt:1393:v8.3.0b09-100-g5ff85a9', './output.txt:1403:v8.3.0b09-100-g5ff85a9', './output.txt:1413:v8.3.0b09-100-g5ff85a9', './output.txt:1423:v8.3.0b09-100-g5ff85a9', './output.txt:1433:v8.3.0b09-100-g5ff85a9', './summary_output.txt:65:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:75:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:85:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:95:git hash = v8.3.0b09-100-g5ff85a9', './summary_output.txt:105:git hash = v8.3.0b09-100-g5ff85a9']]
-2022-03-17 14:56:56,834 root         DEBUG    finished reading logs
-2022-03-17 14:56:56,834 root         INFO     missing summary data for v8.3.0b09-100-g5ff85a9, jedwards/pio_update2 [orion]
-2022-03-17 14:56:56,834 root         INFO     processing hash [1: v8.3.0b09-96-g559b459]
-2022-03-17 14:56:56,834 root         DEBUG    generating summary for [v8.3.0b09-96-g559b459]
-2022-03-17 14:56:56,834 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:56,915 root         DEBUG    matching logs: 0
-2022-03-17 14:56:56,915 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:56,931 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:57,072 root         DEBUG    finished reading logs
-2022-03-17 14:56:57,072 root         INFO     missing summary data for v8.3.0b09-96-g559b459, jedwards/pio_update2 [orion]
-2022-03-17 14:56:57,072 root         INFO     processing hash [2: v8.3.0b09-94-gba2d53f]
-2022-03-17 14:56:57,072 root         DEBUG    generating summary for [v8.3.0b09-94-gba2d53f]
-2022-03-17 14:56:57,072 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:57,155 root         DEBUG    matching logs: 0
-2022-03-17 14:56:57,155 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:57,172 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:57,304 root         DEBUG    finished reading logs
-2022-03-17 14:56:57,304 root         INFO     missing summary data for v8.3.0b09-94-gba2d53f, jedwards/pio_update2 [orion]
-2022-03-17 14:56:57,304 root         INFO     processing hash [3: v8.3.0b09-93-ga567ee5]
-2022-03-17 14:56:57,304 root         DEBUG    generating summary for [v8.3.0b09-93-ga567ee5]
-2022-03-17 14:56:57,304 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:57,387 root         DEBUG    matching logs: 0
-2022-03-17 14:56:57,387 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:57,404 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:57,540 root         DEBUG    finished reading logs
-2022-03-17 14:56:57,540 root         INFO     missing summary data for v8.3.0b09-93-ga567ee5, jedwards/pio_update2 [orion]
-2022-03-17 14:56:57,540 root         INFO     processing hash [4: v8.3.0b08-93-g7b74714]
-2022-03-17 14:56:57,540 root         DEBUG    generating summary for [v8.3.0b08-93-g7b74714]
-2022-03-17 14:56:57,540 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:57,627 root         DEBUG    matching logs: 0
-2022-03-17 14:56:57,628 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:57,649 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:57,798 root         DEBUG    finished reading logs
-2022-03-17 14:56:57,798 root         INFO     missing summary data for v8.3.0b08-93-g7b74714, jedwards/pio_update2 [orion]
-2022-03-17 14:56:57,798 root         INFO     processing hash [5: v8.3.0b08-90-g763a128]
-2022-03-17 14:56:57,798 root         DEBUG    generating summary for [v8.3.0b08-90-g763a128]
-2022-03-17 14:56:57,798 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-17 14:56:57,882 root         DEBUG    matching logs: 0
-2022-03-17 14:56:57,882 root         DEBUG    fetching matching summaries to extract test results
-2022-03-17 14:56:57,899 root         DEBUG    matching summaries: 0
-2022-03-17 14:56:58,043 root         DEBUG    finished reading logs
-2022-03-17 14:56:58,043 root         INFO     missing summary data for v8.3.0b08-90-g763a128, jedwards/pio_update2 [orion]
-2022-03-17 14:56:58,044 root         INFO     finished summaries for branch jedwards/pio_update2 on machine orion
-2022-03-17 14:56:58,044 root         DEBUG    pushing to summary
+2022-03-17 14:58:33,241 root         DEBUG    finished reading logs
+2022-03-17 14:58:33,241 root         INFO     missing summary data for v8.3.0b09-100-g5ff85a9, jedwards/pio_update2 [orion]
+2022-03-17 14:58:33,241 root         INFO     processing hash [1: v8.3.0b09-96-g559b459]
+2022-03-17 14:58:33,241 root         DEBUG    generating summary for [v8.3.0b09-96-g559b459]
+2022-03-17 14:58:33,241 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:33,320 root         DEBUG    matching logs: 0
+2022-03-17 14:58:33,320 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:33,337 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:33,476 root         DEBUG    finished reading logs
+2022-03-17 14:58:33,476 root         INFO     missing summary data for v8.3.0b09-96-g559b459, jedwards/pio_update2 [orion]
+2022-03-17 14:58:33,476 root         INFO     processing hash [2: v8.3.0b09-94-gba2d53f]
+2022-03-17 14:58:33,476 root         DEBUG    generating summary for [v8.3.0b09-94-gba2d53f]
+2022-03-17 14:58:33,476 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:33,558 root         DEBUG    matching logs: 0
+2022-03-17 14:58:33,558 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:33,574 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:33,706 root         DEBUG    finished reading logs
+2022-03-17 14:58:33,706 root         INFO     missing summary data for v8.3.0b09-94-gba2d53f, jedwards/pio_update2 [orion]
+2022-03-17 14:58:33,706 root         INFO     processing hash [3: v8.3.0b09-93-ga567ee5]
+2022-03-17 14:58:33,706 root         DEBUG    generating summary for [v8.3.0b09-93-ga567ee5]
+2022-03-17 14:58:33,706 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:33,788 root         DEBUG    matching logs: 0
+2022-03-17 14:58:33,788 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:33,805 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:33,940 root         DEBUG    finished reading logs
+2022-03-17 14:58:33,940 root         INFO     missing summary data for v8.3.0b09-93-ga567ee5, jedwards/pio_update2 [orion]
+2022-03-17 14:58:33,940 root         INFO     processing hash [4: v8.3.0b08-93-g7b74714]
+2022-03-17 14:58:33,940 root         DEBUG    generating summary for [v8.3.0b08-93-g7b74714]
+2022-03-17 14:58:33,940 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:34,020 root         DEBUG    matching logs: 0
+2022-03-17 14:58:34,020 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:34,037 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:34,176 root         DEBUG    finished reading logs
+2022-03-17 14:58:34,176 root         INFO     missing summary data for v8.3.0b08-93-g7b74714, jedwards/pio_update2 [orion]
+2022-03-17 14:58:34,177 root         INFO     processing hash [5: v8.3.0b08-90-g763a128]
+2022-03-17 14:58:34,177 root         DEBUG    generating summary for [v8.3.0b08-90-g763a128]
+2022-03-17 14:58:34,177 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-17 14:58:34,257 root         DEBUG    matching logs: 0
+2022-03-17 14:58:34,257 root         DEBUG    fetching matching summaries to extract test results
+2022-03-17 14:58:34,274 root         DEBUG    matching summaries: 0
+2022-03-17 14:58:34,407 root         DEBUG    finished reading logs
+2022-03-17 14:58:34,407 root         INFO     missing summary data for v8.3.0b08-90-g763a128, jedwards/pio_update2 [orion]
+2022-03-17 14:58:34,407 root         INFO     finished summaries for branch jedwards/pio_update2 on machine orion
+2022-03-17 14:58:34,407 root         DEBUG    pushing to summary

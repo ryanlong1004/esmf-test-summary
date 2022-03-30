@@ -1,56 +1,249 @@
-2022-03-30 19:04:57,248 root         INFO     starting...
-2022-03-30 19:04:57,248 root         DEBUG    args are : Namespace(branches=['develop'], log='debug', number=3, repo_path=PosixPath('/home/rlong/Sandbox/esmf-test-artifacts'))
-2022-03-30 19:04:57,249 root         DEBUG    pulling artifacts
-2022-03-30 19:04:57,882 root         DEBUG    cloning summaries
-2022-03-30 19:04:57,883 root         DEBUG    cloning git@github.com:ryanlong1004/esmf-test-summary.git into /tmp/esmf_branch_summary_space
-2022-03-30 19:04:59,240 root         DEBUG    pulling summaries
-2022-03-30 19:04:59,932 root         INFO     itterating over 1 branches in 12 machines over 3 most recent commits
-2022-03-30 19:04:59,939 root         INFO     generating summaries for develop [acorn]
-2022-03-30 19:04:59,940 root         INFO     generating summaries for develop [cheyenne]
-2022-03-30 19:04:59,942 root         INFO     generating summaries for develop [chianti]
-2022-03-30 19:04:59,943 root         INFO     generating summaries for develop [cori]
-2022-03-30 19:04:59,944 root         INFO     generating summaries for develop [discover]
-2022-03-30 19:04:59,945 root         INFO     generating summaries for develop [gaea]
-2022-03-30 19:04:59,945 root         INFO     generating summaries for develop [gaffney]
-2022-03-30 19:04:59,947 root         INFO     generating summaries for develop [hera]
-2022-03-30 19:04:59,947 root         DEBUG    downloading machine [acorn]
-2022-03-30 19:04:59,947 root         DEBUG    downloading machine [cheyenne]
-2022-03-30 19:04:59,948 root         INFO     generating summaries for develop [izumi]
-2022-03-30 19:04:59,948 root         INFO     generating summaries for develop [jet]
-2022-03-30 19:04:59,949 root         INFO     generating summaries for develop [onyx]
-2022-03-30 19:04:59,949 root         DEBUG    downloading machine [chianti]
-2022-03-30 19:04:59,950 root         DEBUG    downloading machine [cori]
-2022-03-30 19:04:59,950 root         INFO     generating summaries for develop [orion]
-2022-03-30 19:04:59,954 root         DEBUG    downloading machine [gaffney]
-2022-03-30 19:04:59,954 root         DEBUG    downloading machine [discover]
-2022-03-30 19:04:59,955 root         DEBUG    downloading machine [gaea]
-2022-03-30 19:04:59,955 root         DEBUG    downloading machine [hera]
-2022-03-30 19:04:59,958 root         DEBUG    downloading machine [izumi]
-2022-03-30 19:04:59,959 root         DEBUG    downloading machine [jet]
-2022-03-30 19:04:59,977 root         DEBUG    downloading machine [onyx]
-2022-03-30 19:05:01,641 root         DEBUG    downloading machine [orion]
-2022-03-30 19:05:13,522 root         INFO     processing hash [0: v8.3.0b11]
-2022-03-30 19:05:13,522 root         DEBUG    generating summary for [v8.3.0b11]
-2022-03-30 19:05:13,522 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-30 19:05:13,523 root         DEBUG    matching logs: 0
-2022-03-30 19:05:13,523 root         DEBUG    fetching matching summaries to extract test results
-2022-03-30 19:05:13,524 root         DEBUG    matching summaries: 0
-2022-03-30 19:05:13,524 root         DEBUG    finished reading logs
-2022-03-30 19:05:13,524 root         INFO     missing summary data for v8.3.0b11, develop [orion]
-2022-03-30 19:05:13,524 root         INFO     processing hash [1: v8.3.0b10-105-ga5295e3]
-2022-03-30 19:05:13,524 root         DEBUG    generating summary for [v8.3.0b10-105-ga5295e3]
-2022-03-30 19:05:13,524 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-30 19:05:13,525 root         DEBUG    matching logs: 0
-2022-03-30 19:05:13,525 root         DEBUG    fetching matching summaries to extract test results
-2022-03-30 19:05:13,526 root         DEBUG    matching summaries: 0
-2022-03-30 19:05:13,526 root         DEBUG    finished reading logs
-2022-03-30 19:05:13,526 root         INFO     missing summary data for v8.3.0b10-105-ga5295e3, develop [orion]
-2022-03-30 19:05:13,527 root         INFO     processing hash [2: v8.3.0b10-1-gffc7863]
-2022-03-30 19:05:13,527 root         DEBUG    generating summary for [v8.3.0b10-1-gffc7863]
-2022-03-30 19:05:13,527 root         DEBUG    fetching matching logs to determine build pass/fail
-2022-03-30 19:05:13,528 root         DEBUG    matching logs: 0
-2022-03-30 19:05:13,528 root         DEBUG    fetching matching summaries to extract test results
-2022-03-30 19:05:13,529 root         DEBUG    matching summaries: 0
-2022-03-30 19:05:13,530 root         DEBUG    finished reading logs
-2022-03-30 19:05:13,530 root         INFO     missing summary data for v8.3.0b10-1-gffc7863, develop [orion]
-2022-03-30 19:05:17,990 root         DEBUG    pushing to summary
+2022-03-30 19:09:04,000 root         INFO     starting...
+2022-03-30 19:09:04,000 root         DEBUG    args are : Namespace(branches=['develop'], log='debug', number=3, repo_path=PosixPath('/home/rlong/Sandbox/esmf-test-artifacts'))
+2022-03-30 19:09:04,000 root         DEBUG    pulling artifacts
+2022-03-30 19:09:04,975 root         DEBUG    cloning summaries
+2022-03-30 19:09:04,976 root         DEBUG    cloning git@github.com:ryanlong1004/esmf-test-summary.git into /tmp/esmf_branch_summary_space
+2022-03-30 19:09:06,334 root         DEBUG    pulling summaries
+2022-03-30 19:09:06,965 root         INFO     itterating over 1 branches in 12 machines over 3 most recent commits
+2022-03-30 19:09:06,967 root         INFO     generating summaries for develop [acorn]
+2022-03-30 19:09:06,967 root         INFO     generating summaries for develop [cheyenne]
+2022-03-30 19:09:06,967 root         INFO     generating summaries for develop [chianti]
+2022-03-30 19:09:06,967 root         INFO     generating summaries for develop [cori]
+2022-03-30 19:09:06,968 root         INFO     generating summaries for develop [discover]
+2022-03-30 19:09:06,968 root         INFO     generating summaries for develop [gaea]
+2022-03-30 19:09:06,968 root         DEBUG    downloading machine [acorn]
+2022-03-30 19:09:06,968 root         INFO     generating summaries for develop [gaffney]
+2022-03-30 19:09:06,968 root         DEBUG    downloading machine [cheyenne]
+2022-03-30 19:09:06,969 root         INFO     generating summaries for develop [hera]
+2022-03-30 19:09:06,970 root         INFO     generating summaries for develop [izumi]
+2022-03-30 19:09:06,970 root         DEBUG    downloading machine [chianti]
+2022-03-30 19:09:06,970 root         DEBUG    downloading machine [discover]
+2022-03-30 19:09:06,970 root         INFO     generating summaries for develop [jet]
+2022-03-30 19:09:06,970 root         DEBUG    downloading machine [cori]
+2022-03-30 19:09:06,970 root         DEBUG    downloading machine [gaea]
+2022-03-30 19:09:06,971 root         INFO     generating summaries for develop [onyx]
+2022-03-30 19:09:06,971 root         INFO     generating summaries for develop [orion]
+2022-03-30 19:09:06,971 root         DEBUG    downloading machine [gaffney]
+2022-03-30 19:09:06,973 root         DEBUG    downloading machine [hera]
+2022-03-30 19:09:06,973 root         DEBUG    downloading machine [izumi]
+2022-03-30 19:09:06,975 root         DEBUG    downloading machine [jet]
+2022-03-30 19:09:06,982 root         DEBUG    downloading machine [onyx]
+2022-03-30 19:09:07,497 root         INFO     processing hash [0: v8.3.0b11]
+2022-03-30 19:09:07,497 root         DEBUG    generating summary for [v8.3.0b11]
+2022-03-30 19:09:07,497 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:07,498 root         DEBUG    matching logs: 0
+2022-03-30 19:09:07,498 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:07,499 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:07,499 root         DEBUG    finished reading logs
+2022-03-30 19:09:07,499 root         INFO     missing summary data for v8.3.0b11, develop [jet]
+2022-03-30 19:09:07,499 root         INFO     processing hash [1: v8.3.0b10-1-gffc7863]
+2022-03-30 19:09:07,499 root         DEBUG    generating summary for [v8.3.0b10-1-gffc7863]
+2022-03-30 19:09:07,499 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:07,500 root         DEBUG    matching logs: 0
+2022-03-30 19:09:07,500 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:07,500 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:07,501 root         DEBUG    finished reading logs
+2022-03-30 19:09:07,501 root         INFO     missing summary data for v8.3.0b10-1-gffc7863, develop [jet]
+2022-03-30 19:09:07,501 root         INFO     processing hash [2: v8.3.0b09-5-g496f893]
+2022-03-30 19:09:07,501 root         DEBUG    generating summary for [v8.3.0b09-5-g496f893]
+2022-03-30 19:09:07,501 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:07,501 root         DEBUG    matching logs: 0
+2022-03-30 19:09:07,502 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:07,502 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:07,503 root         DEBUG    finished reading logs
+2022-03-30 19:09:07,503 root         INFO     missing summary data for v8.3.0b09-5-g496f893, develop [jet]
+2022-03-30 19:09:08,579 root         DEBUG    downloading machine [orion]
+2022-03-30 19:09:12,672 root         INFO     processing hash [0: v8.3.0b11-1-g7cbbce7]
+2022-03-30 19:09:12,672 root         DEBUG    generating summary for [v8.3.0b11-1-g7cbbce7]
+2022-03-30 19:09:12,673 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:12,674 root         DEBUG    matching logs: 0
+2022-03-30 19:09:12,674 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:12,674 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:12,674 root         DEBUG    finished reading logs
+2022-03-30 19:09:12,674 root         INFO     missing summary data for v8.3.0b11-1-g7cbbce7, develop [chianti]
+2022-03-30 19:09:12,675 root         INFO     processing hash [1: v8.3.0b11]
+2022-03-30 19:09:12,675 root         DEBUG    generating summary for [v8.3.0b11]
+2022-03-30 19:09:12,675 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:12,675 root         DEBUG    matching logs: 0
+2022-03-30 19:09:12,675 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:12,676 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:12,676 root         DEBUG    finished reading logs
+2022-03-30 19:09:12,676 root         INFO     missing summary data for v8.3.0b11, develop [chianti]
+2022-03-30 19:09:12,676 root         INFO     processing hash [2: v8.3.0b10-105-ga5295e3]
+2022-03-30 19:09:12,677 root         DEBUG    generating summary for [v8.3.0b10-105-ga5295e3]
+2022-03-30 19:09:12,677 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:12,678 root         DEBUG    matching logs: 0
+2022-03-30 19:09:12,678 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:12,679 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:12,680 root         DEBUG    finished reading logs
+2022-03-30 19:09:12,680 root         INFO     missing summary data for v8.3.0b10-105-ga5295e3, develop [chianti]
+2022-03-30 19:09:13,391 root         INFO     processing hash [0: v8.3.0b12]
+2022-03-30 19:09:13,392 root         DEBUG    generating summary for [v8.3.0b12]
+2022-03-30 19:09:13,392 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:13,394 root         DEBUG    matching logs: 0
+2022-03-30 19:09:13,394 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:13,395 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:13,395 root         DEBUG    finished reading logs
+2022-03-30 19:09:13,395 root         INFO     missing summary data for v8.3.0b12, develop [cheyenne]
+2022-03-30 19:09:13,395 root         INFO     processing hash [1: v8.3.0b10]
+2022-03-30 19:09:13,395 root         DEBUG    generating summary for [v8.3.0b10]
+2022-03-30 19:09:13,395 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:13,396 root         DEBUG    matching logs: 0
+2022-03-30 19:09:13,396 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:13,397 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:13,397 root         DEBUG    finished reading logs
+2022-03-30 19:09:13,397 root         INFO     missing summary data for v8.3.0b10, develop [cheyenne]
+2022-03-30 19:09:13,398 root         INFO     processing hash [2: v8.3.0b09-6-gdac1bc5]
+2022-03-30 19:09:13,398 root         DEBUG    generating summary for [v8.3.0b09-6-gdac1bc5]
+2022-03-30 19:09:13,398 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:13,399 root         DEBUG    matching logs: 0
+2022-03-30 19:09:13,399 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:13,401 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:13,401 root         DEBUG    finished reading logs
+2022-03-30 19:09:13,401 root         INFO     missing summary data for v8.3.0b09-6-gdac1bc5, develop [cheyenne]
+2022-03-30 19:09:14,270 root         INFO     processing hash [0: v8.3.0b11-1-g7cbbce7]
+2022-03-30 19:09:14,271 root         DEBUG    generating summary for [v8.3.0b11-1-g7cbbce7]
+2022-03-30 19:09:14,271 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:14,271 root         DEBUG    matching logs: 0
+2022-03-30 19:09:14,271 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:14,272 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:14,272 root         DEBUG    finished reading logs
+2022-03-30 19:09:14,272 root         INFO     missing summary data for v8.3.0b11-1-g7cbbce7, develop [cori]
+2022-03-30 19:09:14,272 root         INFO     processing hash [1: v8.3.0b11]
+2022-03-30 19:09:14,272 root         DEBUG    generating summary for [v8.3.0b11]
+2022-03-30 19:09:14,272 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:14,272 root         DEBUG    matching logs: 0
+2022-03-30 19:09:14,272 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:14,273 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:14,273 root         DEBUG    finished reading logs
+2022-03-30 19:09:14,273 root         INFO     missing summary data for v8.3.0b11, develop [cori]
+2022-03-30 19:09:14,273 root         INFO     processing hash [2: v8.3.0b10-105-ga5295e3]
+2022-03-30 19:09:14,273 root         DEBUG    generating summary for [v8.3.0b10-105-ga5295e3]
+2022-03-30 19:09:14,273 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:14,274 root         DEBUG    matching logs: 0
+2022-03-30 19:09:14,274 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:14,274 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:14,274 root         DEBUG    finished reading logs
+2022-03-30 19:09:14,274 root         INFO     missing summary data for v8.3.0b10-105-ga5295e3, develop [cori]
+2022-03-30 19:09:17,878 root         INFO     processing hash [0: v8.3.0b11-1-g7cbbce7]
+2022-03-30 19:09:17,878 root         DEBUG    generating summary for [v8.3.0b11-1-g7cbbce7]
+2022-03-30 19:09:17,879 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:17,884 root         DEBUG    matching logs: 0
+2022-03-30 19:09:17,884 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:17,890 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:17,890 root         DEBUG    finished reading logs
+2022-03-30 19:09:17,890 root         INFO     missing summary data for v8.3.0b11-1-g7cbbce7, develop [acorn]
+2022-03-30 19:09:17,890 root         INFO     processing hash [1: v8.3.0b11]
+2022-03-30 19:09:17,891 root         DEBUG    generating summary for [v8.3.0b11]
+2022-03-30 19:09:17,891 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:17,895 root         DEBUG    matching logs: 0
+2022-03-30 19:09:17,895 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:17,899 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:17,900 root         DEBUG    finished reading logs
+2022-03-30 19:09:17,900 root         INFO     missing summary data for v8.3.0b11, develop [acorn]
+2022-03-30 19:09:17,900 root         INFO     processing hash [2: v8.3.0b10-105-ga5295e3]
+2022-03-30 19:09:17,901 root         DEBUG    generating summary for [v8.3.0b10-105-ga5295e3]
+2022-03-30 19:09:17,901 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:17,905 root         DEBUG    matching logs: 0
+2022-03-30 19:09:17,905 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:17,911 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:17,911 root         DEBUG    finished reading logs
+2022-03-30 19:09:17,911 root         INFO     missing summary data for v8.3.0b10-105-ga5295e3, develop [acorn]
+2022-03-30 19:09:20,162 root         INFO     processing hash [0: v8.3.0b11]
+2022-03-30 19:09:20,163 root         DEBUG    generating summary for [v8.3.0b11]
+2022-03-30 19:09:20,163 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:20,165 root         DEBUG    matching logs: 0
+2022-03-30 19:09:20,165 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:20,169 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:20,169 root         DEBUG    finished reading logs
+2022-03-30 19:09:20,169 root         INFO     missing summary data for v8.3.0b11, develop [orion]
+2022-03-30 19:09:20,169 root         INFO     processing hash [1: v8.3.0b10-105-ga5295e3]
+2022-03-30 19:09:20,169 root         DEBUG    generating summary for [v8.3.0b10-105-ga5295e3]
+2022-03-30 19:09:20,169 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:20,172 root         DEBUG    matching logs: 0
+2022-03-30 19:09:20,172 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:20,177 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:20,177 root         DEBUG    finished reading logs
+2022-03-30 19:09:20,177 root         INFO     missing summary data for v8.3.0b10-105-ga5295e3, develop [orion]
+2022-03-30 19:09:20,178 root         INFO     processing hash [2: v8.3.0b10-1-gffc7863]
+2022-03-30 19:09:20,178 root         DEBUG    generating summary for [v8.3.0b10-1-gffc7863]
+2022-03-30 19:09:20,178 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:20,182 root         DEBUG    matching logs: 0
+2022-03-30 19:09:20,183 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:20,185 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:20,185 root         DEBUG    finished reading logs
+2022-03-30 19:09:20,185 root         INFO     missing summary data for v8.3.0b10-1-gffc7863, develop [orion]
+2022-03-30 19:09:23,208 root         INFO     processing hash [0: v8.3.0b10]
+2022-03-30 19:09:23,208 root         DEBUG    generating summary for [v8.3.0b10]
+2022-03-30 19:09:23,208 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:23,209 root         DEBUG    matching logs: 0
+2022-03-30 19:09:23,210 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:23,211 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:23,211 root         DEBUG    finished reading logs
+2022-03-30 19:09:23,211 root         INFO     missing summary data for v8.3.0b10, develop [hera]
+2022-03-30 19:09:23,211 root         INFO     processing hash [1: v8.3.0b09-6-gdac1bc5]
+2022-03-30 19:09:23,211 root         DEBUG    generating summary for [v8.3.0b09-6-gdac1bc5]
+2022-03-30 19:09:23,211 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:23,212 root         DEBUG    matching logs: 0
+2022-03-30 19:09:23,212 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:23,213 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:23,213 root         DEBUG    finished reading logs
+2022-03-30 19:09:23,213 root         INFO     missing summary data for v8.3.0b09-6-gdac1bc5, develop [hera]
+2022-03-30 19:09:23,213 root         INFO     processing hash [2: v8.3.0b09-5-g496f893]
+2022-03-30 19:09:23,214 root         DEBUG    generating summary for [v8.3.0b09-5-g496f893]
+2022-03-30 19:09:23,214 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:23,215 root         DEBUG    matching logs: 0
+2022-03-30 19:09:23,215 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:23,215 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:23,215 root         DEBUG    finished reading logs
+2022-03-30 19:09:23,216 root         INFO     missing summary data for v8.3.0b09-5-g496f893, develop [hera]
+2022-03-30 19:09:23,277 root         INFO     processing hash [0: v8.3.0b11-1-g7cbbce7]
+2022-03-30 19:09:23,277 root         DEBUG    generating summary for [v8.3.0b11-1-g7cbbce7]
+2022-03-30 19:09:23,277 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:23,277 root         DEBUG    matching logs: 0
+2022-03-30 19:09:23,277 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:23,278 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:23,278 root         DEBUG    finished reading logs
+2022-03-30 19:09:23,278 root         INFO     missing summary data for v8.3.0b11-1-g7cbbce7, develop [gaea]
+2022-03-30 19:09:23,278 root         INFO     processing hash [1: v8.3.0b11]
+2022-03-30 19:09:23,278 root         DEBUG    generating summary for [v8.3.0b11]
+2022-03-30 19:09:23,278 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:23,279 root         DEBUG    matching logs: 0
+2022-03-30 19:09:23,279 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:23,279 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:23,279 root         DEBUG    finished reading logs
+2022-03-30 19:09:23,279 root         INFO     missing summary data for v8.3.0b11, develop [gaea]
+2022-03-30 19:09:23,279 root         INFO     processing hash [2: v8.3.0b10-105-ga5295e3]
+2022-03-30 19:09:23,279 root         DEBUG    generating summary for [v8.3.0b10-105-ga5295e3]
+2022-03-30 19:09:23,279 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:23,280 root         DEBUG    matching logs: 0
+2022-03-30 19:09:23,280 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:23,280 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:23,280 root         DEBUG    finished reading logs
+2022-03-30 19:09:23,280 root         INFO     missing summary data for v8.3.0b10-105-ga5295e3, develop [gaea]
+2022-03-30 19:09:32,454 root         INFO     processing hash [0: v8.3.0b11-1-g7cbbce7]
+2022-03-30 19:09:32,454 root         DEBUG    generating summary for [v8.3.0b11-1-g7cbbce7]
+2022-03-30 19:09:32,454 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:32,454 root         DEBUG    matching logs: 0
+2022-03-30 19:09:32,455 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:32,455 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:32,455 root         DEBUG    finished reading logs
+2022-03-30 19:09:32,455 root         INFO     missing summary data for v8.3.0b11-1-g7cbbce7, develop [discover]
+2022-03-30 19:09:32,455 root         INFO     processing hash [1: v8.3.0b11]
+2022-03-30 19:09:32,455 root         DEBUG    generating summary for [v8.3.0b11]
+2022-03-30 19:09:32,455 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:32,456 root         DEBUG    matching logs: 0
+2022-03-30 19:09:32,456 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:32,456 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:32,456 root         DEBUG    finished reading logs
+2022-03-30 19:09:32,456 root         INFO     missing summary data for v8.3.0b11, develop [discover]
+2022-03-30 19:09:32,456 root         INFO     processing hash [2: v8.3.0b10-105-ga5295e3]
+2022-03-30 19:09:32,456 root         DEBUG    generating summary for [v8.3.0b10-105-ga5295e3]
+2022-03-30 19:09:32,456 root         DEBUG    fetching matching logs to determine build pass/fail
+2022-03-30 19:09:32,457 root         DEBUG    matching logs: 0
+2022-03-30 19:09:32,457 root         DEBUG    fetching matching summaries to extract test results
+2022-03-30 19:09:32,457 root         DEBUG    matching summaries: 0
+2022-03-30 19:09:32,457 root         DEBUG    finished reading logs
+2022-03-30 19:09:32,457 root         INFO     missing summary data for v8.3.0b10-105-ga5295e3, develop [discover]
+2022-03-30 19:09:32,471 root         DEBUG    12
+2022-03-30 19:09:32,471 root         DEBUG    pushing to summary
